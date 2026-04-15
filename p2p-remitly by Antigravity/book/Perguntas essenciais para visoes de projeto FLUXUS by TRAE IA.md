@@ -55,3 +55,46 @@ Se você responder só estes 6 itens, já dá para fechar as visões de processo
 4. Política de reversão (quem paga e em que moeda)
 5. Como o reserve é usado (gatilhos)
 6. Modelo de reconciliação (qual é a fonte da verdade)
+
+## 9) Respostas definitivas (base para construir as visões)
+
+### 1. Corredor MVP e Rails (Origem → Destino)
+
+- **Corredor principal:** USA (USD) → Brasil (BRL).
+- **Funding rail (Sender):** Alchemy Pay (widget integrado para cartões de débito/crédito e transferências locais). O objetivo é o sender pagar em fiat e a conversão para USDT/USDC (Polygon) ocorrer na camada “Shadow” de ingestão.
+- **Payout rail (Receiver):** no Brasil, PIX (Dock/BS2/Bacen). Globalmente, Push-to-card (Visa Direct / Mastercard Send) e Cartões Pré-pagos White-label (VASPs como Striga/Reap).
+
+### 2. KYC/AML e Níveis de Verificação
+
+- **Entidade responsável:** plataforma FLUXUS orquestra via SumSub; “Merchant of Record” varia conforme o rail (VASPs locais detêm licenças).
+- **Sender:** Tier 1 (ID + liveness) obrigatório no primeiro envio; bloqueio automático de listas de sanções globais no `POST /auth/login`.
+- **Receiver:** para payout via PIX, KYC simplificado (validado pelo CPF no rail local). Para Cartão Global FLUXUS, exige identidade digital básica para emissão (KYC delegado ao emissor VASP).
+
+### 3. Regra de Matching (Leilão vs Score vs Fila)
+
+- **Modelo:** Leilão Reverso Síncrono (Reverse Auction).
+- **Lógica:** ao criar a ordem, o “Matching Brain” dispara um leilão; vence o LP que oferecer o menor spread dentro do SLA de 15 minutos.
+- **Filtros de qualidade:** leilão restrito por Reputation Score (taxa de sucesso de payouts anteriores) e por colateral obrigatório JIT pré-travado na Fireblocks.
+
+### 4. Política de Reversão
+
+- **Quem paga:** se falhar (time-out de SLA ou erro da VASP), o principal é devolvido integralmente ao LP via smart contract.
+- **Moeda de estorno:** estorno ao LP em stablecoin/USDT (moeda de transporte). Para o sender, reembolso em fiat local via on-ramp original, subtraindo apenas taxas de rede irrecorríveis.
+
+### 5. Uso do Security Reserve (FSF - 0.2%)
+
+- **Catástrofe de rede:** queda de nodes ou falhas em smart contracts.
+- **Volatilidade extrema:** oscilações de FX entre LOCK e SETTLE que superem o colateral do LP.
+- **Seguro de fraude:** cobertura de chargebacks no funding (USA) para não penalizar o pool de liquidez dos investidores.
+- **Erro operacional:** casos onde a VASP debita, mas não confirma, exigindo liquidação manual pela plataforma.
+
+### 6. Modelo de Reconciliação (Fonte da Verdade)
+
+- **Fonte única:** Hash Ledger Síncrono (Polygon).
+- **Minihashes:** registram cada troca de estado em tempo real (JSONB no Postgres + hash on-chain).
+- **Macrohash:** âncora horária consolidando minihashes na Polygon, como registro imutável para reguladores e investidores institucionais.
+- **Conformidade:** extrato do VASP e do rail local são evidências de suporte; a validade da transação é determinada pela finalidade atômica do smart contract.
+
+### TIP
+
+Com estas definições, dá para montar as jornadas completas. Foco inicial recomendado: Jornada do Investidor (LP), porque a regra de Colateral JIT garante a solvência da rede sem exigir licenças bancárias pesadas para a plataforma.
