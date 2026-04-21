@@ -1,0 +1,157 @@
+/* 
+ * FLUXUS — Institutional Farseer UI
+ * Extension of Premium UI focusing on Profitability Analysis.
+ */
+
+:root {
+    --farseer-node-indent: 24px;
+    --farseer-positive: #10B981;
+    --farseer-negative: #EF4444;
+    --farseer-neutral: #94A3B8;
+    --farseer-glass: rgba(255, 255, 255, 0.03);
+}
+
+/* Sidebar Layout Extensions */
+.farseer-sidebar {
+    width: 280px;
+    background: var(--fluxus-sidebar);
+    border-right: 1px solid var(--fluxus-border);
+    height: calc(100vh - 64px);
+    position: sticky;
+    top: 64px;
+    padding: 24px;
+    overflow-y: auto;
+}
+
+.farseer-content {
+    flex: 1;
+    padding: 32px;
+    background: var(--fluxus-bg);
+}
+
+/* DRE Tree Table */
+.dre-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.dre-row {
+    border-bottom: 1px solid var(--fluxus-border);
+    transition: background 0.2s ease;
+}
+
+.dre-row:hover {
+    background: var(--farseer-glass);
+}
+
+.dre-row.header {
+    background: rgba(0,0,0,0.05);
+}
+
+[data-theme='dark-institutional'] .dre-row.header {
+    background: rgba(255,255,255,0.03);
+}
+
+.dre-cell {
+    padding: 14px 16px;
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.dre-label-cell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dre-indent-1 { padding-left: calc(var(--farseer-node-indent) * 1); }
+.dre-indent-2 { padding-left: calc(var(--farseer-node-indent) * 2); }
+.dre-indent-3 { padding-left: calc(var(--farseer-node-indent) * 3); }
+
+.dre-value {
+    text-align: right;
+    font-weight: 600;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.dre-pct {
+    text-align: right;
+    width: 80px;
+    font-size: 11px;
+    color: var(--fluxus-text-muted);
+}
+
+/* Row Styling */
+.dre-row-main { font-weight: 700; font-size: 14px; }
+.dre-row-sub { font-weight: 500; font-size: 13px; }
+.dre-row-total { 
+    background: rgba(59, 130, 246, 0.05); 
+    border-top: 2px solid var(--fluxus-primary);
+}
+
+/* Expander Icons */
+.dre-expander {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: transform 0.2s ease;
+}
+
+.dre-expander.collapsed {
+    transform: rotate(-90deg);
+}
+
+/* Traffic Lights (Faróis) */
+.farol {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.farol-green { background-color: var(--farseer-positive); box-shadow: 0 0 8px var(--farseer-positive); }
+.farol-yellow { background-color: #F59E0B; box-shadow: 0 0 8px #F59E0B; }
+.farol-red { background-color: var(--farseer-negative); box-shadow: 0 0 8px var(--farseer-negative); }
+
+/* Filter Groups */
+.filter-group {
+    margin-bottom: 24px;
+}
+
+.filter-label {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--fluxus-text-muted);
+    margin-bottom: 8px;
+    display: block;
+}
+
+.filter-select {
+    width: 100%;
+    background: var(--fluxus-bg);
+    border: 1px solid var(--fluxus-border);
+    border-radius: 8px;
+    color: var(--fluxus-text-main);
+    padding: 8px 12px;
+    font-size: 12px;
+}
+
+/* Institutional Charts Area */
+.analysis-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.chart-card {
+    background: var(--fluxus-card);
+    border: 1px solid var(--fluxus-border);
+    border-radius: 12px;
+    padding: 20px;
+}

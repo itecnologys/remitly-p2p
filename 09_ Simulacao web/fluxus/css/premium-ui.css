@@ -1,0 +1,128 @@
+/* 
+ * FLUXUS — Premium Institutional Design System
+ * Focus: High Data Density, Clarity, and Trust.
+ */
+
+:root {
+    /* Light Institutional Theme */
+    --fluxus-bg: #F8FAFC;
+    --fluxus-card: #FFFFFF;
+    --fluxus-sidebar: #FFFFFF;
+    --fluxus-text-main: #1E293B;
+    --fluxus-text-muted: #64748B;
+    --fluxus-border: #E2E8F0;
+    --fluxus-primary: #3B82F6; /* Corporate Blue */
+    --fluxus-success: #10B981; /* Emerald */
+    --fluxus-warning: #F59E0B;
+    --fluxus-danger: #EF4444;
+    --fluxus-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+[data-theme='dark-institutional'] {
+    /* Dark Institutional Theme (Hedge Fund Blue) */
+    --fluxus-bg: #0F172A;
+    --fluxus-card: #1E293B;
+    --fluxus-sidebar: #1E293B;
+    --fluxus-text-main: #F1F5F9;
+    --fluxus-text-muted: #94A3B8;
+    --fluxus-border: #334155;
+    --fluxus-primary: #60A5FA;
+    --fluxus-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.3);
+}
+
+body {
+    background-color: var(--fluxus-bg) !important;
+    color: var(--fluxus-text-main) !important;
+    font-family: 'Inter', sans-serif !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Premium Bento Card */
+.wg-box, .wg-card, .my-card-item {
+    background: var(--fluxus-card) !important;
+    border: 1px solid var(--fluxus-border) !important;
+    border-radius: 12px !important;
+    box-shadow: var(--fluxus-shadow) !important;
+    padding: 24px !important;
+    transition: transform 0.2s ease;
+}
+
+.wg-box:hover {
+    transform: translateY(-2px);
+}
+
+/* Typography Overrides */
+h1, h2, h3, h4, h5, h6, .body-title, .label-01 {
+    color: var(--fluxus-text-main) !important;
+    font-weight: 700 !important;
+}
+
+.text-Gray, .text-GrayDark, .f14-regular {
+    color: var(--fluxus-text-muted) !important;
+}
+
+/* FIFO Queue Visualizer Component */
+.queue-tracker {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    padding: 12px 0;
+}
+
+.queue-node {
+    min-width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid var(--fluxus-border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 600;
+    background: var(--fluxus-bg);
+}
+
+.queue-node.active {
+    background: var(--fluxus-primary);
+    color: white;
+    border-color: var(--fluxus-primary);
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+}
+
+/* Data Pill */
+.data-pill {
+    background: var(--fluxus-bg);
+    border: 1px solid var(--fluxus-border);
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+/* Top Navigation Bar */
+#top-nav-premium {
+    height: 64px;
+    background: var(--fluxus-card);
+    border-bottom: 1px solid var(--fluxus-border);
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Removal of generic template visual junk */
+.section-menu-left, .header-dashboard {
+    display: none !important;
+}
+
+#wrapper #page.layout-wrap {
+    padding-left: 0 !important;
+}
+
+.main-content {
+    padding-top: 20px !important;
+}

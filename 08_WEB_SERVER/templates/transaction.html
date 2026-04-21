@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>FLUXUS Audit Ledger - Transactions</title>
+    
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/animate.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/animation.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap-select.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='font/fonts.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='icon/style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.png') }}">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="page">
+            <div class="layout-wrap">
+                <div class="section-menu-left">
+                    <div class="box-logo">
+                        <a href="{{ url_for('index') }}">
+                            <img src="{{ url_for('static', filename='images/logo/logo.svg') }}" alt="Fluxus Logo">
+                        </a>
+                    </div>
+                    <div class="section-menu-left-wrap">
+                        <ul class="menu-list">
+                            <li class="menu-item"><a href="{{ url_for('index') }}" class="menu-item-button"><div class="icon"><i class="icon-category"></i></div><div class="text">Dashboard</div></a></li>
+                            <li class="menu-item"><a href="{{ url_for('my_wallet') }}" class="menu-item-button"><div class="icon"><i class="icon-wallet1"></i></div><div class="text">My Wallet</div></a></li>
+                            <li class="menu-item active"><a href="{{ url_for('transactions') }}" class="menu-item-button active"><div class="icon"><i class="icon-arrow-swap"></i></div><div class="text">Transactions</div></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section-content-right">
+                    <div class="header-dashboard">
+                        <div class="wrap">
+                            <h6>FLUXUS AUDIT ENGINE / Transaction History</h6>
+                        </div>
+                    </div>
+
+                    <div class="main-content">
+                        <div class="main-content-inner">
+                            <div class="main-content-wrap">
+                                <div class="tf-container">
+                                    <div class="topbar-search mb-20" style="background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+                                        <div class="flex-grow flex gap20 items-center">
+                                            <div class="flex flex-column">
+                                                <label class="f12-bold mb-5">Liquidity Provider</label>
+                                                <input type="text" id="filter-lp" placeholder="LP_001" class="style-1" style="width: 150px;">
+                                            </div>
+                                            <div class="flex flex-column">
+                                                <label class="f12-bold mb-5">Min Value (R$)</label>
+                                                <input type="number" id="filter-value" placeholder="1000" class="style-1" style="width: 120px;">
+                                            </div>
+                                            <div class="flex flex-column">
+                                                <label class="f12-bold mb-5">Period</label>
+                                                <select id="filter-month" class="style-1" style="height: 48px; border-radius: 10px; padding: 0 15px; border: 1px solid #eee;">
+                                                    <option value="">All Months</option>
+                                                    <option value="1">January</option>
+                                                    <option value="2">February</option>
+                                                </select>
+                                            </div>
+                                            <button onclick="fetchTransactions()" class="tf-button style-1" style="margin-top: 25px;">Apply Filters</button>
+                                        </div>
+                                    </div>
+
+                                    <div class="table-list-transaction" style="background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.05);">
+                                        <div class="list-transaction-head" style="background: #161326; color: #fff; display: flex; padding: 15px;">
+                                            <div style="flex: 2;">Lifecycle Hash</div>
+                                            <div style="flex: 1;">Timestamp</div>
+                                            <div style="flex: 1;">LP Sender</div>
+                                            <div style="flex: 1;">VASP Intermediary</div>
+                                            <div style="flex: 1;">Sent Value</div>
+                                            <div style="flex: 1;">Net Return</div>
+                                            <div style="flex: 1;">Status</div>
+                                        </div>
+                                        <table class="list-transaction-content w-100">
+                                            <tbody id="transaction-body">
+                                                <!-- Dynamic Content -->
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+    <script>
+    function fetchTransactions() {
+        const lpId = document.getElementById('filter-lp').value;
+        const val = document.getElementById('filter-value').value;
+        const month = document.getElementById('filter-month').value;
+        
+        let url = `/api/transactions?lp_id=${lpId}&min_val=${val}`;
+        if (month) url += `&month=${month}`;
+
+        const tbody = document.getElementById('transaction-body');
+        tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding: 20px;">Loading audit ledger...</td></tr>';
+
+        fetch(url)
+            .then(res => res.json())
+            .then(data => {
+                tbody.innerHTML = '';
+                if (data.length === 0) {
+                    tbody.innerHTML = '<tr><td colspan="7" style="text-align:center; padding: 20px;">No transactions found for this filter.</td></tr>';
+                    return;
+                }
+                data.forEach(tx => {
+                    const row = `
+                        <tr class="tf-table-item" style="border-bottom: 1px solid #eee;">
+                            <td style="padding: 15px; flex: 2;"><div class="f12-medium text-Gray">${tx.Lifecycle_Hash || 'N/A'}</div></td>
+                            <td style="padding: 15px; flex: 1;"><div class="f12-bold">${tx.Timestamp_Str}</div></td>
+                            <td style="padding: 15px; flex: 1;"><div class="f12-medium">${tx.LP_ID}</div></td>
+                            <td style="padding: 15px; flex: 1;"><div class="f12-medium text-Gray">Institutional VASP</div></td>
+                            <td style="padding: 15px; flex: 1;"><div class="f12-medium">R$ ${tx.Transaction_Value.toLocaleString()}</div></td>
+                            <td style="padding: 15px; flex: 1;"><div class="f12-bold text-success">R$ ${tx.Return_Value.toLocaleString()}</div></td>
+                            <td style="padding: 15px; flex: 1;">
+                                <div class="box-status bg-YellowGreen" style="padding: 5px 10px; border-radius: 6px; display: inline-block;">
+                                    <span class="f12-bold text-White">AUDITED</span>
+                                </div>
+                            </td>
+                        </tr>
+                    `;
+                    tbody.insertAdjacentHTML('beforeend', row);
+                });
+            });
+    }
+    document.addEventListener('DOMContentLoaded', fetchTransactions);
+    </script>
+</body>
+</html>

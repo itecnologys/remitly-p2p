@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>FLUXUS — Institutional Terminal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/premium-ui.css">
+    <link rel="stylesheet" href="font/fonts.css">
+    <link rel="stylesheet" href="icon/style.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="page">
+            <!-- Top Navigation Premium -->
+            <div id="top-nav-premium">
+                <div class="d-flex align-items-center w-100 justify-content-between">
+                    <div class="d-flex align-items-center gap-4">
+                        <img src="images/fluxus-cover.png" alt="FLUXUS" style="height: 32px;">
+                        <nav class="ms-4 d-none d-md-flex gap-4">
+                            <a href="index.html" class="f14-bold text-muted">Dashboard</a>
+                            <a href="my-wallet.html" class="f14-bold text-Primary" style="border-bottom: 2px solid var(--fluxus-primary); padding-bottom: 4px;">My Portfolio</a>
+                            <a href="stress-audit.html" class="f14-bold text-muted">Audit Terminal</a>
+                        </nav>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <div id="theme-institutional-toggle" class="data-pill text-muted" style="cursor: pointer;">
+                            <i class="icon-setting-5 me-1"></i> INSTITUTIONAL THEME
+                        </div>
+                        <div class="data-pill bg-Primary text-White">
+                            <span id="current-lp-id">ID: --</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layout-wrap loader-off">
+                <div id="preload" class="preload-container"><div class="preloading"><span></span></div></div>
+                
+                <div class="section-content-right p-0">
+                    <div class="tf-container py-2"><div id="fluxus-disclaimer-mount"></div></div>
+                    
+                    <div class="main-content">
+                        <div class="main-content-inner">
+                            <div class="main-content-wrap">
+                                <div class="tf-container">
+                                    
+                                    <!-- Premium Bento Layout -->
+                                    <div class="mb-32">
+                                        <div class="row g-4">
+                                            <!-- Capital & Performance -->
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="wg-box h-100">
+                                                    <div class="f12-bold text-muted mb-2">CAPITAL PRINCIPAL</div>
+                                                    <h2 id="val-lp-capital" class="mb-3">R$ --</h2>
+                                                    <div class="data-pill text-success bg-light mb-4 d-inline-block">YIELD ACUMULADO: <span id="val-lp-yield">R$ --</span></div>
+                                                    <div class="mt-2 text-muted f12-medium">Status: <span class="text-success">Operacional • Fila Ativa</span></div>
+                                                </div>
+                                            </div>
+
+                                            <!-- FIFO Queue Visualizer -->
+                                            <div class="col-lg-8 col-md-6">
+                                                <div class="wg-box h-100">
+                                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                                        <div class="f12-bold text-muted">FIFO QUEUE TRACKER (LOGÍSTICA DE FLUXO)</div>
+                                                        <div class="data-pill bg-light text-muted" id="current-cycle-id">Ciclo: CARREGANDO...</div>
+                                                    </div>
+                                                    <div id="premium-queue-visualizer" class="queue-tracker">
+                                                        <!-- Injetado via JS -->
+                                                        <div class="queue-node text-muted">Aguardando sincronização da fila...</div>
+                                                    </div>
+                                                    <div class="mt-3 f11-regular text-muted">As remessas são atendidas integralmente conforme a ordem da fila. Após o match, o LP retorna ao final da esteira.</div>
+                                                </div>
+                                            </div>
+
+                                            <!-- OpEx & Fees -->
+                                            <div class="col-lg-6">
+                                                <div class="wg-box h-100">
+                                                    <div class="f12-bold text-muted mb-4">DETALHAMENTO DE CUSTOS E MARGEM</div>
+                                                    <div id="premium-cost-summary" class="row text-center g-3">
+                                                        <div class="col-4">
+                                                            <div class="f11-medium text-muted">DOCK RELOAD</div>
+                                                            <div class="f14-bold text-danger" id="val-cost-dock">R$ --</div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="f11-medium text-muted">GAS POLIGON</div>
+                                                            <div class="f14-bold text-danger" id="val-cost-gas">R$ --</div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="f11-medium text-muted">FLUXUS FEES</div>
+                                                            <div class="f14-bold text-Primary" id="val-fluxus-fee">R$ --</div>
+                                                        </div>
+                                                    </div>
+                                                    <hr class="my-4" style="border-top:1px solid var(--fluxus-border)">
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <div class="f14-bold">MARGEM LÍQUIDA CALCULADA</div>
+                                                        <div class="f18-bold text-success" id="val-lp-net-profit">R$ --</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- Tax Governance -->
+                                            <div class="col-lg-6">
+                                                <div class="wg-box h-100">
+                                                    <div class="d-flex justify-content-between mb-3">
+                                                        <div class="f12-bold text-muted">GOVERNANÇA FISCAL (ISENÇÃO MENSAL)</div>
+                                                        <span id="fiscal-status-badge" class="data-pill text-muted">Calculando...</span>
+                                                    </div>
+                                                    <div class="flex justify-between mb-2">
+                                                        <div id="fiscal-giro-text" class="f12-medium text-muted">Giro Mensal: R$ --</div>
+                                                        <div id="fiscal-giro-pct" class="f14-bold">--%</div>
+                                                    </div>
+                                                    <div class="tf-progress-bar rounded-pill" style="height: 10px; background: #EEF2F6; position:relative; overflow:hidden;">
+                                                        <span id="fiscal-giro-bar" style="position:absolute; top:0; left:0; height:100%; width: 0%; background: var(--fluxus-success); transition: width 1s ease;"></span>
+                                                    </div>
+                                                    <div class="mt-4 f11-regular text-muted">Nota: Gestão automatizada de provisões fiscais baseada no volume de alienação acumulado.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Recent Activity (Audited) -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="wg-box">
+                                                <div class="d-flex justify-content-between align-items-center mb-4">
+                                                    <h6>Wallet Activity (Audit Trail)</h6>
+                                                    <a href="stress-audit.html" class="tf-button f12-bold">Terminal de Auditoria Completo</a>
+                                                </div>
+                                                <div class="table-responsive">
+                                                    <table class="table table-hover">
+                                                        <thead>
+                                                            <tr class="f12-bold text-muted">
+                                                                <th>TIMESTAMP</th>
+                                                                <th>HASH AUDITORIA</th>
+                                                                <th>EVENTO</th>
+                                                                <th>FILA</th>
+                                                                <th class="text-end">VOLUME (BRL)</th>
+                                                                <th class="text-end">RESULTADO (LP)</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody id="lp-activity-tbody">
+                                                            <!-- Injetado via JS -->
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fluxus-i18n-data.js"></script>
+    <script src="js/fluxus-sim-data.js"></script>
+    <script src="js/fluxus-app.js"></script>
+    <script src="js/lp-account-page.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

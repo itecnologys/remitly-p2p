@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>FLUXUS — Global Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/premium-ui.css">
+    <link rel="stylesheet" href="font/fonts.css">
+    <link rel="stylesheet" href="icon/style.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="page">
+            <!-- Top Navigation Premium -->
+            <div id="top-nav-premium">
+                <div class="d-flex align-items-center w-100 justify-content-between">
+                    <div class="d-flex align-items-center gap-4">
+                        <img src="images/fluxus-cover.png" alt="FLUXUS" style="height: 32px;">
+                        <nav class="ms-4 d-none d-md-flex gap-4">
+                            <a href="index.html" class="f14-bold text-Primary" style="border-bottom: 2px solid var(--fluxus-primary); padding-bottom: 4px;">Dashboard</a>
+                            <a href="my-wallet.html" class="f14-bold text-muted">My Portfolio</a>
+                            <a href="stress-audit.html" class="f14-bold text-muted">Audit Terminal</a>
+                        </nav>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <div id="theme-institutional-toggle" class="data-pill text-muted" style="cursor: pointer;">
+                            <i class="icon-setting-5 me-1"></i> INSTITUTIONAL THEME
+                        </div>
+                        <div class="data-pill bg-Primary text-White">GLOBAL OVERVIEW</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layout-wrap loader-off">
+                <div id="preload" class="preload-container"><div class="preloading"><span></span></div></div>
+                
+                <div class="section-content-right p-0">
+                    <div class="tf-container py-2"><div id="fluxus-disclaimer-mount"></div></div>
+                    
+                    <div class="main-content">
+                        <div class="main-content-inner">
+                            <div class="main-content-wrap">
+                                <div class="tf-container">
+                                    <div class="row g-3 mb-24">
+                                        <!-- Real-time Macro Indicators -->
+                                        <div class="col-md-4 col-lg-2">
+                                            <div class="wg-box audit-card">
+                                                <div class="f10-bold text-muted mb-1">GLOBAL GTV (BRL)</div>
+                                                <h6 id="fluxus-dash-gtv" class="mb-0">--</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2">
+                                            <div class="wg-box audit-card">
+                                                <div class="f10-bold text-muted mb-1">REMATCHES</div>
+                                                <h6 id="fluxus-dash-rematches" class="mb-0">--</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-2">
+                                            <div class="wg-box audit-card">
+                                                <div class="f10-bold text-muted mb-1">ACTIVE LPs</div>
+                                                <h6 id="fluxus-dash-lps" class="mb-0">--</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-3">
+                                            <div class="wg-box audit-card">
+                                                <div class="f10-bold text-muted mb-1">PTAX AVG (USD/BRL)</div>
+                                                <h6 id="fluxus-dash-ptax" class="mb-0">--</h6>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-3">
+                                            <div class="wg-box audit-card">
+                                                <div class="f10-bold text-muted mb-1">VOLATILITY (SIGMA)</div>
+                                                <h6 id="fluxus-dash-sigma" class="mb-0">--</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <!-- Forex Analytics -->
+                                        <div class="col-lg-7">
+                                            <div class="wg-box mb-24">
+                                                <div class="d-flex justify-content-between mb-4">
+                                                    <h6>PTAX Deep Analysis (USD/BRL)</h6>
+                                                    <div class="data-pill bg-light text-muted f11" id="fluxus-fx-oscillation">Audit Trail Enabled</div>
+                                                </div>
+                                                <div id="fluxus-ptax-deep-chart" style="min-height: 320px;"></div>
+                                            </div>
+                                            
+                                            <div class="row g-3">
+                                                <div class="col-6">
+                                                    <div class="wg-box">
+                                                        <div class="f11-bold text-muted mb-1" id="fluxus-fx-card-1-label">USD/BRL</div>
+                                                        <h5 id="fluxus-fx-card-1-head">--</h5>
+                                                        <div class="f10-regular text-muted mb-3" id="fluxus-fx-card-1-sub">--</div>
+                                                        <div id="small-chart-1"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="wg-box">
+                                                        <div class="f11-bold text-muted mb-1" id="fluxus-fx-card-2-label">EUR/USD</div>
+                                                        <h5 id="fluxus-fx-card-2-head">--</h5>
+                                                        <div class="f10-regular text-muted mb-3" id="fluxus-fx-card-2-sub">--</div>
+                                                        <div id="small-chart-2"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Matching Pipeline -->
+                                        <div class="col-lg-5">
+                                            <div class="wg-box h-100">
+                                                <h6>Matching Pipeline (Audit Live)</h6>
+                                                <p class="f12-regular text-muted mb-4">Demonstração da 1ª e 2ª perna do fluxo de capital por LP.</p>
+                                                <div class="table-responsive">
+                                                    <table class="table table-sm f12-medium">
+                                                        <thead>
+                                                            <tr class="f10-bold text-muted">
+                                                                <th>LP ID</th>
+                                                                <th>TIMESTAMP</th>
+                                                                <th class="text-end">COMPRA (BRL)</th>
+                                                                <th class="text-end">RECOMPRA (BRL)</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody id="fluxus-match-pairs-summary-body">
+                                                            <!-- Compacted dynamic list -->
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <a href="stress-audit.html" class="tf-button w-100 mt-4 f12-bold">View Global Ledger</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/apexcharts/apexcharts.js"></script>
+    <script src="js/fluxus-i18n-data.js"></script>
+    <script src="js/fluxus-sim-data.js"></script>
+    <script src="js/fluxus-app.js"></script>
+    <script src="js/index-dashboard.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Override for index dashboard specific pairs logic if needed
+        $(function(){
+             const tbody = $('#fluxus-match-pairs-summary-body');
+             fetch('/api/index/lp_match_pairs?limit=15').then(r => r.json()).then(data => {
+                tbody.empty();
+                data.rows.forEach(r => {
+                    tbody.append(`<tr>
+                        <td>${r.lp_id}</td>
+                        <td class="text-muted f10">${r.timestamp_remessa_iso}</td>
+                        <td class="text-end">R$ ${r.compra_brl.toLocaleString('pt-BR')}</td>
+                        <td class="text-end f12-bold text-success">R$ ${r.recompra_brl.toLocaleString('pt-BR')}</td>
+                    </tr>`);
+                });
+             });
+        });
+    </script>
+</body>
+</html>

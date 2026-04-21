@@ -1,0 +1,4333 @@
+{
+  "fonte": "BCB Olinda — PTAX CotacaoDolarPeriodo (2025)",
+  "registos_publicacao": [
+    {
+      "data": "2025-01-02",
+      "timestamp_ptax_oficial": "2025-01-02 13:09:42.489",
+      "cotacao_compra": 6.208,
+      "cotacao_venda": 6.2086,
+      "usd_brl_mid": 6.2083
+    },
+    {
+      "data": "2025-01-03",
+      "timestamp_ptax_oficial": "2025-01-03 13:07:30.503",
+      "cotacao_compra": 6.1557,
+      "cotacao_venda": 6.1563,
+      "usd_brl_mid": 6.156
+    },
+    {
+      "data": "2025-01-06",
+      "timestamp_ptax_oficial": "2025-01-06 13:06:28.533",
+      "cotacao_compra": 6.1113,
+      "cotacao_venda": 6.1119,
+      "usd_brl_mid": 6.1116
+    },
+    {
+      "data": "2025-01-07",
+      "timestamp_ptax_oficial": "2025-01-07 13:03:28.766",
+      "cotacao_compra": 6.0735,
+      "cotacao_venda": 6.0741,
+      "usd_brl_mid": 6.0738
+    },
+    {
+      "data": "2025-01-08",
+      "timestamp_ptax_oficial": "2025-01-08 13:08:59.784",
+      "cotacao_compra": 6.1315,
+      "cotacao_venda": 6.1321,
+      "usd_brl_mid": 6.1318
+    },
+    {
+      "data": "2025-01-09",
+      "timestamp_ptax_oficial": "2025-01-09 13:03:27.828",
+      "cotacao_compra": 6.089,
+      "cotacao_venda": 6.0896,
+      "usd_brl_mid": 6.0893
+    },
+    {
+      "data": "2025-01-10",
+      "timestamp_ptax_oficial": "2025-01-10 13:04:30.342",
+      "cotacao_compra": 6.0959,
+      "cotacao_venda": 6.0965,
+      "usd_brl_mid": 6.0962
+    },
+    {
+      "data": "2025-01-13",
+      "timestamp_ptax_oficial": "2025-01-13 13:03:30.256",
+      "cotacao_compra": 6.1073,
+      "cotacao_venda": 6.1079,
+      "usd_brl_mid": 6.1076
+    },
+    {
+      "data": "2025-01-14",
+      "timestamp_ptax_oficial": "2025-01-14 13:07:27.066",
+      "cotacao_compra": 6.0665,
+      "cotacao_venda": 6.0671,
+      "usd_brl_mid": 6.0668
+    },
+    {
+      "data": "2025-01-15",
+      "timestamp_ptax_oficial": "2025-01-15 13:06:07.747",
+      "cotacao_compra": 6.0371,
+      "cotacao_venda": 6.0377,
+      "usd_brl_mid": 6.0374
+    },
+    {
+      "data": "2025-01-16",
+      "timestamp_ptax_oficial": "2025-01-16 13:06:28.873",
+      "cotacao_compra": 6.0316,
+      "cotacao_venda": 6.0322,
+      "usd_brl_mid": 6.0319
+    },
+    {
+      "data": "2025-01-17",
+      "timestamp_ptax_oficial": "2025-01-17 13:11:29.354",
+      "cotacao_compra": 6.0603,
+      "cotacao_venda": 6.0609,
+      "usd_brl_mid": 6.0606
+    },
+    {
+      "data": "2025-01-20",
+      "timestamp_ptax_oficial": "2025-01-20 13:07:31.452",
+      "cotacao_compra": 6.0492,
+      "cotacao_venda": 6.0498,
+      "usd_brl_mid": 6.0495
+    },
+    {
+      "data": "2025-01-21",
+      "timestamp_ptax_oficial": "2025-01-21 13:11:47.015",
+      "cotacao_compra": 6.0434,
+      "cotacao_venda": 6.044,
+      "usd_brl_mid": 6.0437
+    },
+    {
+      "data": "2025-01-22",
+      "timestamp_ptax_oficial": "2025-01-22 13:03:29.96",
+      "cotacao_compra": 5.9668,
+      "cotacao_venda": 5.9674,
+      "usd_brl_mid": 5.9671
+    },
+    {
+      "data": "2025-01-23",
+      "timestamp_ptax_oficial": "2025-01-23 13:08:28.183",
+      "cotacao_compra": 5.9393,
+      "cotacao_venda": 5.9399,
+      "usd_brl_mid": 5.9396
+    },
+    {
+      "data": "2025-01-24",
+      "timestamp_ptax_oficial": "2025-01-24 13:03:26.922",
+      "cotacao_compra": 5.8919,
+      "cotacao_venda": 5.8925,
+      "usd_brl_mid": 5.8922
+    },
+    {
+      "data": "2025-01-27",
+      "timestamp_ptax_oficial": "2025-01-27 13:07:48.122",
+      "cotacao_compra": 5.9266,
+      "cotacao_venda": 5.9272,
+      "usd_brl_mid": 5.9269
+    },
+    {
+      "data": "2025-01-28",
+      "timestamp_ptax_oficial": "2025-01-28 13:08:29.32",
+      "cotacao_compra": 5.8924,
+      "cotacao_venda": 5.893,
+      "usd_brl_mid": 5.8927
+    },
+    {
+      "data": "2025-01-29",
+      "timestamp_ptax_oficial": "2025-01-29 13:06:27.048",
+      "cotacao_compra": 5.859,
+      "cotacao_venda": 5.8596,
+      "usd_brl_mid": 5.8593
+    },
+    {
+      "data": "2025-01-30",
+      "timestamp_ptax_oficial": "2025-01-30 13:10:28.513",
+      "cotacao_compra": 5.9,
+      "cotacao_venda": 5.9006,
+      "usd_brl_mid": 5.9003
+    },
+    {
+      "data": "2025-01-31",
+      "timestamp_ptax_oficial": "2025-01-31 13:03:54.994",
+      "cotacao_compra": 5.8295,
+      "cotacao_venda": 5.8301,
+      "usd_brl_mid": 5.8298
+    },
+    {
+      "data": "2025-02-03",
+      "timestamp_ptax_oficial": "2025-02-03 13:06:26.028",
+      "cotacao_compra": 5.8681,
+      "cotacao_venda": 5.8687,
+      "usd_brl_mid": 5.8684
+    },
+    {
+      "data": "2025-02-04",
+      "timestamp_ptax_oficial": "2025-02-04 13:05:40.177",
+      "cotacao_compra": 5.7921,
+      "cotacao_venda": 5.7927,
+      "usd_brl_mid": 5.7924
+    },
+    {
+      "data": "2025-02-05",
+      "timestamp_ptax_oficial": "2025-02-05 13:11:27.245",
+      "cotacao_compra": 5.7991,
+      "cotacao_venda": 5.7997,
+      "usd_brl_mid": 5.7994
+    },
+    {
+      "data": "2025-02-06",
+      "timestamp_ptax_oficial": "2025-02-06 13:08:27.966",
+      "cotacao_compra": 5.785,
+      "cotacao_venda": 5.7856,
+      "usd_brl_mid": 5.7853
+    },
+    {
+      "data": "2025-02-07",
+      "timestamp_ptax_oficial": "2025-02-07 13:10:30.349",
+      "cotacao_compra": 5.7551,
+      "cotacao_venda": 5.7557,
+      "usd_brl_mid": 5.7554
+    },
+    {
+      "data": "2025-02-10",
+      "timestamp_ptax_oficial": "2025-02-10 13:11:28.726",
+      "cotacao_compra": 5.7802,
+      "cotacao_venda": 5.7808,
+      "usd_brl_mid": 5.7805
+    },
+    {
+      "data": "2025-02-11",
+      "timestamp_ptax_oficial": "2025-02-11 13:06:28.511",
+      "cotacao_compra": 5.7782,
+      "cotacao_venda": 5.7788,
+      "usd_brl_mid": 5.7785
+    },
+    {
+      "data": "2025-02-12",
+      "timestamp_ptax_oficial": "2025-02-12 13:02:27.08",
+      "cotacao_compra": 5.7705,
+      "cotacao_venda": 5.7711,
+      "usd_brl_mid": 5.7708
+    },
+    {
+      "data": "2025-02-13",
+      "timestamp_ptax_oficial": "2025-02-13 13:03:25.728",
+      "cotacao_compra": 5.7782,
+      "cotacao_venda": 5.7788,
+      "usd_brl_mid": 5.7785
+    },
+    {
+      "data": "2025-02-14",
+      "timestamp_ptax_oficial": "2025-02-14 13:11:25.842",
+      "cotacao_compra": 5.7277,
+      "cotacao_venda": 5.7283,
+      "usd_brl_mid": 5.728
+    },
+    {
+      "data": "2025-02-17",
+      "timestamp_ptax_oficial": "2025-02-17 13:07:25.989",
+      "cotacao_compra": 5.7099,
+      "cotacao_venda": 5.7105,
+      "usd_brl_mid": 5.7102
+    },
+    {
+      "data": "2025-02-18",
+      "timestamp_ptax_oficial": "2025-02-18 13:09:27.38",
+      "cotacao_compra": 5.6973,
+      "cotacao_venda": 5.6979,
+      "usd_brl_mid": 5.6976
+    },
+    {
+      "data": "2025-02-19",
+      "timestamp_ptax_oficial": "2025-02-19 13:07:31.091",
+      "cotacao_compra": 5.7081,
+      "cotacao_venda": 5.7087,
+      "usd_brl_mid": 5.7084
+    },
+    {
+      "data": "2025-02-20",
+      "timestamp_ptax_oficial": "2025-02-20 13:11:27.341",
+      "cotacao_compra": 5.7013,
+      "cotacao_venda": 5.7019,
+      "usd_brl_mid": 5.7016
+    },
+    {
+      "data": "2025-02-21",
+      "timestamp_ptax_oficial": "2025-02-21 13:02:27.066",
+      "cotacao_compra": 5.7021,
+      "cotacao_venda": 5.7027,
+      "usd_brl_mid": 5.7024
+    },
+    {
+      "data": "2025-02-24",
+      "timestamp_ptax_oficial": "2025-02-24 13:06:26.536",
+      "cotacao_compra": 5.7252,
+      "cotacao_venda": 5.7258,
+      "usd_brl_mid": 5.7255
+    },
+    {
+      "data": "2025-02-25",
+      "timestamp_ptax_oficial": "2025-02-25 13:08:29.097",
+      "cotacao_compra": 5.7773,
+      "cotacao_venda": 5.7779,
+      "usd_brl_mid": 5.7776
+    },
+    {
+      "data": "2025-02-26",
+      "timestamp_ptax_oficial": "2025-02-26 13:06:28.007",
+      "cotacao_compra": 5.7751,
+      "cotacao_venda": 5.7757,
+      "usd_brl_mid": 5.7754
+    },
+    {
+      "data": "2025-02-27",
+      "timestamp_ptax_oficial": "2025-02-27 13:02:27.094",
+      "cotacao_compra": 5.8222,
+      "cotacao_venda": 5.8228,
+      "usd_brl_mid": 5.8225
+    },
+    {
+      "data": "2025-02-28",
+      "timestamp_ptax_oficial": "2025-02-28 13:04:29.1",
+      "cotacao_compra": 5.8482,
+      "cotacao_venda": 5.8488,
+      "usd_brl_mid": 5.8485
+    },
+    {
+      "data": "2025-03-05",
+      "timestamp_ptax_oficial": "2025-03-05 15:36:28.199",
+      "cotacao_compra": 5.7908,
+      "cotacao_venda": 5.7914,
+      "usd_brl_mid": 5.7911
+    },
+    {
+      "data": "2025-03-06",
+      "timestamp_ptax_oficial": "2025-03-06 13:11:00.814",
+      "cotacao_compra": 5.7483,
+      "cotacao_venda": 5.7489,
+      "usd_brl_mid": 5.7486
+    },
+    {
+      "data": "2025-03-07",
+      "timestamp_ptax_oficial": "2025-03-07 13:08:41.977",
+      "cotacao_compra": 5.7682,
+      "cotacao_venda": 5.7688,
+      "usd_brl_mid": 5.7685
+    },
+    {
+      "data": "2025-03-10",
+      "timestamp_ptax_oficial": "2025-03-10 13:03:01.674",
+      "cotacao_compra": 5.7924,
+      "cotacao_venda": 5.793,
+      "usd_brl_mid": 5.7927
+    },
+    {
+      "data": "2025-03-11",
+      "timestamp_ptax_oficial": "2025-03-11 13:05:28.232",
+      "cotacao_compra": 5.8341,
+      "cotacao_venda": 5.8346,
+      "usd_brl_mid": 5.8344
+    },
+    {
+      "data": "2025-03-12",
+      "timestamp_ptax_oficial": "2025-03-12 13:08:28.781",
+      "cotacao_compra": 5.8262,
+      "cotacao_venda": 5.8268,
+      "usd_brl_mid": 5.8265
+    },
+    {
+      "data": "2025-03-13",
+      "timestamp_ptax_oficial": "2025-03-13 13:03:28.272",
+      "cotacao_compra": 5.8125,
+      "cotacao_venda": 5.8131,
+      "usd_brl_mid": 5.8128
+    },
+    {
+      "data": "2025-03-14",
+      "timestamp_ptax_oficial": "2025-03-14 13:06:19.269",
+      "cotacao_compra": 5.7413,
+      "cotacao_venda": 5.7419,
+      "usd_brl_mid": 5.7416
+    },
+    {
+      "data": "2025-03-17",
+      "timestamp_ptax_oficial": "2025-03-17 13:11:28.771",
+      "cotacao_compra": 5.7076,
+      "cotacao_venda": 5.7082,
+      "usd_brl_mid": 5.7079
+    },
+    {
+      "data": "2025-03-18",
+      "timestamp_ptax_oficial": "2025-03-18 13:05:31.31",
+      "cotacao_compra": 5.6846,
+      "cotacao_venda": 5.6852,
+      "usd_brl_mid": 5.6849
+    },
+    {
+      "data": "2025-03-19",
+      "timestamp_ptax_oficial": "2025-03-19 13:08:27.744",
+      "cotacao_compra": 5.6651,
+      "cotacao_venda": 5.6657,
+      "usd_brl_mid": 5.6654
+    },
+    {
+      "data": "2025-03-20",
+      "timestamp_ptax_oficial": "2025-03-20 13:05:28.111",
+      "cotacao_compra": 5.6622,
+      "cotacao_venda": 5.6628,
+      "usd_brl_mid": 5.6625
+    },
+    {
+      "data": "2025-03-21",
+      "timestamp_ptax_oficial": "2025-03-21 13:03:25.486",
+      "cotacao_compra": 5.7235,
+      "cotacao_venda": 5.7241,
+      "usd_brl_mid": 5.7238
+    },
+    {
+      "data": "2025-03-24",
+      "timestamp_ptax_oficial": "2025-03-24 13:06:25.642",
+      "cotacao_compra": 5.7397,
+      "cotacao_venda": 5.7403,
+      "usd_brl_mid": 5.74
+    },
+    {
+      "data": "2025-03-25",
+      "timestamp_ptax_oficial": "2025-03-25 13:04:31.093",
+      "cotacao_compra": 5.6986,
+      "cotacao_venda": 5.6992,
+      "usd_brl_mid": 5.6989
+    },
+    {
+      "data": "2025-03-26",
+      "timestamp_ptax_oficial": "2025-03-26 13:05:51.728",
+      "cotacao_compra": 5.7292,
+      "cotacao_venda": 5.7298,
+      "usd_brl_mid": 5.7295
+    },
+    {
+      "data": "2025-03-27",
+      "timestamp_ptax_oficial": "2025-03-27 13:04:05.646",
+      "cotacao_compra": 5.7468,
+      "cotacao_venda": 5.7474,
+      "usd_brl_mid": 5.7471
+    },
+    {
+      "data": "2025-03-28",
+      "timestamp_ptax_oficial": "2025-03-28 13:02:32.689",
+      "cotacao_compra": 5.7654,
+      "cotacao_venda": 5.766,
+      "usd_brl_mid": 5.7657
+    },
+    {
+      "data": "2025-03-31",
+      "timestamp_ptax_oficial": "2025-03-31 13:11:27.506",
+      "cotacao_compra": 5.7416,
+      "cotacao_venda": 5.7422,
+      "usd_brl_mid": 5.7419
+    },
+    {
+      "data": "2025-04-01",
+      "timestamp_ptax_oficial": "2025-04-01 13:07:29.553",
+      "cotacao_compra": 5.7045,
+      "cotacao_venda": 5.7051,
+      "usd_brl_mid": 5.7048
+    },
+    {
+      "data": "2025-04-02",
+      "timestamp_ptax_oficial": "2025-04-02 13:02:29.942",
+      "cotacao_compra": 5.6918,
+      "cotacao_venda": 5.6923,
+      "usd_brl_mid": 5.6921
+    },
+    {
+      "data": "2025-04-03",
+      "timestamp_ptax_oficial": "2025-04-03 13:03:27.756",
+      "cotacao_compra": 5.6062,
+      "cotacao_venda": 5.6067,
+      "usd_brl_mid": 5.6065
+    },
+    {
+      "data": "2025-04-04",
+      "timestamp_ptax_oficial": "2025-04-04 13:07:28.528",
+      "cotacao_compra": 5.7771,
+      "cotacao_venda": 5.7777,
+      "usd_brl_mid": 5.7774
+    },
+    {
+      "data": "2025-04-07",
+      "timestamp_ptax_oficial": "2025-04-07 13:09:28.183",
+      "cotacao_compra": 5.8871,
+      "cotacao_venda": 5.8877,
+      "usd_brl_mid": 5.8874
+    },
+    {
+      "data": "2025-04-08",
+      "timestamp_ptax_oficial": "2025-04-08 13:04:41.076",
+      "cotacao_compra": 5.9362,
+      "cotacao_venda": 5.9368,
+      "usd_brl_mid": 5.9365
+    },
+    {
+      "data": "2025-04-09",
+      "timestamp_ptax_oficial": "2025-04-09 13:06:01.578",
+      "cotacao_compra": 6.0599,
+      "cotacao_venda": 6.0605,
+      "usd_brl_mid": 6.0602
+    },
+    {
+      "data": "2025-04-10",
+      "timestamp_ptax_oficial": "2025-04-10 13:09:27.619",
+      "cotacao_compra": 5.9109,
+      "cotacao_venda": 5.9115,
+      "usd_brl_mid": 5.9112
+    },
+    {
+      "data": "2025-04-11",
+      "timestamp_ptax_oficial": "2025-04-11 13:08:27.767",
+      "cotacao_compra": 5.8731,
+      "cotacao_venda": 5.8737,
+      "usd_brl_mid": 5.8734
+    },
+    {
+      "data": "2025-04-14",
+      "timestamp_ptax_oficial": "2025-04-14 13:09:48.507",
+      "cotacao_compra": 5.8419,
+      "cotacao_venda": 5.8425,
+      "usd_brl_mid": 5.8422
+    },
+    {
+      "data": "2025-04-15",
+      "timestamp_ptax_oficial": "2025-04-15 13:07:27.338",
+      "cotacao_compra": 5.8701,
+      "cotacao_venda": 5.8707,
+      "usd_brl_mid": 5.8704
+    },
+    {
+      "data": "2025-04-16",
+      "timestamp_ptax_oficial": "2025-04-16 13:10:28.345",
+      "cotacao_compra": 5.8802,
+      "cotacao_venda": 5.8808,
+      "usd_brl_mid": 5.8805
+    },
+    {
+      "data": "2025-04-17",
+      "timestamp_ptax_oficial": "2025-04-17 13:11:49.566",
+      "cotacao_compra": 5.8553,
+      "cotacao_venda": 5.8559,
+      "usd_brl_mid": 5.8556
+    },
+    {
+      "data": "2025-04-22",
+      "timestamp_ptax_oficial": "2025-04-22 13:09:35.629",
+      "cotacao_compra": 5.749,
+      "cotacao_venda": 5.7496,
+      "usd_brl_mid": 5.7493
+    },
+    {
+      "data": "2025-04-23",
+      "timestamp_ptax_oficial": "2025-04-23 13:06:30.416",
+      "cotacao_compra": 5.6874,
+      "cotacao_venda": 5.688,
+      "usd_brl_mid": 5.6877
+    },
+    {
+      "data": "2025-04-23",
+      "timestamp_ptax_oficial": "2025-04-23 13:06:30.443",
+      "cotacao_compra": 5.6874,
+      "cotacao_venda": 5.688,
+      "usd_brl_mid": 5.6877
+    },
+    {
+      "data": "2025-04-24",
+      "timestamp_ptax_oficial": "2025-04-24 13:04:29.639",
+      "cotacao_compra": 5.6732,
+      "cotacao_venda": 5.6738,
+      "usd_brl_mid": 5.6735
+    },
+    {
+      "data": "2025-04-25",
+      "timestamp_ptax_oficial": "2025-04-25 13:09:26.592",
+      "cotacao_compra": 5.684,
+      "cotacao_venda": 5.6846,
+      "usd_brl_mid": 5.6843
+    },
+    {
+      "data": "2025-04-28",
+      "timestamp_ptax_oficial": "2025-04-28 13:04:26.378",
+      "cotacao_compra": 5.6675,
+      "cotacao_venda": 5.6681,
+      "usd_brl_mid": 5.6678
+    },
+    {
+      "data": "2025-04-29",
+      "timestamp_ptax_oficial": "2025-04-29 13:05:29.951",
+      "cotacao_compra": 5.6461,
+      "cotacao_venda": 5.6467,
+      "usd_brl_mid": 5.6464
+    },
+    {
+      "data": "2025-04-30",
+      "timestamp_ptax_oficial": "2025-04-30 13:11:27.944",
+      "cotacao_compra": 5.6602,
+      "cotacao_venda": 5.6608,
+      "usd_brl_mid": 5.6605
+    },
+    {
+      "data": "2025-05-02",
+      "timestamp_ptax_oficial": "2025-05-02 13:10:27.144",
+      "cotacao_compra": 5.6388,
+      "cotacao_venda": 5.6394,
+      "usd_brl_mid": 5.6391
+    },
+    {
+      "data": "2025-05-05",
+      "timestamp_ptax_oficial": "2025-05-05 13:09:28.604",
+      "cotacao_compra": 5.6514,
+      "cotacao_venda": 5.652,
+      "usd_brl_mid": 5.6517
+    },
+    {
+      "data": "2025-05-06",
+      "timestamp_ptax_oficial": "2025-05-06 13:03:25.683",
+      "cotacao_compra": 5.7204,
+      "cotacao_venda": 5.721,
+      "usd_brl_mid": 5.7207
+    },
+    {
+      "data": "2025-05-07",
+      "timestamp_ptax_oficial": "2025-05-07 13:09:26.499",
+      "cotacao_compra": 5.7368,
+      "cotacao_venda": 5.7375,
+      "usd_brl_mid": 5.7371
+    },
+    {
+      "data": "2025-05-08",
+      "timestamp_ptax_oficial": "2025-05-08 13:06:28.214",
+      "cotacao_compra": 5.6854,
+      "cotacao_venda": 5.686,
+      "usd_brl_mid": 5.6857
+    },
+    {
+      "data": "2025-05-09",
+      "timestamp_ptax_oficial": "2025-05-09 13:08:28.902",
+      "cotacao_compra": 5.6505,
+      "cotacao_venda": 5.6511,
+      "usd_brl_mid": 5.6508
+    },
+    {
+      "data": "2025-05-12",
+      "timestamp_ptax_oficial": "2025-05-12 13:07:51.706",
+      "cotacao_compra": 5.6816,
+      "cotacao_venda": 5.6822,
+      "usd_brl_mid": 5.6819
+    },
+    {
+      "data": "2025-05-13",
+      "timestamp_ptax_oficial": "2025-05-13 13:02:29.162",
+      "cotacao_compra": 5.6256,
+      "cotacao_venda": 5.6262,
+      "usd_brl_mid": 5.6259
+    },
+    {
+      "data": "2025-05-14",
+      "timestamp_ptax_oficial": "2025-05-14 13:07:28.015",
+      "cotacao_compra": 5.6094,
+      "cotacao_venda": 5.61,
+      "usd_brl_mid": 5.6097
+    },
+    {
+      "data": "2025-05-15",
+      "timestamp_ptax_oficial": "2025-05-15 13:03:51.789",
+      "cotacao_compra": 5.6322,
+      "cotacao_venda": 5.6328,
+      "usd_brl_mid": 5.6325
+    },
+    {
+      "data": "2025-05-16",
+      "timestamp_ptax_oficial": "2025-05-16 13:02:28.147",
+      "cotacao_compra": 5.6919,
+      "cotacao_venda": 5.6925,
+      "usd_brl_mid": 5.6922
+    },
+    {
+      "data": "2025-05-19",
+      "timestamp_ptax_oficial": "2025-05-19 13:09:28.88",
+      "cotacao_compra": 5.6585,
+      "cotacao_venda": 5.6591,
+      "usd_brl_mid": 5.6588
+    },
+    {
+      "data": "2025-05-20",
+      "timestamp_ptax_oficial": "2025-05-20 13:05:28.937",
+      "cotacao_compra": 5.6614,
+      "cotacao_venda": 5.662,
+      "usd_brl_mid": 5.6617
+    },
+    {
+      "data": "2025-05-21",
+      "timestamp_ptax_oficial": "2025-05-21 13:04:32.12",
+      "cotacao_compra": 5.6565,
+      "cotacao_venda": 5.6571,
+      "usd_brl_mid": 5.6568
+    },
+    {
+      "data": "2025-05-22",
+      "timestamp_ptax_oficial": "2025-05-22 13:06:27.952",
+      "cotacao_compra": 5.6384,
+      "cotacao_venda": 5.639,
+      "usd_brl_mid": 5.6387
+    },
+    {
+      "data": "2025-05-23",
+      "timestamp_ptax_oficial": "2025-05-23 13:11:08.858",
+      "cotacao_compra": 5.6926,
+      "cotacao_venda": 5.6932,
+      "usd_brl_mid": 5.6929
+    },
+    {
+      "data": "2025-05-26",
+      "timestamp_ptax_oficial": "2025-05-26 13:06:30.445",
+      "cotacao_compra": 5.6613,
+      "cotacao_venda": 5.6619,
+      "usd_brl_mid": 5.6616
+    },
+    {
+      "data": "2025-05-27",
+      "timestamp_ptax_oficial": "2025-05-27 13:03:41.114",
+      "cotacao_compra": 5.6533,
+      "cotacao_venda": 5.6539,
+      "usd_brl_mid": 5.6536
+    },
+    {
+      "data": "2025-05-28",
+      "timestamp_ptax_oficial": "2025-05-28 13:07:44.755",
+      "cotacao_compra": 5.693,
+      "cotacao_venda": 5.6936,
+      "usd_brl_mid": 5.6933
+    },
+    {
+      "data": "2025-05-29",
+      "timestamp_ptax_oficial": "2025-05-29 13:05:33.689",
+      "cotacao_compra": 5.6553,
+      "cotacao_venda": 5.6559,
+      "usd_brl_mid": 5.6556
+    },
+    {
+      "data": "2025-05-30",
+      "timestamp_ptax_oficial": "2025-05-30 13:05:27.127",
+      "cotacao_compra": 5.7081,
+      "cotacao_venda": 5.7087,
+      "usd_brl_mid": 5.7084
+    },
+    {
+      "data": "2025-06-02",
+      "timestamp_ptax_oficial": "2025-06-02 13:09:05.107",
+      "cotacao_compra": 5.6931,
+      "cotacao_venda": 5.6937,
+      "usd_brl_mid": 5.6934
+    },
+    {
+      "data": "2025-06-03",
+      "timestamp_ptax_oficial": "2025-06-03 13:07:29.518",
+      "cotacao_compra": 5.6688,
+      "cotacao_venda": 5.6694,
+      "usd_brl_mid": 5.6691
+    },
+    {
+      "data": "2025-06-04",
+      "timestamp_ptax_oficial": "2025-06-04 13:11:29.327",
+      "cotacao_compra": 5.6326,
+      "cotacao_venda": 5.6332,
+      "usd_brl_mid": 5.6329
+    },
+    {
+      "data": "2025-06-05",
+      "timestamp_ptax_oficial": "2025-06-05 13:07:30.991",
+      "cotacao_compra": 5.5963,
+      "cotacao_venda": 5.5969,
+      "usd_brl_mid": 5.5966
+    },
+    {
+      "data": "2025-06-06",
+      "timestamp_ptax_oficial": "2025-06-06 13:08:48.677",
+      "cotacao_compra": 5.5941,
+      "cotacao_venda": 5.5947,
+      "usd_brl_mid": 5.5944
+    },
+    {
+      "data": "2025-06-09",
+      "timestamp_ptax_oficial": "2025-06-09 13:04:44.493",
+      "cotacao_compra": 5.5754,
+      "cotacao_venda": 5.576,
+      "usd_brl_mid": 5.5757
+    },
+    {
+      "data": "2025-06-10",
+      "timestamp_ptax_oficial": "2025-06-10 13:08:31.722",
+      "cotacao_compra": 5.5551,
+      "cotacao_venda": 5.5557,
+      "usd_brl_mid": 5.5554
+    },
+    {
+      "data": "2025-06-11",
+      "timestamp_ptax_oficial": "2025-06-11 13:04:46.07",
+      "cotacao_compra": 5.5384,
+      "cotacao_venda": 5.539,
+      "usd_brl_mid": 5.5387
+    },
+    {
+      "data": "2025-06-12",
+      "timestamp_ptax_oficial": "2025-06-12 13:04:26.137",
+      "cotacao_compra": 5.5382,
+      "cotacao_venda": 5.5388,
+      "usd_brl_mid": 5.5385
+    },
+    {
+      "data": "2025-06-13",
+      "timestamp_ptax_oficial": "2025-06-13 13:02:36.572",
+      "cotacao_compra": 5.5646,
+      "cotacao_venda": 5.5652,
+      "usd_brl_mid": 5.5649
+    },
+    {
+      "data": "2025-06-16",
+      "timestamp_ptax_oficial": "2025-06-16 13:09:04.338",
+      "cotacao_compra": 5.5117,
+      "cotacao_venda": 5.5123,
+      "usd_brl_mid": 5.512
+    },
+    {
+      "data": "2025-06-17",
+      "timestamp_ptax_oficial": "2025-06-17 13:07:28.496",
+      "cotacao_compra": 5.4767,
+      "cotacao_venda": 5.4773,
+      "usd_brl_mid": 5.477
+    },
+    {
+      "data": "2025-06-18",
+      "timestamp_ptax_oficial": "2025-06-18 13:10:27.501",
+      "cotacao_compra": 5.4873,
+      "cotacao_venda": 5.4879,
+      "usd_brl_mid": 5.4876
+    },
+    {
+      "data": "2025-06-20",
+      "timestamp_ptax_oficial": "2025-06-20 13:05:46.565",
+      "cotacao_compra": 5.4951,
+      "cotacao_venda": 5.4957,
+      "usd_brl_mid": 5.4954
+    },
+    {
+      "data": "2025-06-23",
+      "timestamp_ptax_oficial": "2025-06-23 13:09:26.9",
+      "cotacao_compra": 5.5207,
+      "cotacao_venda": 5.5213,
+      "usd_brl_mid": 5.521
+    },
+    {
+      "data": "2025-06-24",
+      "timestamp_ptax_oficial": "2025-06-24 13:02:35.468",
+      "cotacao_compra": 5.4932,
+      "cotacao_venda": 5.4938,
+      "usd_brl_mid": 5.4935
+    },
+    {
+      "data": "2025-06-25",
+      "timestamp_ptax_oficial": "2025-06-25 13:06:27.991",
+      "cotacao_compra": 5.5421,
+      "cotacao_venda": 5.5427,
+      "usd_brl_mid": 5.5424
+    },
+    {
+      "data": "2025-06-26",
+      "timestamp_ptax_oficial": "2025-06-26 13:04:42.803",
+      "cotacao_compra": 5.5139,
+      "cotacao_venda": 5.5145,
+      "usd_brl_mid": 5.5142
+    },
+    {
+      "data": "2025-06-27",
+      "timestamp_ptax_oficial": "2025-06-27 13:07:41.25",
+      "cotacao_compra": 5.4753,
+      "cotacao_venda": 5.4759,
+      "usd_brl_mid": 5.4756
+    },
+    {
+      "data": "2025-06-30",
+      "timestamp_ptax_oficial": "2025-06-30 13:06:30.905",
+      "cotacao_compra": 5.4565,
+      "cotacao_venda": 5.4571,
+      "usd_brl_mid": 5.4568
+    },
+    {
+      "data": "2025-07-01",
+      "timestamp_ptax_oficial": "2025-07-01 13:07:32.146",
+      "cotacao_compra": 5.4505,
+      "cotacao_venda": 5.4511,
+      "usd_brl_mid": 5.4508
+    },
+    {
+      "data": "2025-07-02",
+      "timestamp_ptax_oficial": "2025-07-02 13:04:38.929",
+      "cotacao_compra": 5.4506,
+      "cotacao_venda": 5.4512,
+      "usd_brl_mid": 5.4509
+    },
+    {
+      "data": "2025-07-03",
+      "timestamp_ptax_oficial": "2025-07-03 13:06:25.914",
+      "cotacao_compra": 5.4202,
+      "cotacao_venda": 5.4208,
+      "usd_brl_mid": 5.4205
+    },
+    {
+      "data": "2025-07-04",
+      "timestamp_ptax_oficial": "2025-07-04 13:04:29.081",
+      "cotacao_compra": 5.4084,
+      "cotacao_venda": 5.409,
+      "usd_brl_mid": 5.4087
+    },
+    {
+      "data": "2025-07-07",
+      "timestamp_ptax_oficial": "2025-07-07 13:02:56.534",
+      "cotacao_compra": 5.4546,
+      "cotacao_venda": 5.4552,
+      "usd_brl_mid": 5.4549
+    },
+    {
+      "data": "2025-07-08",
+      "timestamp_ptax_oficial": "2025-07-08 13:02:57.103",
+      "cotacao_compra": 5.4565,
+      "cotacao_venda": 5.4571,
+      "usd_brl_mid": 5.4568
+    },
+    {
+      "data": "2025-07-09",
+      "timestamp_ptax_oficial": "2025-07-09 13:05:35.887",
+      "cotacao_compra": 5.462,
+      "cotacao_venda": 5.4626,
+      "usd_brl_mid": 5.4623
+    },
+    {
+      "data": "2025-07-10",
+      "timestamp_ptax_oficial": "2025-07-10 13:02:47.699",
+      "cotacao_compra": 5.5427,
+      "cotacao_venda": 5.5433,
+      "usd_brl_mid": 5.543
+    },
+    {
+      "data": "2025-07-11",
+      "timestamp_ptax_oficial": "2025-07-11 13:06:52.832",
+      "cotacao_compra": 5.5716,
+      "cotacao_venda": 5.5722,
+      "usd_brl_mid": 5.5719
+    },
+    {
+      "data": "2025-07-14",
+      "timestamp_ptax_oficial": "2025-07-14 13:08:30.186",
+      "cotacao_compra": 5.5589,
+      "cotacao_venda": 5.5595,
+      "usd_brl_mid": 5.5592
+    },
+    {
+      "data": "2025-07-15",
+      "timestamp_ptax_oficial": "2025-07-15 13:04:30.654",
+      "cotacao_compra": 5.5569,
+      "cotacao_venda": 5.5576,
+      "usd_brl_mid": 5.5572
+    },
+    {
+      "data": "2025-07-16",
+      "timestamp_ptax_oficial": "2025-07-16 13:08:40.079",
+      "cotacao_compra": 5.5716,
+      "cotacao_venda": 5.5722,
+      "usd_brl_mid": 5.5719
+    },
+    {
+      "data": "2025-07-17",
+      "timestamp_ptax_oficial": "2025-07-17 13:02:31.315",
+      "cotacao_compra": 5.5731,
+      "cotacao_venda": 5.5737,
+      "usd_brl_mid": 5.5734
+    },
+    {
+      "data": "2025-07-18",
+      "timestamp_ptax_oficial": "2025-07-18 13:11:35.417",
+      "cotacao_compra": 5.546,
+      "cotacao_venda": 5.5466,
+      "usd_brl_mid": 5.5463
+    },
+    {
+      "data": "2025-07-21",
+      "timestamp_ptax_oficial": "2025-07-21 13:03:57.875",
+      "cotacao_compra": 5.5619,
+      "cotacao_venda": 5.5625,
+      "usd_brl_mid": 5.5622
+    },
+    {
+      "data": "2025-07-22",
+      "timestamp_ptax_oficial": "2025-07-22 13:05:47.678",
+      "cotacao_compra": 5.5703,
+      "cotacao_venda": 5.5709,
+      "usd_brl_mid": 5.5706
+    },
+    {
+      "data": "2025-07-23",
+      "timestamp_ptax_oficial": "2025-07-23 13:05:33.442",
+      "cotacao_compra": 5.5531,
+      "cotacao_venda": 5.5537,
+      "usd_brl_mid": 5.5534
+    },
+    {
+      "data": "2025-07-24",
+      "timestamp_ptax_oficial": "2025-07-24 13:09:01.076",
+      "cotacao_compra": 5.5233,
+      "cotacao_venda": 5.5239,
+      "usd_brl_mid": 5.5236
+    },
+    {
+      "data": "2025-07-25",
+      "timestamp_ptax_oficial": "2025-07-25 13:06:43.63",
+      "cotacao_compra": 5.542,
+      "cotacao_venda": 5.5426,
+      "usd_brl_mid": 5.5423
+    },
+    {
+      "data": "2025-07-28",
+      "timestamp_ptax_oficial": "2025-07-28 13:07:39.179",
+      "cotacao_compra": 5.5871,
+      "cotacao_venda": 5.5877,
+      "usd_brl_mid": 5.5874
+    },
+    {
+      "data": "2025-07-29",
+      "timestamp_ptax_oficial": "2025-07-29 13:15:54.91",
+      "cotacao_compra": 5.5758,
+      "cotacao_venda": 5.5764,
+      "usd_brl_mid": 5.5761
+    },
+    {
+      "data": "2025-07-30",
+      "timestamp_ptax_oficial": "2025-07-30 13:14:11.184",
+      "cotacao_compra": 5.6028,
+      "cotacao_venda": 5.6034,
+      "usd_brl_mid": 5.6031
+    },
+    {
+      "data": "2025-07-31",
+      "timestamp_ptax_oficial": "2025-07-31 13:02:33.384",
+      "cotacao_compra": 5.6015,
+      "cotacao_venda": 5.6021,
+      "usd_brl_mid": 5.6018
+    },
+    {
+      "data": "2025-08-01",
+      "timestamp_ptax_oficial": "2025-08-01 13:03:03.851",
+      "cotacao_compra": 5.543,
+      "cotacao_venda": 5.5436,
+      "usd_brl_mid": 5.5433
+    },
+    {
+      "data": "2025-08-04",
+      "timestamp_ptax_oficial": "2025-08-04 13:08:34.124",
+      "cotacao_compra": 5.5107,
+      "cotacao_venda": 5.5113,
+      "usd_brl_mid": 5.511
+    },
+    {
+      "data": "2025-08-05",
+      "timestamp_ptax_oficial": "2025-08-05 13:04:58.588",
+      "cotacao_compra": 5.5113,
+      "cotacao_venda": 5.5119,
+      "usd_brl_mid": 5.5116
+    },
+    {
+      "data": "2025-08-06",
+      "timestamp_ptax_oficial": "2025-08-06 13:06:39.08",
+      "cotacao_compra": 5.4796,
+      "cotacao_venda": 5.4802,
+      "usd_brl_mid": 5.4799
+    },
+    {
+      "data": "2025-08-07",
+      "timestamp_ptax_oficial": "2025-08-07 13:10:28.166",
+      "cotacao_compra": 5.4632,
+      "cotacao_venda": 5.4638,
+      "usd_brl_mid": 5.4635
+    },
+    {
+      "data": "2025-08-08",
+      "timestamp_ptax_oficial": "2025-08-08 13:10:46.139",
+      "cotacao_compra": 5.4248,
+      "cotacao_venda": 5.4254,
+      "usd_brl_mid": 5.4251
+    },
+    {
+      "data": "2025-08-11",
+      "timestamp_ptax_oficial": "2025-08-11 13:09:01.083",
+      "cotacao_compra": 5.4467,
+      "cotacao_venda": 5.4473,
+      "usd_brl_mid": 5.447
+    },
+    {
+      "data": "2025-08-12",
+      "timestamp_ptax_oficial": "2025-08-12 13:10:27.976",
+      "cotacao_compra": 5.4046,
+      "cotacao_venda": 5.4052,
+      "usd_brl_mid": 5.4049
+    },
+    {
+      "data": "2025-08-13",
+      "timestamp_ptax_oficial": "2025-08-13 13:12:29.288",
+      "cotacao_compra": 5.3922,
+      "cotacao_venda": 5.3928,
+      "usd_brl_mid": 5.3925
+    },
+    {
+      "data": "2025-08-14",
+      "timestamp_ptax_oficial": "2025-08-14 13:08:26.774",
+      "cotacao_compra": 5.4089,
+      "cotacao_venda": 5.4095,
+      "usd_brl_mid": 5.4092
+    },
+    {
+      "data": "2025-08-15",
+      "timestamp_ptax_oficial": "2025-08-15 13:02:59.023",
+      "cotacao_compra": 5.3922,
+      "cotacao_venda": 5.3928,
+      "usd_brl_mid": 5.3925
+    },
+    {
+      "data": "2025-08-18",
+      "timestamp_ptax_oficial": "2025-08-18 13:11:11.455",
+      "cotacao_compra": 5.4149,
+      "cotacao_venda": 5.4155,
+      "usd_brl_mid": 5.4152
+    },
+    {
+      "data": "2025-08-19",
+      "timestamp_ptax_oficial": "2025-08-19 13:04:41.55",
+      "cotacao_compra": 5.471,
+      "cotacao_venda": 5.4716,
+      "usd_brl_mid": 5.4713
+    },
+    {
+      "data": "2025-08-20",
+      "timestamp_ptax_oficial": "2025-08-20 13:12:26.131",
+      "cotacao_compra": 5.472,
+      "cotacao_venda": 5.4726,
+      "usd_brl_mid": 5.4723
+    },
+    {
+      "data": "2025-08-21",
+      "timestamp_ptax_oficial": "2025-08-21 13:10:49.662",
+      "cotacao_compra": 5.4822,
+      "cotacao_venda": 5.4828,
+      "usd_brl_mid": 5.4825
+    },
+    {
+      "data": "2025-08-22",
+      "timestamp_ptax_oficial": "2025-08-22 13:06:18.381",
+      "cotacao_compra": 5.4386,
+      "cotacao_venda": 5.4392,
+      "usd_brl_mid": 5.4389
+    },
+    {
+      "data": "2025-08-25",
+      "timestamp_ptax_oficial": "2025-08-25 13:06:50.314",
+      "cotacao_compra": 5.4168,
+      "cotacao_venda": 5.4174,
+      "usd_brl_mid": 5.4171
+    },
+    {
+      "data": "2025-08-26",
+      "timestamp_ptax_oficial": "2025-08-26 13:06:46.354",
+      "cotacao_compra": 5.4212,
+      "cotacao_venda": 5.4218,
+      "usd_brl_mid": 5.4215
+    },
+    {
+      "data": "2025-08-27",
+      "timestamp_ptax_oficial": "2025-08-27 13:13:21.409",
+      "cotacao_compra": 5.4422,
+      "cotacao_venda": 5.4428,
+      "usd_brl_mid": 5.4425
+    },
+    {
+      "data": "2025-08-28",
+      "timestamp_ptax_oficial": "2025-08-28 13:13:18.872",
+      "cotacao_compra": 5.4109,
+      "cotacao_venda": 5.4115,
+      "usd_brl_mid": 5.4112
+    },
+    {
+      "data": "2025-08-29",
+      "timestamp_ptax_oficial": "2025-08-29 13:10:21.165",
+      "cotacao_compra": 5.4258,
+      "cotacao_venda": 5.4264,
+      "usd_brl_mid": 5.4261
+    },
+    {
+      "data": "2025-09-01",
+      "timestamp_ptax_oficial": "2025-09-01 13:06:34.559",
+      "cotacao_compra": 5.4372,
+      "cotacao_venda": 5.4378,
+      "usd_brl_mid": 5.4375
+    },
+    {
+      "data": "2025-09-02",
+      "timestamp_ptax_oficial": "2025-09-02 13:07:48.188",
+      "cotacao_compra": 5.4674,
+      "cotacao_venda": 5.468,
+      "usd_brl_mid": 5.4677
+    },
+    {
+      "data": "2025-09-03",
+      "timestamp_ptax_oficial": "2025-09-03 13:06:03.021",
+      "cotacao_compra": 5.4479,
+      "cotacao_venda": 5.4485,
+      "usd_brl_mid": 5.4482
+    },
+    {
+      "data": "2025-09-04",
+      "timestamp_ptax_oficial": "2025-09-04 13:03:32.119",
+      "cotacao_compra": 5.4581,
+      "cotacao_venda": 5.4587,
+      "usd_brl_mid": 5.4584
+    },
+    {
+      "data": "2025-09-05",
+      "timestamp_ptax_oficial": "2025-09-05 13:04:18.063",
+      "cotacao_compra": 5.3962,
+      "cotacao_venda": 5.3968,
+      "usd_brl_mid": 5.3965
+    },
+    {
+      "data": "2025-09-08",
+      "timestamp_ptax_oficial": "2025-09-08 13:09:40.608",
+      "cotacao_compra": 5.4272,
+      "cotacao_venda": 5.4278,
+      "usd_brl_mid": 5.4275
+    },
+    {
+      "data": "2025-09-09",
+      "timestamp_ptax_oficial": "2025-09-09 13:07:27.786",
+      "cotacao_compra": 5.4272,
+      "cotacao_venda": 5.4278,
+      "usd_brl_mid": 5.4275
+    },
+    {
+      "data": "2025-09-10",
+      "timestamp_ptax_oficial": "2025-09-10 13:06:29.196",
+      "cotacao_compra": 5.4117,
+      "cotacao_venda": 5.4123,
+      "usd_brl_mid": 5.412
+    },
+    {
+      "data": "2025-09-11",
+      "timestamp_ptax_oficial": "2025-09-11 13:06:26.836",
+      "cotacao_compra": 5.3852,
+      "cotacao_venda": 5.3858,
+      "usd_brl_mid": 5.3855
+    },
+    {
+      "data": "2025-09-12",
+      "timestamp_ptax_oficial": "2025-09-12 13:10:29.351",
+      "cotacao_compra": 5.3671,
+      "cotacao_venda": 5.3677,
+      "usd_brl_mid": 5.3674
+    },
+    {
+      "data": "2025-09-15",
+      "timestamp_ptax_oficial": "2025-09-15 13:07:29.069",
+      "cotacao_compra": 5.3202,
+      "cotacao_venda": 5.3208,
+      "usd_brl_mid": 5.3205
+    },
+    {
+      "data": "2025-09-16",
+      "timestamp_ptax_oficial": "2025-09-16 13:08:26.586",
+      "cotacao_compra": 5.309,
+      "cotacao_venda": 5.3096,
+      "usd_brl_mid": 5.3093
+    },
+    {
+      "data": "2025-09-17",
+      "timestamp_ptax_oficial": "2025-09-17 13:10:27.522",
+      "cotacao_compra": 5.3005,
+      "cotacao_venda": 5.3011,
+      "usd_brl_mid": 5.3008
+    },
+    {
+      "data": "2025-09-18",
+      "timestamp_ptax_oficial": "2025-09-18 13:10:31.236",
+      "cotacao_compra": 5.3004,
+      "cotacao_venda": 5.301,
+      "usd_brl_mid": 5.3007
+    },
+    {
+      "data": "2025-09-19",
+      "timestamp_ptax_oficial": "2025-09-19 13:05:27.482",
+      "cotacao_compra": 5.327,
+      "cotacao_venda": 5.3276,
+      "usd_brl_mid": 5.3273
+    },
+    {
+      "data": "2025-09-22",
+      "timestamp_ptax_oficial": "2025-09-22 13:06:30.051",
+      "cotacao_compra": 5.3451,
+      "cotacao_venda": 5.3457,
+      "usd_brl_mid": 5.3454
+    },
+    {
+      "data": "2025-09-23",
+      "timestamp_ptax_oficial": "2025-09-23 13:06:42.796",
+      "cotacao_compra": 5.3057,
+      "cotacao_venda": 5.3063,
+      "usd_brl_mid": 5.306
+    },
+    {
+      "data": "2025-09-24",
+      "timestamp_ptax_oficial": "2025-09-24 13:09:26.489",
+      "cotacao_compra": 5.3106,
+      "cotacao_venda": 5.3112,
+      "usd_brl_mid": 5.3109
+    },
+    {
+      "data": "2025-09-25",
+      "timestamp_ptax_oficial": "2025-09-25 13:05:26.646",
+      "cotacao_compra": 5.3419,
+      "cotacao_venda": 5.3425,
+      "usd_brl_mid": 5.3422
+    },
+    {
+      "data": "2025-09-26",
+      "timestamp_ptax_oficial": "2025-09-26 13:02:27.976",
+      "cotacao_compra": 5.3439,
+      "cotacao_venda": 5.3445,
+      "usd_brl_mid": 5.3442
+    },
+    {
+      "data": "2025-09-29",
+      "timestamp_ptax_oficial": "2025-09-29 13:04:26.885",
+      "cotacao_compra": 5.3223,
+      "cotacao_venda": 5.3229,
+      "usd_brl_mid": 5.3226
+    },
+    {
+      "data": "2025-09-30",
+      "timestamp_ptax_oficial": "2025-09-30 13:08:29.141",
+      "cotacao_compra": 5.318,
+      "cotacao_venda": 5.3186,
+      "usd_brl_mid": 5.3183
+    },
+    {
+      "data": "2025-10-01",
+      "timestamp_ptax_oficial": "2025-10-01 13:02:30.159",
+      "cotacao_compra": 5.3202,
+      "cotacao_venda": 5.3208,
+      "usd_brl_mid": 5.3205
+    },
+    {
+      "data": "2025-10-02",
+      "timestamp_ptax_oficial": "2025-10-02 13:09:27.673",
+      "cotacao_compra": 5.3443,
+      "cotacao_venda": 5.3449,
+      "usd_brl_mid": 5.3446
+    },
+    {
+      "data": "2025-10-03",
+      "timestamp_ptax_oficial": "2025-10-03 13:05:27.368",
+      "cotacao_compra": 5.3492,
+      "cotacao_venda": 5.3498,
+      "usd_brl_mid": 5.3495
+    },
+    {
+      "data": "2025-10-06",
+      "timestamp_ptax_oficial": "2025-10-06 13:07:31.214",
+      "cotacao_compra": 5.322,
+      "cotacao_venda": 5.3226,
+      "usd_brl_mid": 5.3223
+    },
+    {
+      "data": "2025-10-07",
+      "timestamp_ptax_oficial": "2025-10-07 13:06:29.792",
+      "cotacao_compra": 5.3357,
+      "cotacao_venda": 5.3363,
+      "usd_brl_mid": 5.336
+    },
+    {
+      "data": "2025-10-08",
+      "timestamp_ptax_oficial": "2025-10-08 13:09:27.623",
+      "cotacao_compra": 5.3421,
+      "cotacao_venda": 5.3427,
+      "usd_brl_mid": 5.3424
+    },
+    {
+      "data": "2025-10-09",
+      "timestamp_ptax_oficial": "2025-10-09 13:09:28.649",
+      "cotacao_compra": 5.3532,
+      "cotacao_venda": 5.3538,
+      "usd_brl_mid": 5.3535
+    },
+    {
+      "data": "2025-10-10",
+      "timestamp_ptax_oficial": "2025-10-10 13:11:25.594",
+      "cotacao_compra": 5.444,
+      "cotacao_venda": 5.4446,
+      "usd_brl_mid": 5.4443
+    },
+    {
+      "data": "2025-10-13",
+      "timestamp_ptax_oficial": "2025-10-13 13:02:43.752",
+      "cotacao_compra": 5.4623,
+      "cotacao_venda": 5.4629,
+      "usd_brl_mid": 5.4626
+    },
+    {
+      "data": "2025-10-14",
+      "timestamp_ptax_oficial": "2025-10-14 13:11:26.346",
+      "cotacao_compra": 5.4976,
+      "cotacao_venda": 5.4982,
+      "usd_brl_mid": 5.4979
+    },
+    {
+      "data": "2025-10-15",
+      "timestamp_ptax_oficial": "2025-10-15 13:07:27.463",
+      "cotacao_compra": 5.4458,
+      "cotacao_venda": 5.4464,
+      "usd_brl_mid": 5.4461
+    },
+    {
+      "data": "2025-10-16",
+      "timestamp_ptax_oficial": "2025-10-16 13:10:33.41",
+      "cotacao_compra": 5.4348,
+      "cotacao_venda": 5.4354,
+      "usd_brl_mid": 5.4351
+    },
+    {
+      "data": "2025-10-17",
+      "timestamp_ptax_oficial": "2025-10-17 13:15:06.571",
+      "cotacao_compra": 5.4384,
+      "cotacao_venda": 5.439,
+      "usd_brl_mid": 5.4387
+    },
+    {
+      "data": "2025-10-20",
+      "timestamp_ptax_oficial": "2025-10-20 13:11:28.198",
+      "cotacao_compra": 5.3765,
+      "cotacao_venda": 5.3771,
+      "usd_brl_mid": 5.3768
+    },
+    {
+      "data": "2025-10-21",
+      "timestamp_ptax_oficial": "2025-10-21 13:08:29.967",
+      "cotacao_compra": 5.3842,
+      "cotacao_venda": 5.3848,
+      "usd_brl_mid": 5.3845
+    },
+    {
+      "data": "2025-10-22",
+      "timestamp_ptax_oficial": "2025-10-22 13:06:29.571",
+      "cotacao_compra": 5.3892,
+      "cotacao_venda": 5.3898,
+      "usd_brl_mid": 5.3895
+    },
+    {
+      "data": "2025-10-23",
+      "timestamp_ptax_oficial": "2025-10-23 13:02:28.345",
+      "cotacao_compra": 5.3834,
+      "cotacao_venda": 5.384,
+      "usd_brl_mid": 5.3837
+    },
+    {
+      "data": "2025-10-24",
+      "timestamp_ptax_oficial": "2025-10-24 13:08:27.751",
+      "cotacao_compra": 5.3791,
+      "cotacao_venda": 5.3797,
+      "usd_brl_mid": 5.3794
+    },
+    {
+      "data": "2025-10-27",
+      "timestamp_ptax_oficial": "2025-10-27 13:07:26.305",
+      "cotacao_compra": 5.3738,
+      "cotacao_venda": 5.3744,
+      "usd_brl_mid": 5.3741
+    },
+    {
+      "data": "2025-10-28",
+      "timestamp_ptax_oficial": "2025-10-28 13:04:28.183",
+      "cotacao_compra": 5.3684,
+      "cotacao_venda": 5.369,
+      "usd_brl_mid": 5.3687
+    },
+    {
+      "data": "2025-10-29",
+      "timestamp_ptax_oficial": "2025-10-29 13:04:21.681",
+      "cotacao_compra": 5.341,
+      "cotacao_venda": 5.3416,
+      "usd_brl_mid": 5.3413
+    },
+    {
+      "data": "2025-10-30",
+      "timestamp_ptax_oficial": "2025-10-30 13:09:27.437",
+      "cotacao_compra": 5.3844,
+      "cotacao_venda": 5.385,
+      "usd_brl_mid": 5.3847
+    },
+    {
+      "data": "2025-10-31",
+      "timestamp_ptax_oficial": "2025-10-31 13:07:28.481",
+      "cotacao_compra": 5.3837,
+      "cotacao_venda": 5.3843,
+      "usd_brl_mid": 5.384
+    },
+    {
+      "data": "2025-11-03",
+      "timestamp_ptax_oficial": "2025-11-03 13:06:25.333",
+      "cotacao_compra": 5.3499,
+      "cotacao_venda": 5.3505,
+      "usd_brl_mid": 5.3502
+    },
+    {
+      "data": "2025-11-04",
+      "timestamp_ptax_oficial": "2025-11-04 13:07:26.986",
+      "cotacao_compra": 5.384,
+      "cotacao_venda": 5.3846,
+      "usd_brl_mid": 5.3843
+    },
+    {
+      "data": "2025-11-05",
+      "timestamp_ptax_oficial": "2025-11-05 13:07:26.804",
+      "cotacao_compra": 5.3792,
+      "cotacao_venda": 5.3798,
+      "usd_brl_mid": 5.3795
+    },
+    {
+      "data": "2025-11-06",
+      "timestamp_ptax_oficial": "2025-11-06 13:02:49.425",
+      "cotacao_compra": 5.3445,
+      "cotacao_venda": 5.3451,
+      "usd_brl_mid": 5.3448
+    },
+    {
+      "data": "2025-11-07",
+      "timestamp_ptax_oficial": "2025-11-07 13:10:31.908",
+      "cotacao_compra": 5.3561,
+      "cotacao_venda": 5.3567,
+      "usd_brl_mid": 5.3564
+    },
+    {
+      "data": "2025-11-10",
+      "timestamp_ptax_oficial": "2025-11-10 13:03:31.138",
+      "cotacao_compra": 5.3175,
+      "cotacao_venda": 5.3181,
+      "usd_brl_mid": 5.3178
+    },
+    {
+      "data": "2025-11-11",
+      "timestamp_ptax_oficial": "2025-11-11 13:07:30.004",
+      "cotacao_compra": 5.2723,
+      "cotacao_venda": 5.2729,
+      "usd_brl_mid": 5.2726
+    },
+    {
+      "data": "2025-11-12",
+      "timestamp_ptax_oficial": "2025-11-12 13:11:25.169",
+      "cotacao_compra": 5.2879,
+      "cotacao_venda": 5.2885,
+      "usd_brl_mid": 5.2882
+    },
+    {
+      "data": "2025-11-13",
+      "timestamp_ptax_oficial": "2025-11-13 13:07:27.563",
+      "cotacao_compra": 5.2814,
+      "cotacao_venda": 5.282,
+      "usd_brl_mid": 5.2817
+    },
+    {
+      "data": "2025-11-14",
+      "timestamp_ptax_oficial": "2025-11-14 13:11:28.202",
+      "cotacao_compra": 5.2946,
+      "cotacao_venda": 5.2952,
+      "usd_brl_mid": 5.2949
+    },
+    {
+      "data": "2025-11-17",
+      "timestamp_ptax_oficial": "2025-11-17 13:07:28.766",
+      "cotacao_compra": 5.3102,
+      "cotacao_venda": 5.3108,
+      "usd_brl_mid": 5.3105
+    },
+    {
+      "data": "2025-11-18",
+      "timestamp_ptax_oficial": "2025-11-18 13:10:26.459",
+      "cotacao_compra": 5.3355,
+      "cotacao_venda": 5.3361,
+      "usd_brl_mid": 5.3358
+    },
+    {
+      "data": "2025-11-19",
+      "timestamp_ptax_oficial": "2025-11-19 13:09:27.626",
+      "cotacao_compra": 5.334,
+      "cotacao_venda": 5.3346,
+      "usd_brl_mid": 5.3343
+    },
+    {
+      "data": "2025-11-21",
+      "timestamp_ptax_oficial": "2025-11-21 13:06:33.395",
+      "cotacao_compra": 5.3896,
+      "cotacao_venda": 5.3902,
+      "usd_brl_mid": 5.3899
+    },
+    {
+      "data": "2025-11-24",
+      "timestamp_ptax_oficial": "2025-11-24 13:02:26.741",
+      "cotacao_compra": 5.3942,
+      "cotacao_venda": 5.3948,
+      "usd_brl_mid": 5.3945
+    },
+    {
+      "data": "2025-11-25",
+      "timestamp_ptax_oficial": "2025-11-25 13:05:27.685",
+      "cotacao_compra": 5.3835,
+      "cotacao_venda": 5.3841,
+      "usd_brl_mid": 5.3838
+    },
+    {
+      "data": "2025-11-26",
+      "timestamp_ptax_oficial": "2025-11-26 13:03:30.935",
+      "cotacao_compra": 5.3688,
+      "cotacao_venda": 5.3694,
+      "usd_brl_mid": 5.3691
+    },
+    {
+      "data": "2025-11-27",
+      "timestamp_ptax_oficial": "2025-11-27 13:07:26.522",
+      "cotacao_compra": 5.3484,
+      "cotacao_venda": 5.349,
+      "usd_brl_mid": 5.3487
+    },
+    {
+      "data": "2025-11-28",
+      "timestamp_ptax_oficial": "2025-11-28 13:10:31.721",
+      "cotacao_compra": 5.3332,
+      "cotacao_venda": 5.3338,
+      "usd_brl_mid": 5.3335
+    },
+    {
+      "data": "2025-12-01",
+      "timestamp_ptax_oficial": "2025-12-01 13:07:36.236",
+      "cotacao_compra": 5.3463,
+      "cotacao_venda": 5.3469,
+      "usd_brl_mid": 5.3466
+    },
+    {
+      "data": "2025-12-02",
+      "timestamp_ptax_oficial": "2025-12-02 13:07:03.239",
+      "cotacao_compra": 5.3459,
+      "cotacao_venda": 5.3465,
+      "usd_brl_mid": 5.3462
+    },
+    {
+      "data": "2025-12-03",
+      "timestamp_ptax_oficial": "2025-12-03 13:05:25.575",
+      "cotacao_compra": 5.3108,
+      "cotacao_venda": 5.3114,
+      "usd_brl_mid": 5.3111
+    },
+    {
+      "data": "2025-12-04",
+      "timestamp_ptax_oficial": "2025-12-04 13:08:17.839",
+      "cotacao_compra": 5.2946,
+      "cotacao_venda": 5.2952,
+      "usd_brl_mid": 5.2949
+    },
+    {
+      "data": "2025-12-05",
+      "timestamp_ptax_oficial": "2025-12-05 13:09:08.512",
+      "cotacao_compra": 5.3399,
+      "cotacao_venda": 5.3405,
+      "usd_brl_mid": 5.3402
+    },
+    {
+      "data": "2025-12-08",
+      "timestamp_ptax_oficial": "2025-12-08 13:03:07.424",
+      "cotacao_compra": 5.4243,
+      "cotacao_venda": 5.4249,
+      "usd_brl_mid": 5.4246
+    },
+    {
+      "data": "2025-12-09",
+      "timestamp_ptax_oficial": "2025-12-09 13:11:26.737",
+      "cotacao_compra": 5.4564,
+      "cotacao_venda": 5.457,
+      "usd_brl_mid": 5.4567
+    },
+    {
+      "data": "2025-12-10",
+      "timestamp_ptax_oficial": "2025-12-10 13:10:04.98",
+      "cotacao_compra": 5.465,
+      "cotacao_venda": 5.4656,
+      "usd_brl_mid": 5.4653
+    },
+    {
+      "data": "2025-12-11",
+      "timestamp_ptax_oficial": "2025-12-11 13:03:26.528",
+      "cotacao_compra": 5.4231,
+      "cotacao_venda": 5.4237,
+      "usd_brl_mid": 5.4234
+    },
+    {
+      "data": "2025-12-12",
+      "timestamp_ptax_oficial": "2025-12-12 13:06:27.227",
+      "cotacao_compra": 5.4005,
+      "cotacao_venda": 5.4011,
+      "usd_brl_mid": 5.4008
+    },
+    {
+      "data": "2025-12-15",
+      "timestamp_ptax_oficial": "2025-12-15 13:09:27.23",
+      "cotacao_compra": 5.3923,
+      "cotacao_venda": 5.3929,
+      "usd_brl_mid": 5.3926
+    },
+    {
+      "data": "2025-12-16",
+      "timestamp_ptax_oficial": "2025-12-16 13:07:25.964",
+      "cotacao_compra": 5.4499,
+      "cotacao_venda": 5.4505,
+      "usd_brl_mid": 5.4502
+    },
+    {
+      "data": "2025-12-17",
+      "timestamp_ptax_oficial": "2025-12-17 13:03:29.544",
+      "cotacao_compra": 5.5087,
+      "cotacao_venda": 5.5093,
+      "usd_brl_mid": 5.509
+    },
+    {
+      "data": "2025-12-18",
+      "timestamp_ptax_oficial": "2025-12-18 13:11:26.11",
+      "cotacao_compra": 5.5277,
+      "cotacao_venda": 5.5283,
+      "usd_brl_mid": 5.528
+    },
+    {
+      "data": "2025-12-19",
+      "timestamp_ptax_oficial": "2025-12-19 13:03:35.584",
+      "cotacao_compra": 5.5154,
+      "cotacao_venda": 5.516,
+      "usd_brl_mid": 5.5157
+    },
+    {
+      "data": "2025-12-22",
+      "timestamp_ptax_oficial": "2025-12-22 13:03:26.125",
+      "cotacao_compra": 5.5383,
+      "cotacao_venda": 5.5389,
+      "usd_brl_mid": 5.5386
+    },
+    {
+      "data": "2025-12-23",
+      "timestamp_ptax_oficial": "2025-12-23 13:04:26.622",
+      "cotacao_compra": 5.5637,
+      "cotacao_venda": 5.5643,
+      "usd_brl_mid": 5.564
+    },
+    {
+      "data": "2025-12-24",
+      "timestamp_ptax_oficial": "2025-12-24 11:07:45.216",
+      "cotacao_compra": 5.5342,
+      "cotacao_venda": 5.535,
+      "usd_brl_mid": 5.5346
+    },
+    {
+      "data": "2025-12-26",
+      "timestamp_ptax_oficial": "2025-12-26 13:07:27.597",
+      "cotacao_compra": 5.5407,
+      "cotacao_venda": 5.5413,
+      "usd_brl_mid": 5.541
+    },
+    {
+      "data": "2025-12-29",
+      "timestamp_ptax_oficial": "2025-12-29 13:10:01.131",
+      "cotacao_compra": 5.5733,
+      "cotacao_venda": 5.5739,
+      "usd_brl_mid": 5.5736
+    },
+    {
+      "data": "2025-12-30",
+      "timestamp_ptax_oficial": "2025-12-30 13:12:00.341",
+      "cotacao_compra": 5.5018,
+      "cotacao_venda": 5.5024,
+      "usd_brl_mid": 5.5021
+    },
+    {
+      "data": "2025-12-31",
+      "timestamp_ptax_oficial": "2025-12-31 10:06:24.183",
+      "cotacao_compra": 5.5018,
+      "cotacao_venda": 5.5024,
+      "usd_brl_mid": 5.5021
+    }
+  ],
+  "mapa_dia_util_ptax_carryforward": {
+    "2025-01-01": {
+      "data": "2025-01-02",
+      "timestamp_ptax_oficial": "2025-01-02 13:09:42.489",
+      "cotacao_compra": 6.208,
+      "cotacao_venda": 6.2086,
+      "usd_brl_mid": 6.2083
+    },
+    "2025-01-02": {
+      "data": "2025-01-02",
+      "timestamp_ptax_oficial": "2025-01-02 13:09:42.489",
+      "cotacao_compra": 6.208,
+      "cotacao_venda": 6.2086,
+      "usd_brl_mid": 6.2083
+    },
+    "2025-01-03": {
+      "data": "2025-01-03",
+      "timestamp_ptax_oficial": "2025-01-03 13:07:30.503",
+      "cotacao_compra": 6.1557,
+      "cotacao_venda": 6.1563,
+      "usd_brl_mid": 6.156
+    },
+    "2025-01-04": {
+      "data": "2025-01-03",
+      "timestamp_ptax_oficial": "2025-01-03 13:07:30.503",
+      "cotacao_compra": 6.1557,
+      "cotacao_venda": 6.1563,
+      "usd_brl_mid": 6.156
+    },
+    "2025-01-05": {
+      "data": "2025-01-03",
+      "timestamp_ptax_oficial": "2025-01-03 13:07:30.503",
+      "cotacao_compra": 6.1557,
+      "cotacao_venda": 6.1563,
+      "usd_brl_mid": 6.156
+    },
+    "2025-01-06": {
+      "data": "2025-01-06",
+      "timestamp_ptax_oficial": "2025-01-06 13:06:28.533",
+      "cotacao_compra": 6.1113,
+      "cotacao_venda": 6.1119,
+      "usd_brl_mid": 6.1116
+    },
+    "2025-01-07": {
+      "data": "2025-01-07",
+      "timestamp_ptax_oficial": "2025-01-07 13:03:28.766",
+      "cotacao_compra": 6.0735,
+      "cotacao_venda": 6.0741,
+      "usd_brl_mid": 6.0738
+    },
+    "2025-01-08": {
+      "data": "2025-01-08",
+      "timestamp_ptax_oficial": "2025-01-08 13:08:59.784",
+      "cotacao_compra": 6.1315,
+      "cotacao_venda": 6.1321,
+      "usd_brl_mid": 6.1318
+    },
+    "2025-01-09": {
+      "data": "2025-01-09",
+      "timestamp_ptax_oficial": "2025-01-09 13:03:27.828",
+      "cotacao_compra": 6.089,
+      "cotacao_venda": 6.0896,
+      "usd_brl_mid": 6.0893
+    },
+    "2025-01-10": {
+      "data": "2025-01-10",
+      "timestamp_ptax_oficial": "2025-01-10 13:04:30.342",
+      "cotacao_compra": 6.0959,
+      "cotacao_venda": 6.0965,
+      "usd_brl_mid": 6.0962
+    },
+    "2025-01-11": {
+      "data": "2025-01-10",
+      "timestamp_ptax_oficial": "2025-01-10 13:04:30.342",
+      "cotacao_compra": 6.0959,
+      "cotacao_venda": 6.0965,
+      "usd_brl_mid": 6.0962
+    },
+    "2025-01-12": {
+      "data": "2025-01-10",
+      "timestamp_ptax_oficial": "2025-01-10 13:04:30.342",
+      "cotacao_compra": 6.0959,
+      "cotacao_venda": 6.0965,
+      "usd_brl_mid": 6.0962
+    },
+    "2025-01-13": {
+      "data": "2025-01-13",
+      "timestamp_ptax_oficial": "2025-01-13 13:03:30.256",
+      "cotacao_compra": 6.1073,
+      "cotacao_venda": 6.1079,
+      "usd_brl_mid": 6.1076
+    },
+    "2025-01-14": {
+      "data": "2025-01-14",
+      "timestamp_ptax_oficial": "2025-01-14 13:07:27.066",
+      "cotacao_compra": 6.0665,
+      "cotacao_venda": 6.0671,
+      "usd_brl_mid": 6.0668
+    },
+    "2025-01-15": {
+      "data": "2025-01-15",
+      "timestamp_ptax_oficial": "2025-01-15 13:06:07.747",
+      "cotacao_compra": 6.0371,
+      "cotacao_venda": 6.0377,
+      "usd_brl_mid": 6.0374
+    },
+    "2025-01-16": {
+      "data": "2025-01-16",
+      "timestamp_ptax_oficial": "2025-01-16 13:06:28.873",
+      "cotacao_compra": 6.0316,
+      "cotacao_venda": 6.0322,
+      "usd_brl_mid": 6.0319
+    },
+    "2025-01-17": {
+      "data": "2025-01-17",
+      "timestamp_ptax_oficial": "2025-01-17 13:11:29.354",
+      "cotacao_compra": 6.0603,
+      "cotacao_venda": 6.0609,
+      "usd_brl_mid": 6.0606
+    },
+    "2025-01-18": {
+      "data": "2025-01-17",
+      "timestamp_ptax_oficial": "2025-01-17 13:11:29.354",
+      "cotacao_compra": 6.0603,
+      "cotacao_venda": 6.0609,
+      "usd_brl_mid": 6.0606
+    },
+    "2025-01-19": {
+      "data": "2025-01-17",
+      "timestamp_ptax_oficial": "2025-01-17 13:11:29.354",
+      "cotacao_compra": 6.0603,
+      "cotacao_venda": 6.0609,
+      "usd_brl_mid": 6.0606
+    },
+    "2025-01-20": {
+      "data": "2025-01-20",
+      "timestamp_ptax_oficial": "2025-01-20 13:07:31.452",
+      "cotacao_compra": 6.0492,
+      "cotacao_venda": 6.0498,
+      "usd_brl_mid": 6.0495
+    },
+    "2025-01-21": {
+      "data": "2025-01-21",
+      "timestamp_ptax_oficial": "2025-01-21 13:11:47.015",
+      "cotacao_compra": 6.0434,
+      "cotacao_venda": 6.044,
+      "usd_brl_mid": 6.0437
+    },
+    "2025-01-22": {
+      "data": "2025-01-22",
+      "timestamp_ptax_oficial": "2025-01-22 13:03:29.96",
+      "cotacao_compra": 5.9668,
+      "cotacao_venda": 5.9674,
+      "usd_brl_mid": 5.9671
+    },
+    "2025-01-23": {
+      "data": "2025-01-23",
+      "timestamp_ptax_oficial": "2025-01-23 13:08:28.183",
+      "cotacao_compra": 5.9393,
+      "cotacao_venda": 5.9399,
+      "usd_brl_mid": 5.9396
+    },
+    "2025-01-24": {
+      "data": "2025-01-24",
+      "timestamp_ptax_oficial": "2025-01-24 13:03:26.922",
+      "cotacao_compra": 5.8919,
+      "cotacao_venda": 5.8925,
+      "usd_brl_mid": 5.8922
+    },
+    "2025-01-25": {
+      "data": "2025-01-24",
+      "timestamp_ptax_oficial": "2025-01-24 13:03:26.922",
+      "cotacao_compra": 5.8919,
+      "cotacao_venda": 5.8925,
+      "usd_brl_mid": 5.8922
+    },
+    "2025-01-26": {
+      "data": "2025-01-24",
+      "timestamp_ptax_oficial": "2025-01-24 13:03:26.922",
+      "cotacao_compra": 5.8919,
+      "cotacao_venda": 5.8925,
+      "usd_brl_mid": 5.8922
+    },
+    "2025-01-27": {
+      "data": "2025-01-27",
+      "timestamp_ptax_oficial": "2025-01-27 13:07:48.122",
+      "cotacao_compra": 5.9266,
+      "cotacao_venda": 5.9272,
+      "usd_brl_mid": 5.9269
+    },
+    "2025-01-28": {
+      "data": "2025-01-28",
+      "timestamp_ptax_oficial": "2025-01-28 13:08:29.32",
+      "cotacao_compra": 5.8924,
+      "cotacao_venda": 5.893,
+      "usd_brl_mid": 5.8927
+    },
+    "2025-01-29": {
+      "data": "2025-01-29",
+      "timestamp_ptax_oficial": "2025-01-29 13:06:27.048",
+      "cotacao_compra": 5.859,
+      "cotacao_venda": 5.8596,
+      "usd_brl_mid": 5.8593
+    },
+    "2025-01-30": {
+      "data": "2025-01-30",
+      "timestamp_ptax_oficial": "2025-01-30 13:10:28.513",
+      "cotacao_compra": 5.9,
+      "cotacao_venda": 5.9006,
+      "usd_brl_mid": 5.9003
+    },
+    "2025-01-31": {
+      "data": "2025-01-31",
+      "timestamp_ptax_oficial": "2025-01-31 13:03:54.994",
+      "cotacao_compra": 5.8295,
+      "cotacao_venda": 5.8301,
+      "usd_brl_mid": 5.8298
+    },
+    "2025-02-01": {
+      "data": "2025-01-31",
+      "timestamp_ptax_oficial": "2025-01-31 13:03:54.994",
+      "cotacao_compra": 5.8295,
+      "cotacao_venda": 5.8301,
+      "usd_brl_mid": 5.8298
+    },
+    "2025-02-02": {
+      "data": "2025-01-31",
+      "timestamp_ptax_oficial": "2025-01-31 13:03:54.994",
+      "cotacao_compra": 5.8295,
+      "cotacao_venda": 5.8301,
+      "usd_brl_mid": 5.8298
+    },
+    "2025-02-03": {
+      "data": "2025-02-03",
+      "timestamp_ptax_oficial": "2025-02-03 13:06:26.028",
+      "cotacao_compra": 5.8681,
+      "cotacao_venda": 5.8687,
+      "usd_brl_mid": 5.8684
+    },
+    "2025-02-04": {
+      "data": "2025-02-04",
+      "timestamp_ptax_oficial": "2025-02-04 13:05:40.177",
+      "cotacao_compra": 5.7921,
+      "cotacao_venda": 5.7927,
+      "usd_brl_mid": 5.7924
+    },
+    "2025-02-05": {
+      "data": "2025-02-05",
+      "timestamp_ptax_oficial": "2025-02-05 13:11:27.245",
+      "cotacao_compra": 5.7991,
+      "cotacao_venda": 5.7997,
+      "usd_brl_mid": 5.7994
+    },
+    "2025-02-06": {
+      "data": "2025-02-06",
+      "timestamp_ptax_oficial": "2025-02-06 13:08:27.966",
+      "cotacao_compra": 5.785,
+      "cotacao_venda": 5.7856,
+      "usd_brl_mid": 5.7853
+    },
+    "2025-02-07": {
+      "data": "2025-02-07",
+      "timestamp_ptax_oficial": "2025-02-07 13:10:30.349",
+      "cotacao_compra": 5.7551,
+      "cotacao_venda": 5.7557,
+      "usd_brl_mid": 5.7554
+    },
+    "2025-02-08": {
+      "data": "2025-02-07",
+      "timestamp_ptax_oficial": "2025-02-07 13:10:30.349",
+      "cotacao_compra": 5.7551,
+      "cotacao_venda": 5.7557,
+      "usd_brl_mid": 5.7554
+    },
+    "2025-02-09": {
+      "data": "2025-02-07",
+      "timestamp_ptax_oficial": "2025-02-07 13:10:30.349",
+      "cotacao_compra": 5.7551,
+      "cotacao_venda": 5.7557,
+      "usd_brl_mid": 5.7554
+    },
+    "2025-02-10": {
+      "data": "2025-02-10",
+      "timestamp_ptax_oficial": "2025-02-10 13:11:28.726",
+      "cotacao_compra": 5.7802,
+      "cotacao_venda": 5.7808,
+      "usd_brl_mid": 5.7805
+    },
+    "2025-02-11": {
+      "data": "2025-02-11",
+      "timestamp_ptax_oficial": "2025-02-11 13:06:28.511",
+      "cotacao_compra": 5.7782,
+      "cotacao_venda": 5.7788,
+      "usd_brl_mid": 5.7785
+    },
+    "2025-02-12": {
+      "data": "2025-02-12",
+      "timestamp_ptax_oficial": "2025-02-12 13:02:27.08",
+      "cotacao_compra": 5.7705,
+      "cotacao_venda": 5.7711,
+      "usd_brl_mid": 5.7708
+    },
+    "2025-02-13": {
+      "data": "2025-02-13",
+      "timestamp_ptax_oficial": "2025-02-13 13:03:25.728",
+      "cotacao_compra": 5.7782,
+      "cotacao_venda": 5.7788,
+      "usd_brl_mid": 5.7785
+    },
+    "2025-02-14": {
+      "data": "2025-02-14",
+      "timestamp_ptax_oficial": "2025-02-14 13:11:25.842",
+      "cotacao_compra": 5.7277,
+      "cotacao_venda": 5.7283,
+      "usd_brl_mid": 5.728
+    },
+    "2025-02-15": {
+      "data": "2025-02-14",
+      "timestamp_ptax_oficial": "2025-02-14 13:11:25.842",
+      "cotacao_compra": 5.7277,
+      "cotacao_venda": 5.7283,
+      "usd_brl_mid": 5.728
+    },
+    "2025-02-16": {
+      "data": "2025-02-14",
+      "timestamp_ptax_oficial": "2025-02-14 13:11:25.842",
+      "cotacao_compra": 5.7277,
+      "cotacao_venda": 5.7283,
+      "usd_brl_mid": 5.728
+    },
+    "2025-02-17": {
+      "data": "2025-02-17",
+      "timestamp_ptax_oficial": "2025-02-17 13:07:25.989",
+      "cotacao_compra": 5.7099,
+      "cotacao_venda": 5.7105,
+      "usd_brl_mid": 5.7102
+    },
+    "2025-02-18": {
+      "data": "2025-02-18",
+      "timestamp_ptax_oficial": "2025-02-18 13:09:27.38",
+      "cotacao_compra": 5.6973,
+      "cotacao_venda": 5.6979,
+      "usd_brl_mid": 5.6976
+    },
+    "2025-02-19": {
+      "data": "2025-02-19",
+      "timestamp_ptax_oficial": "2025-02-19 13:07:31.091",
+      "cotacao_compra": 5.7081,
+      "cotacao_venda": 5.7087,
+      "usd_brl_mid": 5.7084
+    },
+    "2025-02-20": {
+      "data": "2025-02-20",
+      "timestamp_ptax_oficial": "2025-02-20 13:11:27.341",
+      "cotacao_compra": 5.7013,
+      "cotacao_venda": 5.7019,
+      "usd_brl_mid": 5.7016
+    },
+    "2025-02-21": {
+      "data": "2025-02-21",
+      "timestamp_ptax_oficial": "2025-02-21 13:02:27.066",
+      "cotacao_compra": 5.7021,
+      "cotacao_venda": 5.7027,
+      "usd_brl_mid": 5.7024
+    },
+    "2025-02-22": {
+      "data": "2025-02-21",
+      "timestamp_ptax_oficial": "2025-02-21 13:02:27.066",
+      "cotacao_compra": 5.7021,
+      "cotacao_venda": 5.7027,
+      "usd_brl_mid": 5.7024
+    },
+    "2025-02-23": {
+      "data": "2025-02-21",
+      "timestamp_ptax_oficial": "2025-02-21 13:02:27.066",
+      "cotacao_compra": 5.7021,
+      "cotacao_venda": 5.7027,
+      "usd_brl_mid": 5.7024
+    },
+    "2025-02-24": {
+      "data": "2025-02-24",
+      "timestamp_ptax_oficial": "2025-02-24 13:06:26.536",
+      "cotacao_compra": 5.7252,
+      "cotacao_venda": 5.7258,
+      "usd_brl_mid": 5.7255
+    },
+    "2025-02-25": {
+      "data": "2025-02-25",
+      "timestamp_ptax_oficial": "2025-02-25 13:08:29.097",
+      "cotacao_compra": 5.7773,
+      "cotacao_venda": 5.7779,
+      "usd_brl_mid": 5.7776
+    },
+    "2025-02-26": {
+      "data": "2025-02-26",
+      "timestamp_ptax_oficial": "2025-02-26 13:06:28.007",
+      "cotacao_compra": 5.7751,
+      "cotacao_venda": 5.7757,
+      "usd_brl_mid": 5.7754
+    },
+    "2025-02-27": {
+      "data": "2025-02-27",
+      "timestamp_ptax_oficial": "2025-02-27 13:02:27.094",
+      "cotacao_compra": 5.8222,
+      "cotacao_venda": 5.8228,
+      "usd_brl_mid": 5.8225
+    },
+    "2025-02-28": {
+      "data": "2025-02-28",
+      "timestamp_ptax_oficial": "2025-02-28 13:04:29.1",
+      "cotacao_compra": 5.8482,
+      "cotacao_venda": 5.8488,
+      "usd_brl_mid": 5.8485
+    },
+    "2025-03-01": {
+      "data": "2025-02-28",
+      "timestamp_ptax_oficial": "2025-02-28 13:04:29.1",
+      "cotacao_compra": 5.8482,
+      "cotacao_venda": 5.8488,
+      "usd_brl_mid": 5.8485
+    },
+    "2025-03-02": {
+      "data": "2025-02-28",
+      "timestamp_ptax_oficial": "2025-02-28 13:04:29.1",
+      "cotacao_compra": 5.8482,
+      "cotacao_venda": 5.8488,
+      "usd_brl_mid": 5.8485
+    },
+    "2025-03-03": {
+      "data": "2025-02-28",
+      "timestamp_ptax_oficial": "2025-02-28 13:04:29.1",
+      "cotacao_compra": 5.8482,
+      "cotacao_venda": 5.8488,
+      "usd_brl_mid": 5.8485
+    },
+    "2025-03-04": {
+      "data": "2025-02-28",
+      "timestamp_ptax_oficial": "2025-02-28 13:04:29.1",
+      "cotacao_compra": 5.8482,
+      "cotacao_venda": 5.8488,
+      "usd_brl_mid": 5.8485
+    },
+    "2025-03-05": {
+      "data": "2025-03-05",
+      "timestamp_ptax_oficial": "2025-03-05 15:36:28.199",
+      "cotacao_compra": 5.7908,
+      "cotacao_venda": 5.7914,
+      "usd_brl_mid": 5.7911
+    },
+    "2025-03-06": {
+      "data": "2025-03-06",
+      "timestamp_ptax_oficial": "2025-03-06 13:11:00.814",
+      "cotacao_compra": 5.7483,
+      "cotacao_venda": 5.7489,
+      "usd_brl_mid": 5.7486
+    },
+    "2025-03-07": {
+      "data": "2025-03-07",
+      "timestamp_ptax_oficial": "2025-03-07 13:08:41.977",
+      "cotacao_compra": 5.7682,
+      "cotacao_venda": 5.7688,
+      "usd_brl_mid": 5.7685
+    },
+    "2025-03-08": {
+      "data": "2025-03-07",
+      "timestamp_ptax_oficial": "2025-03-07 13:08:41.977",
+      "cotacao_compra": 5.7682,
+      "cotacao_venda": 5.7688,
+      "usd_brl_mid": 5.7685
+    },
+    "2025-03-09": {
+      "data": "2025-03-07",
+      "timestamp_ptax_oficial": "2025-03-07 13:08:41.977",
+      "cotacao_compra": 5.7682,
+      "cotacao_venda": 5.7688,
+      "usd_brl_mid": 5.7685
+    },
+    "2025-03-10": {
+      "data": "2025-03-10",
+      "timestamp_ptax_oficial": "2025-03-10 13:03:01.674",
+      "cotacao_compra": 5.7924,
+      "cotacao_venda": 5.793,
+      "usd_brl_mid": 5.7927
+    },
+    "2025-03-11": {
+      "data": "2025-03-11",
+      "timestamp_ptax_oficial": "2025-03-11 13:05:28.232",
+      "cotacao_compra": 5.8341,
+      "cotacao_venda": 5.8346,
+      "usd_brl_mid": 5.8344
+    },
+    "2025-03-12": {
+      "data": "2025-03-12",
+      "timestamp_ptax_oficial": "2025-03-12 13:08:28.781",
+      "cotacao_compra": 5.8262,
+      "cotacao_venda": 5.8268,
+      "usd_brl_mid": 5.8265
+    },
+    "2025-03-13": {
+      "data": "2025-03-13",
+      "timestamp_ptax_oficial": "2025-03-13 13:03:28.272",
+      "cotacao_compra": 5.8125,
+      "cotacao_venda": 5.8131,
+      "usd_brl_mid": 5.8128
+    },
+    "2025-03-14": {
+      "data": "2025-03-14",
+      "timestamp_ptax_oficial": "2025-03-14 13:06:19.269",
+      "cotacao_compra": 5.7413,
+      "cotacao_venda": 5.7419,
+      "usd_brl_mid": 5.7416
+    },
+    "2025-03-15": {
+      "data": "2025-03-14",
+      "timestamp_ptax_oficial": "2025-03-14 13:06:19.269",
+      "cotacao_compra": 5.7413,
+      "cotacao_venda": 5.7419,
+      "usd_brl_mid": 5.7416
+    },
+    "2025-03-16": {
+      "data": "2025-03-14",
+      "timestamp_ptax_oficial": "2025-03-14 13:06:19.269",
+      "cotacao_compra": 5.7413,
+      "cotacao_venda": 5.7419,
+      "usd_brl_mid": 5.7416
+    },
+    "2025-03-17": {
+      "data": "2025-03-17",
+      "timestamp_ptax_oficial": "2025-03-17 13:11:28.771",
+      "cotacao_compra": 5.7076,
+      "cotacao_venda": 5.7082,
+      "usd_brl_mid": 5.7079
+    },
+    "2025-03-18": {
+      "data": "2025-03-18",
+      "timestamp_ptax_oficial": "2025-03-18 13:05:31.31",
+      "cotacao_compra": 5.6846,
+      "cotacao_venda": 5.6852,
+      "usd_brl_mid": 5.6849
+    },
+    "2025-03-19": {
+      "data": "2025-03-19",
+      "timestamp_ptax_oficial": "2025-03-19 13:08:27.744",
+      "cotacao_compra": 5.6651,
+      "cotacao_venda": 5.6657,
+      "usd_brl_mid": 5.6654
+    },
+    "2025-03-20": {
+      "data": "2025-03-20",
+      "timestamp_ptax_oficial": "2025-03-20 13:05:28.111",
+      "cotacao_compra": 5.6622,
+      "cotacao_venda": 5.6628,
+      "usd_brl_mid": 5.6625
+    },
+    "2025-03-21": {
+      "data": "2025-03-21",
+      "timestamp_ptax_oficial": "2025-03-21 13:03:25.486",
+      "cotacao_compra": 5.7235,
+      "cotacao_venda": 5.7241,
+      "usd_brl_mid": 5.7238
+    },
+    "2025-03-22": {
+      "data": "2025-03-21",
+      "timestamp_ptax_oficial": "2025-03-21 13:03:25.486",
+      "cotacao_compra": 5.7235,
+      "cotacao_venda": 5.7241,
+      "usd_brl_mid": 5.7238
+    },
+    "2025-03-23": {
+      "data": "2025-03-21",
+      "timestamp_ptax_oficial": "2025-03-21 13:03:25.486",
+      "cotacao_compra": 5.7235,
+      "cotacao_venda": 5.7241,
+      "usd_brl_mid": 5.7238
+    },
+    "2025-03-24": {
+      "data": "2025-03-24",
+      "timestamp_ptax_oficial": "2025-03-24 13:06:25.642",
+      "cotacao_compra": 5.7397,
+      "cotacao_venda": 5.7403,
+      "usd_brl_mid": 5.74
+    },
+    "2025-03-25": {
+      "data": "2025-03-25",
+      "timestamp_ptax_oficial": "2025-03-25 13:04:31.093",
+      "cotacao_compra": 5.6986,
+      "cotacao_venda": 5.6992,
+      "usd_brl_mid": 5.6989
+    },
+    "2025-03-26": {
+      "data": "2025-03-26",
+      "timestamp_ptax_oficial": "2025-03-26 13:05:51.728",
+      "cotacao_compra": 5.7292,
+      "cotacao_venda": 5.7298,
+      "usd_brl_mid": 5.7295
+    },
+    "2025-03-27": {
+      "data": "2025-03-27",
+      "timestamp_ptax_oficial": "2025-03-27 13:04:05.646",
+      "cotacao_compra": 5.7468,
+      "cotacao_venda": 5.7474,
+      "usd_brl_mid": 5.7471
+    },
+    "2025-03-28": {
+      "data": "2025-03-28",
+      "timestamp_ptax_oficial": "2025-03-28 13:02:32.689",
+      "cotacao_compra": 5.7654,
+      "cotacao_venda": 5.766,
+      "usd_brl_mid": 5.7657
+    },
+    "2025-03-29": {
+      "data": "2025-03-28",
+      "timestamp_ptax_oficial": "2025-03-28 13:02:32.689",
+      "cotacao_compra": 5.7654,
+      "cotacao_venda": 5.766,
+      "usd_brl_mid": 5.7657
+    },
+    "2025-03-30": {
+      "data": "2025-03-28",
+      "timestamp_ptax_oficial": "2025-03-28 13:02:32.689",
+      "cotacao_compra": 5.7654,
+      "cotacao_venda": 5.766,
+      "usd_brl_mid": 5.7657
+    },
+    "2025-03-31": {
+      "data": "2025-03-31",
+      "timestamp_ptax_oficial": "2025-03-31 13:11:27.506",
+      "cotacao_compra": 5.7416,
+      "cotacao_venda": 5.7422,
+      "usd_brl_mid": 5.7419
+    },
+    "2025-04-01": {
+      "data": "2025-04-01",
+      "timestamp_ptax_oficial": "2025-04-01 13:07:29.553",
+      "cotacao_compra": 5.7045,
+      "cotacao_venda": 5.7051,
+      "usd_brl_mid": 5.7048
+    },
+    "2025-04-02": {
+      "data": "2025-04-02",
+      "timestamp_ptax_oficial": "2025-04-02 13:02:29.942",
+      "cotacao_compra": 5.6918,
+      "cotacao_venda": 5.6923,
+      "usd_brl_mid": 5.6921
+    },
+    "2025-04-03": {
+      "data": "2025-04-03",
+      "timestamp_ptax_oficial": "2025-04-03 13:03:27.756",
+      "cotacao_compra": 5.6062,
+      "cotacao_venda": 5.6067,
+      "usd_brl_mid": 5.6065
+    },
+    "2025-04-04": {
+      "data": "2025-04-04",
+      "timestamp_ptax_oficial": "2025-04-04 13:07:28.528",
+      "cotacao_compra": 5.7771,
+      "cotacao_venda": 5.7777,
+      "usd_brl_mid": 5.7774
+    },
+    "2025-04-05": {
+      "data": "2025-04-04",
+      "timestamp_ptax_oficial": "2025-04-04 13:07:28.528",
+      "cotacao_compra": 5.7771,
+      "cotacao_venda": 5.7777,
+      "usd_brl_mid": 5.7774
+    },
+    "2025-04-06": {
+      "data": "2025-04-04",
+      "timestamp_ptax_oficial": "2025-04-04 13:07:28.528",
+      "cotacao_compra": 5.7771,
+      "cotacao_venda": 5.7777,
+      "usd_brl_mid": 5.7774
+    },
+    "2025-04-07": {
+      "data": "2025-04-07",
+      "timestamp_ptax_oficial": "2025-04-07 13:09:28.183",
+      "cotacao_compra": 5.8871,
+      "cotacao_venda": 5.8877,
+      "usd_brl_mid": 5.8874
+    },
+    "2025-04-08": {
+      "data": "2025-04-08",
+      "timestamp_ptax_oficial": "2025-04-08 13:04:41.076",
+      "cotacao_compra": 5.9362,
+      "cotacao_venda": 5.9368,
+      "usd_brl_mid": 5.9365
+    },
+    "2025-04-09": {
+      "data": "2025-04-09",
+      "timestamp_ptax_oficial": "2025-04-09 13:06:01.578",
+      "cotacao_compra": 6.0599,
+      "cotacao_venda": 6.0605,
+      "usd_brl_mid": 6.0602
+    },
+    "2025-04-10": {
+      "data": "2025-04-10",
+      "timestamp_ptax_oficial": "2025-04-10 13:09:27.619",
+      "cotacao_compra": 5.9109,
+      "cotacao_venda": 5.9115,
+      "usd_brl_mid": 5.9112
+    },
+    "2025-04-11": {
+      "data": "2025-04-11",
+      "timestamp_ptax_oficial": "2025-04-11 13:08:27.767",
+      "cotacao_compra": 5.8731,
+      "cotacao_venda": 5.8737,
+      "usd_brl_mid": 5.8734
+    },
+    "2025-04-12": {
+      "data": "2025-04-11",
+      "timestamp_ptax_oficial": "2025-04-11 13:08:27.767",
+      "cotacao_compra": 5.8731,
+      "cotacao_venda": 5.8737,
+      "usd_brl_mid": 5.8734
+    },
+    "2025-04-13": {
+      "data": "2025-04-11",
+      "timestamp_ptax_oficial": "2025-04-11 13:08:27.767",
+      "cotacao_compra": 5.8731,
+      "cotacao_venda": 5.8737,
+      "usd_brl_mid": 5.8734
+    },
+    "2025-04-14": {
+      "data": "2025-04-14",
+      "timestamp_ptax_oficial": "2025-04-14 13:09:48.507",
+      "cotacao_compra": 5.8419,
+      "cotacao_venda": 5.8425,
+      "usd_brl_mid": 5.8422
+    },
+    "2025-04-15": {
+      "data": "2025-04-15",
+      "timestamp_ptax_oficial": "2025-04-15 13:07:27.338",
+      "cotacao_compra": 5.8701,
+      "cotacao_venda": 5.8707,
+      "usd_brl_mid": 5.8704
+    },
+    "2025-04-16": {
+      "data": "2025-04-16",
+      "timestamp_ptax_oficial": "2025-04-16 13:10:28.345",
+      "cotacao_compra": 5.8802,
+      "cotacao_venda": 5.8808,
+      "usd_brl_mid": 5.8805
+    },
+    "2025-04-17": {
+      "data": "2025-04-17",
+      "timestamp_ptax_oficial": "2025-04-17 13:11:49.566",
+      "cotacao_compra": 5.8553,
+      "cotacao_venda": 5.8559,
+      "usd_brl_mid": 5.8556
+    },
+    "2025-04-18": {
+      "data": "2025-04-17",
+      "timestamp_ptax_oficial": "2025-04-17 13:11:49.566",
+      "cotacao_compra": 5.8553,
+      "cotacao_venda": 5.8559,
+      "usd_brl_mid": 5.8556
+    },
+    "2025-04-19": {
+      "data": "2025-04-17",
+      "timestamp_ptax_oficial": "2025-04-17 13:11:49.566",
+      "cotacao_compra": 5.8553,
+      "cotacao_venda": 5.8559,
+      "usd_brl_mid": 5.8556
+    },
+    "2025-04-20": {
+      "data": "2025-04-17",
+      "timestamp_ptax_oficial": "2025-04-17 13:11:49.566",
+      "cotacao_compra": 5.8553,
+      "cotacao_venda": 5.8559,
+      "usd_brl_mid": 5.8556
+    },
+    "2025-04-21": {
+      "data": "2025-04-17",
+      "timestamp_ptax_oficial": "2025-04-17 13:11:49.566",
+      "cotacao_compra": 5.8553,
+      "cotacao_venda": 5.8559,
+      "usd_brl_mid": 5.8556
+    },
+    "2025-04-22": {
+      "data": "2025-04-22",
+      "timestamp_ptax_oficial": "2025-04-22 13:09:35.629",
+      "cotacao_compra": 5.749,
+      "cotacao_venda": 5.7496,
+      "usd_brl_mid": 5.7493
+    },
+    "2025-04-23": {
+      "data": "2025-04-23",
+      "timestamp_ptax_oficial": "2025-04-23 13:06:30.443",
+      "cotacao_compra": 5.6874,
+      "cotacao_venda": 5.688,
+      "usd_brl_mid": 5.6877
+    },
+    "2025-04-24": {
+      "data": "2025-04-24",
+      "timestamp_ptax_oficial": "2025-04-24 13:04:29.639",
+      "cotacao_compra": 5.6732,
+      "cotacao_venda": 5.6738,
+      "usd_brl_mid": 5.6735
+    },
+    "2025-04-25": {
+      "data": "2025-04-25",
+      "timestamp_ptax_oficial": "2025-04-25 13:09:26.592",
+      "cotacao_compra": 5.684,
+      "cotacao_venda": 5.6846,
+      "usd_brl_mid": 5.6843
+    },
+    "2025-04-26": {
+      "data": "2025-04-25",
+      "timestamp_ptax_oficial": "2025-04-25 13:09:26.592",
+      "cotacao_compra": 5.684,
+      "cotacao_venda": 5.6846,
+      "usd_brl_mid": 5.6843
+    },
+    "2025-04-27": {
+      "data": "2025-04-25",
+      "timestamp_ptax_oficial": "2025-04-25 13:09:26.592",
+      "cotacao_compra": 5.684,
+      "cotacao_venda": 5.6846,
+      "usd_brl_mid": 5.6843
+    },
+    "2025-04-28": {
+      "data": "2025-04-28",
+      "timestamp_ptax_oficial": "2025-04-28 13:04:26.378",
+      "cotacao_compra": 5.6675,
+      "cotacao_venda": 5.6681,
+      "usd_brl_mid": 5.6678
+    },
+    "2025-04-29": {
+      "data": "2025-04-29",
+      "timestamp_ptax_oficial": "2025-04-29 13:05:29.951",
+      "cotacao_compra": 5.6461,
+      "cotacao_venda": 5.6467,
+      "usd_brl_mid": 5.6464
+    },
+    "2025-04-30": {
+      "data": "2025-04-30",
+      "timestamp_ptax_oficial": "2025-04-30 13:11:27.944",
+      "cotacao_compra": 5.6602,
+      "cotacao_venda": 5.6608,
+      "usd_brl_mid": 5.6605
+    },
+    "2025-05-01": {
+      "data": "2025-04-30",
+      "timestamp_ptax_oficial": "2025-04-30 13:11:27.944",
+      "cotacao_compra": 5.6602,
+      "cotacao_venda": 5.6608,
+      "usd_brl_mid": 5.6605
+    },
+    "2025-05-02": {
+      "data": "2025-05-02",
+      "timestamp_ptax_oficial": "2025-05-02 13:10:27.144",
+      "cotacao_compra": 5.6388,
+      "cotacao_venda": 5.6394,
+      "usd_brl_mid": 5.6391
+    },
+    "2025-05-03": {
+      "data": "2025-05-02",
+      "timestamp_ptax_oficial": "2025-05-02 13:10:27.144",
+      "cotacao_compra": 5.6388,
+      "cotacao_venda": 5.6394,
+      "usd_brl_mid": 5.6391
+    },
+    "2025-05-04": {
+      "data": "2025-05-02",
+      "timestamp_ptax_oficial": "2025-05-02 13:10:27.144",
+      "cotacao_compra": 5.6388,
+      "cotacao_venda": 5.6394,
+      "usd_brl_mid": 5.6391
+    },
+    "2025-05-05": {
+      "data": "2025-05-05",
+      "timestamp_ptax_oficial": "2025-05-05 13:09:28.604",
+      "cotacao_compra": 5.6514,
+      "cotacao_venda": 5.652,
+      "usd_brl_mid": 5.6517
+    },
+    "2025-05-06": {
+      "data": "2025-05-06",
+      "timestamp_ptax_oficial": "2025-05-06 13:03:25.683",
+      "cotacao_compra": 5.7204,
+      "cotacao_venda": 5.721,
+      "usd_brl_mid": 5.7207
+    },
+    "2025-05-07": {
+      "data": "2025-05-07",
+      "timestamp_ptax_oficial": "2025-05-07 13:09:26.499",
+      "cotacao_compra": 5.7368,
+      "cotacao_venda": 5.7375,
+      "usd_brl_mid": 5.7371
+    },
+    "2025-05-08": {
+      "data": "2025-05-08",
+      "timestamp_ptax_oficial": "2025-05-08 13:06:28.214",
+      "cotacao_compra": 5.6854,
+      "cotacao_venda": 5.686,
+      "usd_brl_mid": 5.6857
+    },
+    "2025-05-09": {
+      "data": "2025-05-09",
+      "timestamp_ptax_oficial": "2025-05-09 13:08:28.902",
+      "cotacao_compra": 5.6505,
+      "cotacao_venda": 5.6511,
+      "usd_brl_mid": 5.6508
+    },
+    "2025-05-10": {
+      "data": "2025-05-09",
+      "timestamp_ptax_oficial": "2025-05-09 13:08:28.902",
+      "cotacao_compra": 5.6505,
+      "cotacao_venda": 5.6511,
+      "usd_brl_mid": 5.6508
+    },
+    "2025-05-11": {
+      "data": "2025-05-09",
+      "timestamp_ptax_oficial": "2025-05-09 13:08:28.902",
+      "cotacao_compra": 5.6505,
+      "cotacao_venda": 5.6511,
+      "usd_brl_mid": 5.6508
+    },
+    "2025-05-12": {
+      "data": "2025-05-12",
+      "timestamp_ptax_oficial": "2025-05-12 13:07:51.706",
+      "cotacao_compra": 5.6816,
+      "cotacao_venda": 5.6822,
+      "usd_brl_mid": 5.6819
+    },
+    "2025-05-13": {
+      "data": "2025-05-13",
+      "timestamp_ptax_oficial": "2025-05-13 13:02:29.162",
+      "cotacao_compra": 5.6256,
+      "cotacao_venda": 5.6262,
+      "usd_brl_mid": 5.6259
+    },
+    "2025-05-14": {
+      "data": "2025-05-14",
+      "timestamp_ptax_oficial": "2025-05-14 13:07:28.015",
+      "cotacao_compra": 5.6094,
+      "cotacao_venda": 5.61,
+      "usd_brl_mid": 5.6097
+    },
+    "2025-05-15": {
+      "data": "2025-05-15",
+      "timestamp_ptax_oficial": "2025-05-15 13:03:51.789",
+      "cotacao_compra": 5.6322,
+      "cotacao_venda": 5.6328,
+      "usd_brl_mid": 5.6325
+    },
+    "2025-05-16": {
+      "data": "2025-05-16",
+      "timestamp_ptax_oficial": "2025-05-16 13:02:28.147",
+      "cotacao_compra": 5.6919,
+      "cotacao_venda": 5.6925,
+      "usd_brl_mid": 5.6922
+    },
+    "2025-05-17": {
+      "data": "2025-05-16",
+      "timestamp_ptax_oficial": "2025-05-16 13:02:28.147",
+      "cotacao_compra": 5.6919,
+      "cotacao_venda": 5.6925,
+      "usd_brl_mid": 5.6922
+    },
+    "2025-05-18": {
+      "data": "2025-05-16",
+      "timestamp_ptax_oficial": "2025-05-16 13:02:28.147",
+      "cotacao_compra": 5.6919,
+      "cotacao_venda": 5.6925,
+      "usd_brl_mid": 5.6922
+    },
+    "2025-05-19": {
+      "data": "2025-05-19",
+      "timestamp_ptax_oficial": "2025-05-19 13:09:28.88",
+      "cotacao_compra": 5.6585,
+      "cotacao_venda": 5.6591,
+      "usd_brl_mid": 5.6588
+    },
+    "2025-05-20": {
+      "data": "2025-05-20",
+      "timestamp_ptax_oficial": "2025-05-20 13:05:28.937",
+      "cotacao_compra": 5.6614,
+      "cotacao_venda": 5.662,
+      "usd_brl_mid": 5.6617
+    },
+    "2025-05-21": {
+      "data": "2025-05-21",
+      "timestamp_ptax_oficial": "2025-05-21 13:04:32.12",
+      "cotacao_compra": 5.6565,
+      "cotacao_venda": 5.6571,
+      "usd_brl_mid": 5.6568
+    },
+    "2025-05-22": {
+      "data": "2025-05-22",
+      "timestamp_ptax_oficial": "2025-05-22 13:06:27.952",
+      "cotacao_compra": 5.6384,
+      "cotacao_venda": 5.639,
+      "usd_brl_mid": 5.6387
+    },
+    "2025-05-23": {
+      "data": "2025-05-23",
+      "timestamp_ptax_oficial": "2025-05-23 13:11:08.858",
+      "cotacao_compra": 5.6926,
+      "cotacao_venda": 5.6932,
+      "usd_brl_mid": 5.6929
+    },
+    "2025-05-24": {
+      "data": "2025-05-23",
+      "timestamp_ptax_oficial": "2025-05-23 13:11:08.858",
+      "cotacao_compra": 5.6926,
+      "cotacao_venda": 5.6932,
+      "usd_brl_mid": 5.6929
+    },
+    "2025-05-25": {
+      "data": "2025-05-23",
+      "timestamp_ptax_oficial": "2025-05-23 13:11:08.858",
+      "cotacao_compra": 5.6926,
+      "cotacao_venda": 5.6932,
+      "usd_brl_mid": 5.6929
+    },
+    "2025-05-26": {
+      "data": "2025-05-26",
+      "timestamp_ptax_oficial": "2025-05-26 13:06:30.445",
+      "cotacao_compra": 5.6613,
+      "cotacao_venda": 5.6619,
+      "usd_brl_mid": 5.6616
+    },
+    "2025-05-27": {
+      "data": "2025-05-27",
+      "timestamp_ptax_oficial": "2025-05-27 13:03:41.114",
+      "cotacao_compra": 5.6533,
+      "cotacao_venda": 5.6539,
+      "usd_brl_mid": 5.6536
+    },
+    "2025-05-28": {
+      "data": "2025-05-28",
+      "timestamp_ptax_oficial": "2025-05-28 13:07:44.755",
+      "cotacao_compra": 5.693,
+      "cotacao_venda": 5.6936,
+      "usd_brl_mid": 5.6933
+    },
+    "2025-05-29": {
+      "data": "2025-05-29",
+      "timestamp_ptax_oficial": "2025-05-29 13:05:33.689",
+      "cotacao_compra": 5.6553,
+      "cotacao_venda": 5.6559,
+      "usd_brl_mid": 5.6556
+    },
+    "2025-05-30": {
+      "data": "2025-05-30",
+      "timestamp_ptax_oficial": "2025-05-30 13:05:27.127",
+      "cotacao_compra": 5.7081,
+      "cotacao_venda": 5.7087,
+      "usd_brl_mid": 5.7084
+    },
+    "2025-05-31": {
+      "data": "2025-05-30",
+      "timestamp_ptax_oficial": "2025-05-30 13:05:27.127",
+      "cotacao_compra": 5.7081,
+      "cotacao_venda": 5.7087,
+      "usd_brl_mid": 5.7084
+    },
+    "2025-06-01": {
+      "data": "2025-05-30",
+      "timestamp_ptax_oficial": "2025-05-30 13:05:27.127",
+      "cotacao_compra": 5.7081,
+      "cotacao_venda": 5.7087,
+      "usd_brl_mid": 5.7084
+    },
+    "2025-06-02": {
+      "data": "2025-06-02",
+      "timestamp_ptax_oficial": "2025-06-02 13:09:05.107",
+      "cotacao_compra": 5.6931,
+      "cotacao_venda": 5.6937,
+      "usd_brl_mid": 5.6934
+    },
+    "2025-06-03": {
+      "data": "2025-06-03",
+      "timestamp_ptax_oficial": "2025-06-03 13:07:29.518",
+      "cotacao_compra": 5.6688,
+      "cotacao_venda": 5.6694,
+      "usd_brl_mid": 5.6691
+    },
+    "2025-06-04": {
+      "data": "2025-06-04",
+      "timestamp_ptax_oficial": "2025-06-04 13:11:29.327",
+      "cotacao_compra": 5.6326,
+      "cotacao_venda": 5.6332,
+      "usd_brl_mid": 5.6329
+    },
+    "2025-06-05": {
+      "data": "2025-06-05",
+      "timestamp_ptax_oficial": "2025-06-05 13:07:30.991",
+      "cotacao_compra": 5.5963,
+      "cotacao_venda": 5.5969,
+      "usd_brl_mid": 5.5966
+    },
+    "2025-06-06": {
+      "data": "2025-06-06",
+      "timestamp_ptax_oficial": "2025-06-06 13:08:48.677",
+      "cotacao_compra": 5.5941,
+      "cotacao_venda": 5.5947,
+      "usd_brl_mid": 5.5944
+    },
+    "2025-06-07": {
+      "data": "2025-06-06",
+      "timestamp_ptax_oficial": "2025-06-06 13:08:48.677",
+      "cotacao_compra": 5.5941,
+      "cotacao_venda": 5.5947,
+      "usd_brl_mid": 5.5944
+    },
+    "2025-06-08": {
+      "data": "2025-06-06",
+      "timestamp_ptax_oficial": "2025-06-06 13:08:48.677",
+      "cotacao_compra": 5.5941,
+      "cotacao_venda": 5.5947,
+      "usd_brl_mid": 5.5944
+    },
+    "2025-06-09": {
+      "data": "2025-06-09",
+      "timestamp_ptax_oficial": "2025-06-09 13:04:44.493",
+      "cotacao_compra": 5.5754,
+      "cotacao_venda": 5.576,
+      "usd_brl_mid": 5.5757
+    },
+    "2025-06-10": {
+      "data": "2025-06-10",
+      "timestamp_ptax_oficial": "2025-06-10 13:08:31.722",
+      "cotacao_compra": 5.5551,
+      "cotacao_venda": 5.5557,
+      "usd_brl_mid": 5.5554
+    },
+    "2025-06-11": {
+      "data": "2025-06-11",
+      "timestamp_ptax_oficial": "2025-06-11 13:04:46.07",
+      "cotacao_compra": 5.5384,
+      "cotacao_venda": 5.539,
+      "usd_brl_mid": 5.5387
+    },
+    "2025-06-12": {
+      "data": "2025-06-12",
+      "timestamp_ptax_oficial": "2025-06-12 13:04:26.137",
+      "cotacao_compra": 5.5382,
+      "cotacao_venda": 5.5388,
+      "usd_brl_mid": 5.5385
+    },
+    "2025-06-13": {
+      "data": "2025-06-13",
+      "timestamp_ptax_oficial": "2025-06-13 13:02:36.572",
+      "cotacao_compra": 5.5646,
+      "cotacao_venda": 5.5652,
+      "usd_brl_mid": 5.5649
+    },
+    "2025-06-14": {
+      "data": "2025-06-13",
+      "timestamp_ptax_oficial": "2025-06-13 13:02:36.572",
+      "cotacao_compra": 5.5646,
+      "cotacao_venda": 5.5652,
+      "usd_brl_mid": 5.5649
+    },
+    "2025-06-15": {
+      "data": "2025-06-13",
+      "timestamp_ptax_oficial": "2025-06-13 13:02:36.572",
+      "cotacao_compra": 5.5646,
+      "cotacao_venda": 5.5652,
+      "usd_brl_mid": 5.5649
+    },
+    "2025-06-16": {
+      "data": "2025-06-16",
+      "timestamp_ptax_oficial": "2025-06-16 13:09:04.338",
+      "cotacao_compra": 5.5117,
+      "cotacao_venda": 5.5123,
+      "usd_brl_mid": 5.512
+    },
+    "2025-06-17": {
+      "data": "2025-06-17",
+      "timestamp_ptax_oficial": "2025-06-17 13:07:28.496",
+      "cotacao_compra": 5.4767,
+      "cotacao_venda": 5.4773,
+      "usd_brl_mid": 5.477
+    },
+    "2025-06-18": {
+      "data": "2025-06-18",
+      "timestamp_ptax_oficial": "2025-06-18 13:10:27.501",
+      "cotacao_compra": 5.4873,
+      "cotacao_venda": 5.4879,
+      "usd_brl_mid": 5.4876
+    },
+    "2025-06-19": {
+      "data": "2025-06-18",
+      "timestamp_ptax_oficial": "2025-06-18 13:10:27.501",
+      "cotacao_compra": 5.4873,
+      "cotacao_venda": 5.4879,
+      "usd_brl_mid": 5.4876
+    },
+    "2025-06-20": {
+      "data": "2025-06-20",
+      "timestamp_ptax_oficial": "2025-06-20 13:05:46.565",
+      "cotacao_compra": 5.4951,
+      "cotacao_venda": 5.4957,
+      "usd_brl_mid": 5.4954
+    },
+    "2025-06-21": {
+      "data": "2025-06-20",
+      "timestamp_ptax_oficial": "2025-06-20 13:05:46.565",
+      "cotacao_compra": 5.4951,
+      "cotacao_venda": 5.4957,
+      "usd_brl_mid": 5.4954
+    },
+    "2025-06-22": {
+      "data": "2025-06-20",
+      "timestamp_ptax_oficial": "2025-06-20 13:05:46.565",
+      "cotacao_compra": 5.4951,
+      "cotacao_venda": 5.4957,
+      "usd_brl_mid": 5.4954
+    },
+    "2025-06-23": {
+      "data": "2025-06-23",
+      "timestamp_ptax_oficial": "2025-06-23 13:09:26.9",
+      "cotacao_compra": 5.5207,
+      "cotacao_venda": 5.5213,
+      "usd_brl_mid": 5.521
+    },
+    "2025-06-24": {
+      "data": "2025-06-24",
+      "timestamp_ptax_oficial": "2025-06-24 13:02:35.468",
+      "cotacao_compra": 5.4932,
+      "cotacao_venda": 5.4938,
+      "usd_brl_mid": 5.4935
+    },
+    "2025-06-25": {
+      "data": "2025-06-25",
+      "timestamp_ptax_oficial": "2025-06-25 13:06:27.991",
+      "cotacao_compra": 5.5421,
+      "cotacao_venda": 5.5427,
+      "usd_brl_mid": 5.5424
+    },
+    "2025-06-26": {
+      "data": "2025-06-26",
+      "timestamp_ptax_oficial": "2025-06-26 13:04:42.803",
+      "cotacao_compra": 5.5139,
+      "cotacao_venda": 5.5145,
+      "usd_brl_mid": 5.5142
+    },
+    "2025-06-27": {
+      "data": "2025-06-27",
+      "timestamp_ptax_oficial": "2025-06-27 13:07:41.25",
+      "cotacao_compra": 5.4753,
+      "cotacao_venda": 5.4759,
+      "usd_brl_mid": 5.4756
+    },
+    "2025-06-28": {
+      "data": "2025-06-27",
+      "timestamp_ptax_oficial": "2025-06-27 13:07:41.25",
+      "cotacao_compra": 5.4753,
+      "cotacao_venda": 5.4759,
+      "usd_brl_mid": 5.4756
+    },
+    "2025-06-29": {
+      "data": "2025-06-27",
+      "timestamp_ptax_oficial": "2025-06-27 13:07:41.25",
+      "cotacao_compra": 5.4753,
+      "cotacao_venda": 5.4759,
+      "usd_brl_mid": 5.4756
+    },
+    "2025-06-30": {
+      "data": "2025-06-30",
+      "timestamp_ptax_oficial": "2025-06-30 13:06:30.905",
+      "cotacao_compra": 5.4565,
+      "cotacao_venda": 5.4571,
+      "usd_brl_mid": 5.4568
+    },
+    "2025-07-01": {
+      "data": "2025-07-01",
+      "timestamp_ptax_oficial": "2025-07-01 13:07:32.146",
+      "cotacao_compra": 5.4505,
+      "cotacao_venda": 5.4511,
+      "usd_brl_mid": 5.4508
+    },
+    "2025-07-02": {
+      "data": "2025-07-02",
+      "timestamp_ptax_oficial": "2025-07-02 13:04:38.929",
+      "cotacao_compra": 5.4506,
+      "cotacao_venda": 5.4512,
+      "usd_brl_mid": 5.4509
+    },
+    "2025-07-03": {
+      "data": "2025-07-03",
+      "timestamp_ptax_oficial": "2025-07-03 13:06:25.914",
+      "cotacao_compra": 5.4202,
+      "cotacao_venda": 5.4208,
+      "usd_brl_mid": 5.4205
+    },
+    "2025-07-04": {
+      "data": "2025-07-04",
+      "timestamp_ptax_oficial": "2025-07-04 13:04:29.081",
+      "cotacao_compra": 5.4084,
+      "cotacao_venda": 5.409,
+      "usd_brl_mid": 5.4087
+    },
+    "2025-07-05": {
+      "data": "2025-07-04",
+      "timestamp_ptax_oficial": "2025-07-04 13:04:29.081",
+      "cotacao_compra": 5.4084,
+      "cotacao_venda": 5.409,
+      "usd_brl_mid": 5.4087
+    },
+    "2025-07-06": {
+      "data": "2025-07-04",
+      "timestamp_ptax_oficial": "2025-07-04 13:04:29.081",
+      "cotacao_compra": 5.4084,
+      "cotacao_venda": 5.409,
+      "usd_brl_mid": 5.4087
+    },
+    "2025-07-07": {
+      "data": "2025-07-07",
+      "timestamp_ptax_oficial": "2025-07-07 13:02:56.534",
+      "cotacao_compra": 5.4546,
+      "cotacao_venda": 5.4552,
+      "usd_brl_mid": 5.4549
+    },
+    "2025-07-08": {
+      "data": "2025-07-08",
+      "timestamp_ptax_oficial": "2025-07-08 13:02:57.103",
+      "cotacao_compra": 5.4565,
+      "cotacao_venda": 5.4571,
+      "usd_brl_mid": 5.4568
+    },
+    "2025-07-09": {
+      "data": "2025-07-09",
+      "timestamp_ptax_oficial": "2025-07-09 13:05:35.887",
+      "cotacao_compra": 5.462,
+      "cotacao_venda": 5.4626,
+      "usd_brl_mid": 5.4623
+    },
+    "2025-07-10": {
+      "data": "2025-07-10",
+      "timestamp_ptax_oficial": "2025-07-10 13:02:47.699",
+      "cotacao_compra": 5.5427,
+      "cotacao_venda": 5.5433,
+      "usd_brl_mid": 5.543
+    },
+    "2025-07-11": {
+      "data": "2025-07-11",
+      "timestamp_ptax_oficial": "2025-07-11 13:06:52.832",
+      "cotacao_compra": 5.5716,
+      "cotacao_venda": 5.5722,
+      "usd_brl_mid": 5.5719
+    },
+    "2025-07-12": {
+      "data": "2025-07-11",
+      "timestamp_ptax_oficial": "2025-07-11 13:06:52.832",
+      "cotacao_compra": 5.5716,
+      "cotacao_venda": 5.5722,
+      "usd_brl_mid": 5.5719
+    },
+    "2025-07-13": {
+      "data": "2025-07-11",
+      "timestamp_ptax_oficial": "2025-07-11 13:06:52.832",
+      "cotacao_compra": 5.5716,
+      "cotacao_venda": 5.5722,
+      "usd_brl_mid": 5.5719
+    },
+    "2025-07-14": {
+      "data": "2025-07-14",
+      "timestamp_ptax_oficial": "2025-07-14 13:08:30.186",
+      "cotacao_compra": 5.5589,
+      "cotacao_venda": 5.5595,
+      "usd_brl_mid": 5.5592
+    },
+    "2025-07-15": {
+      "data": "2025-07-15",
+      "timestamp_ptax_oficial": "2025-07-15 13:04:30.654",
+      "cotacao_compra": 5.5569,
+      "cotacao_venda": 5.5576,
+      "usd_brl_mid": 5.5572
+    },
+    "2025-07-16": {
+      "data": "2025-07-16",
+      "timestamp_ptax_oficial": "2025-07-16 13:08:40.079",
+      "cotacao_compra": 5.5716,
+      "cotacao_venda": 5.5722,
+      "usd_brl_mid": 5.5719
+    },
+    "2025-07-17": {
+      "data": "2025-07-17",
+      "timestamp_ptax_oficial": "2025-07-17 13:02:31.315",
+      "cotacao_compra": 5.5731,
+      "cotacao_venda": 5.5737,
+      "usd_brl_mid": 5.5734
+    },
+    "2025-07-18": {
+      "data": "2025-07-18",
+      "timestamp_ptax_oficial": "2025-07-18 13:11:35.417",
+      "cotacao_compra": 5.546,
+      "cotacao_venda": 5.5466,
+      "usd_brl_mid": 5.5463
+    },
+    "2025-07-19": {
+      "data": "2025-07-18",
+      "timestamp_ptax_oficial": "2025-07-18 13:11:35.417",
+      "cotacao_compra": 5.546,
+      "cotacao_venda": 5.5466,
+      "usd_brl_mid": 5.5463
+    },
+    "2025-07-20": {
+      "data": "2025-07-18",
+      "timestamp_ptax_oficial": "2025-07-18 13:11:35.417",
+      "cotacao_compra": 5.546,
+      "cotacao_venda": 5.5466,
+      "usd_brl_mid": 5.5463
+    },
+    "2025-07-21": {
+      "data": "2025-07-21",
+      "timestamp_ptax_oficial": "2025-07-21 13:03:57.875",
+      "cotacao_compra": 5.5619,
+      "cotacao_venda": 5.5625,
+      "usd_brl_mid": 5.5622
+    },
+    "2025-07-22": {
+      "data": "2025-07-22",
+      "timestamp_ptax_oficial": "2025-07-22 13:05:47.678",
+      "cotacao_compra": 5.5703,
+      "cotacao_venda": 5.5709,
+      "usd_brl_mid": 5.5706
+    },
+    "2025-07-23": {
+      "data": "2025-07-23",
+      "timestamp_ptax_oficial": "2025-07-23 13:05:33.442",
+      "cotacao_compra": 5.5531,
+      "cotacao_venda": 5.5537,
+      "usd_brl_mid": 5.5534
+    },
+    "2025-07-24": {
+      "data": "2025-07-24",
+      "timestamp_ptax_oficial": "2025-07-24 13:09:01.076",
+      "cotacao_compra": 5.5233,
+      "cotacao_venda": 5.5239,
+      "usd_brl_mid": 5.5236
+    },
+    "2025-07-25": {
+      "data": "2025-07-25",
+      "timestamp_ptax_oficial": "2025-07-25 13:06:43.63",
+      "cotacao_compra": 5.542,
+      "cotacao_venda": 5.5426,
+      "usd_brl_mid": 5.5423
+    },
+    "2025-07-26": {
+      "data": "2025-07-25",
+      "timestamp_ptax_oficial": "2025-07-25 13:06:43.63",
+      "cotacao_compra": 5.542,
+      "cotacao_venda": 5.5426,
+      "usd_brl_mid": 5.5423
+    },
+    "2025-07-27": {
+      "data": "2025-07-25",
+      "timestamp_ptax_oficial": "2025-07-25 13:06:43.63",
+      "cotacao_compra": 5.542,
+      "cotacao_venda": 5.5426,
+      "usd_brl_mid": 5.5423
+    },
+    "2025-07-28": {
+      "data": "2025-07-28",
+      "timestamp_ptax_oficial": "2025-07-28 13:07:39.179",
+      "cotacao_compra": 5.5871,
+      "cotacao_venda": 5.5877,
+      "usd_brl_mid": 5.5874
+    },
+    "2025-07-29": {
+      "data": "2025-07-29",
+      "timestamp_ptax_oficial": "2025-07-29 13:15:54.91",
+      "cotacao_compra": 5.5758,
+      "cotacao_venda": 5.5764,
+      "usd_brl_mid": 5.5761
+    },
+    "2025-07-30": {
+      "data": "2025-07-30",
+      "timestamp_ptax_oficial": "2025-07-30 13:14:11.184",
+      "cotacao_compra": 5.6028,
+      "cotacao_venda": 5.6034,
+      "usd_brl_mid": 5.6031
+    },
+    "2025-07-31": {
+      "data": "2025-07-31",
+      "timestamp_ptax_oficial": "2025-07-31 13:02:33.384",
+      "cotacao_compra": 5.6015,
+      "cotacao_venda": 5.6021,
+      "usd_brl_mid": 5.6018
+    },
+    "2025-08-01": {
+      "data": "2025-08-01",
+      "timestamp_ptax_oficial": "2025-08-01 13:03:03.851",
+      "cotacao_compra": 5.543,
+      "cotacao_venda": 5.5436,
+      "usd_brl_mid": 5.5433
+    },
+    "2025-08-02": {
+      "data": "2025-08-01",
+      "timestamp_ptax_oficial": "2025-08-01 13:03:03.851",
+      "cotacao_compra": 5.543,
+      "cotacao_venda": 5.5436,
+      "usd_brl_mid": 5.5433
+    },
+    "2025-08-03": {
+      "data": "2025-08-01",
+      "timestamp_ptax_oficial": "2025-08-01 13:03:03.851",
+      "cotacao_compra": 5.543,
+      "cotacao_venda": 5.5436,
+      "usd_brl_mid": 5.5433
+    },
+    "2025-08-04": {
+      "data": "2025-08-04",
+      "timestamp_ptax_oficial": "2025-08-04 13:08:34.124",
+      "cotacao_compra": 5.5107,
+      "cotacao_venda": 5.5113,
+      "usd_brl_mid": 5.511
+    },
+    "2025-08-05": {
+      "data": "2025-08-05",
+      "timestamp_ptax_oficial": "2025-08-05 13:04:58.588",
+      "cotacao_compra": 5.5113,
+      "cotacao_venda": 5.5119,
+      "usd_brl_mid": 5.5116
+    },
+    "2025-08-06": {
+      "data": "2025-08-06",
+      "timestamp_ptax_oficial": "2025-08-06 13:06:39.08",
+      "cotacao_compra": 5.4796,
+      "cotacao_venda": 5.4802,
+      "usd_brl_mid": 5.4799
+    },
+    "2025-08-07": {
+      "data": "2025-08-07",
+      "timestamp_ptax_oficial": "2025-08-07 13:10:28.166",
+      "cotacao_compra": 5.4632,
+      "cotacao_venda": 5.4638,
+      "usd_brl_mid": 5.4635
+    },
+    "2025-08-08": {
+      "data": "2025-08-08",
+      "timestamp_ptax_oficial": "2025-08-08 13:10:46.139",
+      "cotacao_compra": 5.4248,
+      "cotacao_venda": 5.4254,
+      "usd_brl_mid": 5.4251
+    },
+    "2025-08-09": {
+      "data": "2025-08-08",
+      "timestamp_ptax_oficial": "2025-08-08 13:10:46.139",
+      "cotacao_compra": 5.4248,
+      "cotacao_venda": 5.4254,
+      "usd_brl_mid": 5.4251
+    },
+    "2025-08-10": {
+      "data": "2025-08-08",
+      "timestamp_ptax_oficial": "2025-08-08 13:10:46.139",
+      "cotacao_compra": 5.4248,
+      "cotacao_venda": 5.4254,
+      "usd_brl_mid": 5.4251
+    },
+    "2025-08-11": {
+      "data": "2025-08-11",
+      "timestamp_ptax_oficial": "2025-08-11 13:09:01.083",
+      "cotacao_compra": 5.4467,
+      "cotacao_venda": 5.4473,
+      "usd_brl_mid": 5.447
+    },
+    "2025-08-12": {
+      "data": "2025-08-12",
+      "timestamp_ptax_oficial": "2025-08-12 13:10:27.976",
+      "cotacao_compra": 5.4046,
+      "cotacao_venda": 5.4052,
+      "usd_brl_mid": 5.4049
+    },
+    "2025-08-13": {
+      "data": "2025-08-13",
+      "timestamp_ptax_oficial": "2025-08-13 13:12:29.288",
+      "cotacao_compra": 5.3922,
+      "cotacao_venda": 5.3928,
+      "usd_brl_mid": 5.3925
+    },
+    "2025-08-14": {
+      "data": "2025-08-14",
+      "timestamp_ptax_oficial": "2025-08-14 13:08:26.774",
+      "cotacao_compra": 5.4089,
+      "cotacao_venda": 5.4095,
+      "usd_brl_mid": 5.4092
+    },
+    "2025-08-15": {
+      "data": "2025-08-15",
+      "timestamp_ptax_oficial": "2025-08-15 13:02:59.023",
+      "cotacao_compra": 5.3922,
+      "cotacao_venda": 5.3928,
+      "usd_brl_mid": 5.3925
+    },
+    "2025-08-16": {
+      "data": "2025-08-15",
+      "timestamp_ptax_oficial": "2025-08-15 13:02:59.023",
+      "cotacao_compra": 5.3922,
+      "cotacao_venda": 5.3928,
+      "usd_brl_mid": 5.3925
+    },
+    "2025-08-17": {
+      "data": "2025-08-15",
+      "timestamp_ptax_oficial": "2025-08-15 13:02:59.023",
+      "cotacao_compra": 5.3922,
+      "cotacao_venda": 5.3928,
+      "usd_brl_mid": 5.3925
+    },
+    "2025-08-18": {
+      "data": "2025-08-18",
+      "timestamp_ptax_oficial": "2025-08-18 13:11:11.455",
+      "cotacao_compra": 5.4149,
+      "cotacao_venda": 5.4155,
+      "usd_brl_mid": 5.4152
+    },
+    "2025-08-19": {
+      "data": "2025-08-19",
+      "timestamp_ptax_oficial": "2025-08-19 13:04:41.55",
+      "cotacao_compra": 5.471,
+      "cotacao_venda": 5.4716,
+      "usd_brl_mid": 5.4713
+    },
+    "2025-08-20": {
+      "data": "2025-08-20",
+      "timestamp_ptax_oficial": "2025-08-20 13:12:26.131",
+      "cotacao_compra": 5.472,
+      "cotacao_venda": 5.4726,
+      "usd_brl_mid": 5.4723
+    },
+    "2025-08-21": {
+      "data": "2025-08-21",
+      "timestamp_ptax_oficial": "2025-08-21 13:10:49.662",
+      "cotacao_compra": 5.4822,
+      "cotacao_venda": 5.4828,
+      "usd_brl_mid": 5.4825
+    },
+    "2025-08-22": {
+      "data": "2025-08-22",
+      "timestamp_ptax_oficial": "2025-08-22 13:06:18.381",
+      "cotacao_compra": 5.4386,
+      "cotacao_venda": 5.4392,
+      "usd_brl_mid": 5.4389
+    },
+    "2025-08-23": {
+      "data": "2025-08-22",
+      "timestamp_ptax_oficial": "2025-08-22 13:06:18.381",
+      "cotacao_compra": 5.4386,
+      "cotacao_venda": 5.4392,
+      "usd_brl_mid": 5.4389
+    },
+    "2025-08-24": {
+      "data": "2025-08-22",
+      "timestamp_ptax_oficial": "2025-08-22 13:06:18.381",
+      "cotacao_compra": 5.4386,
+      "cotacao_venda": 5.4392,
+      "usd_brl_mid": 5.4389
+    },
+    "2025-08-25": {
+      "data": "2025-08-25",
+      "timestamp_ptax_oficial": "2025-08-25 13:06:50.314",
+      "cotacao_compra": 5.4168,
+      "cotacao_venda": 5.4174,
+      "usd_brl_mid": 5.4171
+    },
+    "2025-08-26": {
+      "data": "2025-08-26",
+      "timestamp_ptax_oficial": "2025-08-26 13:06:46.354",
+      "cotacao_compra": 5.4212,
+      "cotacao_venda": 5.4218,
+      "usd_brl_mid": 5.4215
+    },
+    "2025-08-27": {
+      "data": "2025-08-27",
+      "timestamp_ptax_oficial": "2025-08-27 13:13:21.409",
+      "cotacao_compra": 5.4422,
+      "cotacao_venda": 5.4428,
+      "usd_brl_mid": 5.4425
+    },
+    "2025-08-28": {
+      "data": "2025-08-28",
+      "timestamp_ptax_oficial": "2025-08-28 13:13:18.872",
+      "cotacao_compra": 5.4109,
+      "cotacao_venda": 5.4115,
+      "usd_brl_mid": 5.4112
+    },
+    "2025-08-29": {
+      "data": "2025-08-29",
+      "timestamp_ptax_oficial": "2025-08-29 13:10:21.165",
+      "cotacao_compra": 5.4258,
+      "cotacao_venda": 5.4264,
+      "usd_brl_mid": 5.4261
+    },
+    "2025-08-30": {
+      "data": "2025-08-29",
+      "timestamp_ptax_oficial": "2025-08-29 13:10:21.165",
+      "cotacao_compra": 5.4258,
+      "cotacao_venda": 5.4264,
+      "usd_brl_mid": 5.4261
+    },
+    "2025-08-31": {
+      "data": "2025-08-29",
+      "timestamp_ptax_oficial": "2025-08-29 13:10:21.165",
+      "cotacao_compra": 5.4258,
+      "cotacao_venda": 5.4264,
+      "usd_brl_mid": 5.4261
+    },
+    "2025-09-01": {
+      "data": "2025-09-01",
+      "timestamp_ptax_oficial": "2025-09-01 13:06:34.559",
+      "cotacao_compra": 5.4372,
+      "cotacao_venda": 5.4378,
+      "usd_brl_mid": 5.4375
+    },
+    "2025-09-02": {
+      "data": "2025-09-02",
+      "timestamp_ptax_oficial": "2025-09-02 13:07:48.188",
+      "cotacao_compra": 5.4674,
+      "cotacao_venda": 5.468,
+      "usd_brl_mid": 5.4677
+    },
+    "2025-09-03": {
+      "data": "2025-09-03",
+      "timestamp_ptax_oficial": "2025-09-03 13:06:03.021",
+      "cotacao_compra": 5.4479,
+      "cotacao_venda": 5.4485,
+      "usd_brl_mid": 5.4482
+    },
+    "2025-09-04": {
+      "data": "2025-09-04",
+      "timestamp_ptax_oficial": "2025-09-04 13:03:32.119",
+      "cotacao_compra": 5.4581,
+      "cotacao_venda": 5.4587,
+      "usd_brl_mid": 5.4584
+    },
+    "2025-09-05": {
+      "data": "2025-09-05",
+      "timestamp_ptax_oficial": "2025-09-05 13:04:18.063",
+      "cotacao_compra": 5.3962,
+      "cotacao_venda": 5.3968,
+      "usd_brl_mid": 5.3965
+    },
+    "2025-09-06": {
+      "data": "2025-09-05",
+      "timestamp_ptax_oficial": "2025-09-05 13:04:18.063",
+      "cotacao_compra": 5.3962,
+      "cotacao_venda": 5.3968,
+      "usd_brl_mid": 5.3965
+    },
+    "2025-09-07": {
+      "data": "2025-09-05",
+      "timestamp_ptax_oficial": "2025-09-05 13:04:18.063",
+      "cotacao_compra": 5.3962,
+      "cotacao_venda": 5.3968,
+      "usd_brl_mid": 5.3965
+    },
+    "2025-09-08": {
+      "data": "2025-09-08",
+      "timestamp_ptax_oficial": "2025-09-08 13:09:40.608",
+      "cotacao_compra": 5.4272,
+      "cotacao_venda": 5.4278,
+      "usd_brl_mid": 5.4275
+    },
+    "2025-09-09": {
+      "data": "2025-09-09",
+      "timestamp_ptax_oficial": "2025-09-09 13:07:27.786",
+      "cotacao_compra": 5.4272,
+      "cotacao_venda": 5.4278,
+      "usd_brl_mid": 5.4275
+    },
+    "2025-09-10": {
+      "data": "2025-09-10",
+      "timestamp_ptax_oficial": "2025-09-10 13:06:29.196",
+      "cotacao_compra": 5.4117,
+      "cotacao_venda": 5.4123,
+      "usd_brl_mid": 5.412
+    },
+    "2025-09-11": {
+      "data": "2025-09-11",
+      "timestamp_ptax_oficial": "2025-09-11 13:06:26.836",
+      "cotacao_compra": 5.3852,
+      "cotacao_venda": 5.3858,
+      "usd_brl_mid": 5.3855
+    },
+    "2025-09-12": {
+      "data": "2025-09-12",
+      "timestamp_ptax_oficial": "2025-09-12 13:10:29.351",
+      "cotacao_compra": 5.3671,
+      "cotacao_venda": 5.3677,
+      "usd_brl_mid": 5.3674
+    },
+    "2025-09-13": {
+      "data": "2025-09-12",
+      "timestamp_ptax_oficial": "2025-09-12 13:10:29.351",
+      "cotacao_compra": 5.3671,
+      "cotacao_venda": 5.3677,
+      "usd_brl_mid": 5.3674
+    },
+    "2025-09-14": {
+      "data": "2025-09-12",
+      "timestamp_ptax_oficial": "2025-09-12 13:10:29.351",
+      "cotacao_compra": 5.3671,
+      "cotacao_venda": 5.3677,
+      "usd_brl_mid": 5.3674
+    },
+    "2025-09-15": {
+      "data": "2025-09-15",
+      "timestamp_ptax_oficial": "2025-09-15 13:07:29.069",
+      "cotacao_compra": 5.3202,
+      "cotacao_venda": 5.3208,
+      "usd_brl_mid": 5.3205
+    },
+    "2025-09-16": {
+      "data": "2025-09-16",
+      "timestamp_ptax_oficial": "2025-09-16 13:08:26.586",
+      "cotacao_compra": 5.309,
+      "cotacao_venda": 5.3096,
+      "usd_brl_mid": 5.3093
+    },
+    "2025-09-17": {
+      "data": "2025-09-17",
+      "timestamp_ptax_oficial": "2025-09-17 13:10:27.522",
+      "cotacao_compra": 5.3005,
+      "cotacao_venda": 5.3011,
+      "usd_brl_mid": 5.3008
+    },
+    "2025-09-18": {
+      "data": "2025-09-18",
+      "timestamp_ptax_oficial": "2025-09-18 13:10:31.236",
+      "cotacao_compra": 5.3004,
+      "cotacao_venda": 5.301,
+      "usd_brl_mid": 5.3007
+    },
+    "2025-09-19": {
+      "data": "2025-09-19",
+      "timestamp_ptax_oficial": "2025-09-19 13:05:27.482",
+      "cotacao_compra": 5.327,
+      "cotacao_venda": 5.3276,
+      "usd_brl_mid": 5.3273
+    },
+    "2025-09-20": {
+      "data": "2025-09-19",
+      "timestamp_ptax_oficial": "2025-09-19 13:05:27.482",
+      "cotacao_compra": 5.327,
+      "cotacao_venda": 5.3276,
+      "usd_brl_mid": 5.3273
+    },
+    "2025-09-21": {
+      "data": "2025-09-19",
+      "timestamp_ptax_oficial": "2025-09-19 13:05:27.482",
+      "cotacao_compra": 5.327,
+      "cotacao_venda": 5.3276,
+      "usd_brl_mid": 5.3273
+    },
+    "2025-09-22": {
+      "data": "2025-09-22",
+      "timestamp_ptax_oficial": "2025-09-22 13:06:30.051",
+      "cotacao_compra": 5.3451,
+      "cotacao_venda": 5.3457,
+      "usd_brl_mid": 5.3454
+    },
+    "2025-09-23": {
+      "data": "2025-09-23",
+      "timestamp_ptax_oficial": "2025-09-23 13:06:42.796",
+      "cotacao_compra": 5.3057,
+      "cotacao_venda": 5.3063,
+      "usd_brl_mid": 5.306
+    },
+    "2025-09-24": {
+      "data": "2025-09-24",
+      "timestamp_ptax_oficial": "2025-09-24 13:09:26.489",
+      "cotacao_compra": 5.3106,
+      "cotacao_venda": 5.3112,
+      "usd_brl_mid": 5.3109
+    },
+    "2025-09-25": {
+      "data": "2025-09-25",
+      "timestamp_ptax_oficial": "2025-09-25 13:05:26.646",
+      "cotacao_compra": 5.3419,
+      "cotacao_venda": 5.3425,
+      "usd_brl_mid": 5.3422
+    },
+    "2025-09-26": {
+      "data": "2025-09-26",
+      "timestamp_ptax_oficial": "2025-09-26 13:02:27.976",
+      "cotacao_compra": 5.3439,
+      "cotacao_venda": 5.3445,
+      "usd_brl_mid": 5.3442
+    },
+    "2025-09-27": {
+      "data": "2025-09-26",
+      "timestamp_ptax_oficial": "2025-09-26 13:02:27.976",
+      "cotacao_compra": 5.3439,
+      "cotacao_venda": 5.3445,
+      "usd_brl_mid": 5.3442
+    },
+    "2025-09-28": {
+      "data": "2025-09-26",
+      "timestamp_ptax_oficial": "2025-09-26 13:02:27.976",
+      "cotacao_compra": 5.3439,
+      "cotacao_venda": 5.3445,
+      "usd_brl_mid": 5.3442
+    },
+    "2025-09-29": {
+      "data": "2025-09-29",
+      "timestamp_ptax_oficial": "2025-09-29 13:04:26.885",
+      "cotacao_compra": 5.3223,
+      "cotacao_venda": 5.3229,
+      "usd_brl_mid": 5.3226
+    },
+    "2025-09-30": {
+      "data": "2025-09-30",
+      "timestamp_ptax_oficial": "2025-09-30 13:08:29.141",
+      "cotacao_compra": 5.318,
+      "cotacao_venda": 5.3186,
+      "usd_brl_mid": 5.3183
+    },
+    "2025-10-01": {
+      "data": "2025-10-01",
+      "timestamp_ptax_oficial": "2025-10-01 13:02:30.159",
+      "cotacao_compra": 5.3202,
+      "cotacao_venda": 5.3208,
+      "usd_brl_mid": 5.3205
+    },
+    "2025-10-02": {
+      "data": "2025-10-02",
+      "timestamp_ptax_oficial": "2025-10-02 13:09:27.673",
+      "cotacao_compra": 5.3443,
+      "cotacao_venda": 5.3449,
+      "usd_brl_mid": 5.3446
+    },
+    "2025-10-03": {
+      "data": "2025-10-03",
+      "timestamp_ptax_oficial": "2025-10-03 13:05:27.368",
+      "cotacao_compra": 5.3492,
+      "cotacao_venda": 5.3498,
+      "usd_brl_mid": 5.3495
+    },
+    "2025-10-04": {
+      "data": "2025-10-03",
+      "timestamp_ptax_oficial": "2025-10-03 13:05:27.368",
+      "cotacao_compra": 5.3492,
+      "cotacao_venda": 5.3498,
+      "usd_brl_mid": 5.3495
+    },
+    "2025-10-05": {
+      "data": "2025-10-03",
+      "timestamp_ptax_oficial": "2025-10-03 13:05:27.368",
+      "cotacao_compra": 5.3492,
+      "cotacao_venda": 5.3498,
+      "usd_brl_mid": 5.3495
+    },
+    "2025-10-06": {
+      "data": "2025-10-06",
+      "timestamp_ptax_oficial": "2025-10-06 13:07:31.214",
+      "cotacao_compra": 5.322,
+      "cotacao_venda": 5.3226,
+      "usd_brl_mid": 5.3223
+    },
+    "2025-10-07": {
+      "data": "2025-10-07",
+      "timestamp_ptax_oficial": "2025-10-07 13:06:29.792",
+      "cotacao_compra": 5.3357,
+      "cotacao_venda": 5.3363,
+      "usd_brl_mid": 5.336
+    },
+    "2025-10-08": {
+      "data": "2025-10-08",
+      "timestamp_ptax_oficial": "2025-10-08 13:09:27.623",
+      "cotacao_compra": 5.3421,
+      "cotacao_venda": 5.3427,
+      "usd_brl_mid": 5.3424
+    },
+    "2025-10-09": {
+      "data": "2025-10-09",
+      "timestamp_ptax_oficial": "2025-10-09 13:09:28.649",
+      "cotacao_compra": 5.3532,
+      "cotacao_venda": 5.3538,
+      "usd_brl_mid": 5.3535
+    },
+    "2025-10-10": {
+      "data": "2025-10-10",
+      "timestamp_ptax_oficial": "2025-10-10 13:11:25.594",
+      "cotacao_compra": 5.444,
+      "cotacao_venda": 5.4446,
+      "usd_brl_mid": 5.4443
+    },
+    "2025-10-11": {
+      "data": "2025-10-10",
+      "timestamp_ptax_oficial": "2025-10-10 13:11:25.594",
+      "cotacao_compra": 5.444,
+      "cotacao_venda": 5.4446,
+      "usd_brl_mid": 5.4443
+    },
+    "2025-10-12": {
+      "data": "2025-10-10",
+      "timestamp_ptax_oficial": "2025-10-10 13:11:25.594",
+      "cotacao_compra": 5.444,
+      "cotacao_venda": 5.4446,
+      "usd_brl_mid": 5.4443
+    },
+    "2025-10-13": {
+      "data": "2025-10-13",
+      "timestamp_ptax_oficial": "2025-10-13 13:02:43.752",
+      "cotacao_compra": 5.4623,
+      "cotacao_venda": 5.4629,
+      "usd_brl_mid": 5.4626
+    },
+    "2025-10-14": {
+      "data": "2025-10-14",
+      "timestamp_ptax_oficial": "2025-10-14 13:11:26.346",
+      "cotacao_compra": 5.4976,
+      "cotacao_venda": 5.4982,
+      "usd_brl_mid": 5.4979
+    },
+    "2025-10-15": {
+      "data": "2025-10-15",
+      "timestamp_ptax_oficial": "2025-10-15 13:07:27.463",
+      "cotacao_compra": 5.4458,
+      "cotacao_venda": 5.4464,
+      "usd_brl_mid": 5.4461
+    },
+    "2025-10-16": {
+      "data": "2025-10-16",
+      "timestamp_ptax_oficial": "2025-10-16 13:10:33.41",
+      "cotacao_compra": 5.4348,
+      "cotacao_venda": 5.4354,
+      "usd_brl_mid": 5.4351
+    },
+    "2025-10-17": {
+      "data": "2025-10-17",
+      "timestamp_ptax_oficial": "2025-10-17 13:15:06.571",
+      "cotacao_compra": 5.4384,
+      "cotacao_venda": 5.439,
+      "usd_brl_mid": 5.4387
+    },
+    "2025-10-18": {
+      "data": "2025-10-17",
+      "timestamp_ptax_oficial": "2025-10-17 13:15:06.571",
+      "cotacao_compra": 5.4384,
+      "cotacao_venda": 5.439,
+      "usd_brl_mid": 5.4387
+    },
+    "2025-10-19": {
+      "data": "2025-10-17",
+      "timestamp_ptax_oficial": "2025-10-17 13:15:06.571",
+      "cotacao_compra": 5.4384,
+      "cotacao_venda": 5.439,
+      "usd_brl_mid": 5.4387
+    },
+    "2025-10-20": {
+      "data": "2025-10-20",
+      "timestamp_ptax_oficial": "2025-10-20 13:11:28.198",
+      "cotacao_compra": 5.3765,
+      "cotacao_venda": 5.3771,
+      "usd_brl_mid": 5.3768
+    },
+    "2025-10-21": {
+      "data": "2025-10-21",
+      "timestamp_ptax_oficial": "2025-10-21 13:08:29.967",
+      "cotacao_compra": 5.3842,
+      "cotacao_venda": 5.3848,
+      "usd_brl_mid": 5.3845
+    },
+    "2025-10-22": {
+      "data": "2025-10-22",
+      "timestamp_ptax_oficial": "2025-10-22 13:06:29.571",
+      "cotacao_compra": 5.3892,
+      "cotacao_venda": 5.3898,
+      "usd_brl_mid": 5.3895
+    },
+    "2025-10-23": {
+      "data": "2025-10-23",
+      "timestamp_ptax_oficial": "2025-10-23 13:02:28.345",
+      "cotacao_compra": 5.3834,
+      "cotacao_venda": 5.384,
+      "usd_brl_mid": 5.3837
+    },
+    "2025-10-24": {
+      "data": "2025-10-24",
+      "timestamp_ptax_oficial": "2025-10-24 13:08:27.751",
+      "cotacao_compra": 5.3791,
+      "cotacao_venda": 5.3797,
+      "usd_brl_mid": 5.3794
+    },
+    "2025-10-25": {
+      "data": "2025-10-24",
+      "timestamp_ptax_oficial": "2025-10-24 13:08:27.751",
+      "cotacao_compra": 5.3791,
+      "cotacao_venda": 5.3797,
+      "usd_brl_mid": 5.3794
+    },
+    "2025-10-26": {
+      "data": "2025-10-24",
+      "timestamp_ptax_oficial": "2025-10-24 13:08:27.751",
+      "cotacao_compra": 5.3791,
+      "cotacao_venda": 5.3797,
+      "usd_brl_mid": 5.3794
+    },
+    "2025-10-27": {
+      "data": "2025-10-27",
+      "timestamp_ptax_oficial": "2025-10-27 13:07:26.305",
+      "cotacao_compra": 5.3738,
+      "cotacao_venda": 5.3744,
+      "usd_brl_mid": 5.3741
+    },
+    "2025-10-28": {
+      "data": "2025-10-28",
+      "timestamp_ptax_oficial": "2025-10-28 13:04:28.183",
+      "cotacao_compra": 5.3684,
+      "cotacao_venda": 5.369,
+      "usd_brl_mid": 5.3687
+    },
+    "2025-10-29": {
+      "data": "2025-10-29",
+      "timestamp_ptax_oficial": "2025-10-29 13:04:21.681",
+      "cotacao_compra": 5.341,
+      "cotacao_venda": 5.3416,
+      "usd_brl_mid": 5.3413
+    },
+    "2025-10-30": {
+      "data": "2025-10-30",
+      "timestamp_ptax_oficial": "2025-10-30 13:09:27.437",
+      "cotacao_compra": 5.3844,
+      "cotacao_venda": 5.385,
+      "usd_brl_mid": 5.3847
+    },
+    "2025-10-31": {
+      "data": "2025-10-31",
+      "timestamp_ptax_oficial": "2025-10-31 13:07:28.481",
+      "cotacao_compra": 5.3837,
+      "cotacao_venda": 5.3843,
+      "usd_brl_mid": 5.384
+    },
+    "2025-11-01": {
+      "data": "2025-10-31",
+      "timestamp_ptax_oficial": "2025-10-31 13:07:28.481",
+      "cotacao_compra": 5.3837,
+      "cotacao_venda": 5.3843,
+      "usd_brl_mid": 5.384
+    },
+    "2025-11-02": {
+      "data": "2025-10-31",
+      "timestamp_ptax_oficial": "2025-10-31 13:07:28.481",
+      "cotacao_compra": 5.3837,
+      "cotacao_venda": 5.3843,
+      "usd_brl_mid": 5.384
+    },
+    "2025-11-03": {
+      "data": "2025-11-03",
+      "timestamp_ptax_oficial": "2025-11-03 13:06:25.333",
+      "cotacao_compra": 5.3499,
+      "cotacao_venda": 5.3505,
+      "usd_brl_mid": 5.3502
+    },
+    "2025-11-04": {
+      "data": "2025-11-04",
+      "timestamp_ptax_oficial": "2025-11-04 13:07:26.986",
+      "cotacao_compra": 5.384,
+      "cotacao_venda": 5.3846,
+      "usd_brl_mid": 5.3843
+    },
+    "2025-11-05": {
+      "data": "2025-11-05",
+      "timestamp_ptax_oficial": "2025-11-05 13:07:26.804",
+      "cotacao_compra": 5.3792,
+      "cotacao_venda": 5.3798,
+      "usd_brl_mid": 5.3795
+    },
+    "2025-11-06": {
+      "data": "2025-11-06",
+      "timestamp_ptax_oficial": "2025-11-06 13:02:49.425",
+      "cotacao_compra": 5.3445,
+      "cotacao_venda": 5.3451,
+      "usd_brl_mid": 5.3448
+    },
+    "2025-11-07": {
+      "data": "2025-11-07",
+      "timestamp_ptax_oficial": "2025-11-07 13:10:31.908",
+      "cotacao_compra": 5.3561,
+      "cotacao_venda": 5.3567,
+      "usd_brl_mid": 5.3564
+    },
+    "2025-11-08": {
+      "data": "2025-11-07",
+      "timestamp_ptax_oficial": "2025-11-07 13:10:31.908",
+      "cotacao_compra": 5.3561,
+      "cotacao_venda": 5.3567,
+      "usd_brl_mid": 5.3564
+    },
+    "2025-11-09": {
+      "data": "2025-11-07",
+      "timestamp_ptax_oficial": "2025-11-07 13:10:31.908",
+      "cotacao_compra": 5.3561,
+      "cotacao_venda": 5.3567,
+      "usd_brl_mid": 5.3564
+    },
+    "2025-11-10": {
+      "data": "2025-11-10",
+      "timestamp_ptax_oficial": "2025-11-10 13:03:31.138",
+      "cotacao_compra": 5.3175,
+      "cotacao_venda": 5.3181,
+      "usd_brl_mid": 5.3178
+    },
+    "2025-11-11": {
+      "data": "2025-11-11",
+      "timestamp_ptax_oficial": "2025-11-11 13:07:30.004",
+      "cotacao_compra": 5.2723,
+      "cotacao_venda": 5.2729,
+      "usd_brl_mid": 5.2726
+    },
+    "2025-11-12": {
+      "data": "2025-11-12",
+      "timestamp_ptax_oficial": "2025-11-12 13:11:25.169",
+      "cotacao_compra": 5.2879,
+      "cotacao_venda": 5.2885,
+      "usd_brl_mid": 5.2882
+    },
+    "2025-11-13": {
+      "data": "2025-11-13",
+      "timestamp_ptax_oficial": "2025-11-13 13:07:27.563",
+      "cotacao_compra": 5.2814,
+      "cotacao_venda": 5.282,
+      "usd_brl_mid": 5.2817
+    },
+    "2025-11-14": {
+      "data": "2025-11-14",
+      "timestamp_ptax_oficial": "2025-11-14 13:11:28.202",
+      "cotacao_compra": 5.2946,
+      "cotacao_venda": 5.2952,
+      "usd_brl_mid": 5.2949
+    },
+    "2025-11-15": {
+      "data": "2025-11-14",
+      "timestamp_ptax_oficial": "2025-11-14 13:11:28.202",
+      "cotacao_compra": 5.2946,
+      "cotacao_venda": 5.2952,
+      "usd_brl_mid": 5.2949
+    },
+    "2025-11-16": {
+      "data": "2025-11-14",
+      "timestamp_ptax_oficial": "2025-11-14 13:11:28.202",
+      "cotacao_compra": 5.2946,
+      "cotacao_venda": 5.2952,
+      "usd_brl_mid": 5.2949
+    },
+    "2025-11-17": {
+      "data": "2025-11-17",
+      "timestamp_ptax_oficial": "2025-11-17 13:07:28.766",
+      "cotacao_compra": 5.3102,
+      "cotacao_venda": 5.3108,
+      "usd_brl_mid": 5.3105
+    },
+    "2025-11-18": {
+      "data": "2025-11-18",
+      "timestamp_ptax_oficial": "2025-11-18 13:10:26.459",
+      "cotacao_compra": 5.3355,
+      "cotacao_venda": 5.3361,
+      "usd_brl_mid": 5.3358
+    },
+    "2025-11-19": {
+      "data": "2025-11-19",
+      "timestamp_ptax_oficial": "2025-11-19 13:09:27.626",
+      "cotacao_compra": 5.334,
+      "cotacao_venda": 5.3346,
+      "usd_brl_mid": 5.3343
+    },
+    "2025-11-20": {
+      "data": "2025-11-19",
+      "timestamp_ptax_oficial": "2025-11-19 13:09:27.626",
+      "cotacao_compra": 5.334,
+      "cotacao_venda": 5.3346,
+      "usd_brl_mid": 5.3343
+    },
+    "2025-11-21": {
+      "data": "2025-11-21",
+      "timestamp_ptax_oficial": "2025-11-21 13:06:33.395",
+      "cotacao_compra": 5.3896,
+      "cotacao_venda": 5.3902,
+      "usd_brl_mid": 5.3899
+    },
+    "2025-11-22": {
+      "data": "2025-11-21",
+      "timestamp_ptax_oficial": "2025-11-21 13:06:33.395",
+      "cotacao_compra": 5.3896,
+      "cotacao_venda": 5.3902,
+      "usd_brl_mid": 5.3899
+    },
+    "2025-11-23": {
+      "data": "2025-11-21",
+      "timestamp_ptax_oficial": "2025-11-21 13:06:33.395",
+      "cotacao_compra": 5.3896,
+      "cotacao_venda": 5.3902,
+      "usd_brl_mid": 5.3899
+    },
+    "2025-11-24": {
+      "data": "2025-11-24",
+      "timestamp_ptax_oficial": "2025-11-24 13:02:26.741",
+      "cotacao_compra": 5.3942,
+      "cotacao_venda": 5.3948,
+      "usd_brl_mid": 5.3945
+    },
+    "2025-11-25": {
+      "data": "2025-11-25",
+      "timestamp_ptax_oficial": "2025-11-25 13:05:27.685",
+      "cotacao_compra": 5.3835,
+      "cotacao_venda": 5.3841,
+      "usd_brl_mid": 5.3838
+    },
+    "2025-11-26": {
+      "data": "2025-11-26",
+      "timestamp_ptax_oficial": "2025-11-26 13:03:30.935",
+      "cotacao_compra": 5.3688,
+      "cotacao_venda": 5.3694,
+      "usd_brl_mid": 5.3691
+    },
+    "2025-11-27": {
+      "data": "2025-11-27",
+      "timestamp_ptax_oficial": "2025-11-27 13:07:26.522",
+      "cotacao_compra": 5.3484,
+      "cotacao_venda": 5.349,
+      "usd_brl_mid": 5.3487
+    },
+    "2025-11-28": {
+      "data": "2025-11-28",
+      "timestamp_ptax_oficial": "2025-11-28 13:10:31.721",
+      "cotacao_compra": 5.3332,
+      "cotacao_venda": 5.3338,
+      "usd_brl_mid": 5.3335
+    },
+    "2025-11-29": {
+      "data": "2025-11-28",
+      "timestamp_ptax_oficial": "2025-11-28 13:10:31.721",
+      "cotacao_compra": 5.3332,
+      "cotacao_venda": 5.3338,
+      "usd_brl_mid": 5.3335
+    },
+    "2025-11-30": {
+      "data": "2025-11-28",
+      "timestamp_ptax_oficial": "2025-11-28 13:10:31.721",
+      "cotacao_compra": 5.3332,
+      "cotacao_venda": 5.3338,
+      "usd_brl_mid": 5.3335
+    },
+    "2025-12-01": {
+      "data": "2025-12-01",
+      "timestamp_ptax_oficial": "2025-12-01 13:07:36.236",
+      "cotacao_compra": 5.3463,
+      "cotacao_venda": 5.3469,
+      "usd_brl_mid": 5.3466
+    },
+    "2025-12-02": {
+      "data": "2025-12-02",
+      "timestamp_ptax_oficial": "2025-12-02 13:07:03.239",
+      "cotacao_compra": 5.3459,
+      "cotacao_venda": 5.3465,
+      "usd_brl_mid": 5.3462
+    },
+    "2025-12-03": {
+      "data": "2025-12-03",
+      "timestamp_ptax_oficial": "2025-12-03 13:05:25.575",
+      "cotacao_compra": 5.3108,
+      "cotacao_venda": 5.3114,
+      "usd_brl_mid": 5.3111
+    },
+    "2025-12-04": {
+      "data": "2025-12-04",
+      "timestamp_ptax_oficial": "2025-12-04 13:08:17.839",
+      "cotacao_compra": 5.2946,
+      "cotacao_venda": 5.2952,
+      "usd_brl_mid": 5.2949
+    },
+    "2025-12-05": {
+      "data": "2025-12-05",
+      "timestamp_ptax_oficial": "2025-12-05 13:09:08.512",
+      "cotacao_compra": 5.3399,
+      "cotacao_venda": 5.3405,
+      "usd_brl_mid": 5.3402
+    },
+    "2025-12-06": {
+      "data": "2025-12-05",
+      "timestamp_ptax_oficial": "2025-12-05 13:09:08.512",
+      "cotacao_compra": 5.3399,
+      "cotacao_venda": 5.3405,
+      "usd_brl_mid": 5.3402
+    },
+    "2025-12-07": {
+      "data": "2025-12-05",
+      "timestamp_ptax_oficial": "2025-12-05 13:09:08.512",
+      "cotacao_compra": 5.3399,
+      "cotacao_venda": 5.3405,
+      "usd_brl_mid": 5.3402
+    },
+    "2025-12-08": {
+      "data": "2025-12-08",
+      "timestamp_ptax_oficial": "2025-12-08 13:03:07.424",
+      "cotacao_compra": 5.4243,
+      "cotacao_venda": 5.4249,
+      "usd_brl_mid": 5.4246
+    },
+    "2025-12-09": {
+      "data": "2025-12-09",
+      "timestamp_ptax_oficial": "2025-12-09 13:11:26.737",
+      "cotacao_compra": 5.4564,
+      "cotacao_venda": 5.457,
+      "usd_brl_mid": 5.4567
+    },
+    "2025-12-10": {
+      "data": "2025-12-10",
+      "timestamp_ptax_oficial": "2025-12-10 13:10:04.98",
+      "cotacao_compra": 5.465,
+      "cotacao_venda": 5.4656,
+      "usd_brl_mid": 5.4653
+    },
+    "2025-12-11": {
+      "data": "2025-12-11",
+      "timestamp_ptax_oficial": "2025-12-11 13:03:26.528",
+      "cotacao_compra": 5.4231,
+      "cotacao_venda": 5.4237,
+      "usd_brl_mid": 5.4234
+    },
+    "2025-12-12": {
+      "data": "2025-12-12",
+      "timestamp_ptax_oficial": "2025-12-12 13:06:27.227",
+      "cotacao_compra": 5.4005,
+      "cotacao_venda": 5.4011,
+      "usd_brl_mid": 5.4008
+    },
+    "2025-12-13": {
+      "data": "2025-12-12",
+      "timestamp_ptax_oficial": "2025-12-12 13:06:27.227",
+      "cotacao_compra": 5.4005,
+      "cotacao_venda": 5.4011,
+      "usd_brl_mid": 5.4008
+    },
+    "2025-12-14": {
+      "data": "2025-12-12",
+      "timestamp_ptax_oficial": "2025-12-12 13:06:27.227",
+      "cotacao_compra": 5.4005,
+      "cotacao_venda": 5.4011,
+      "usd_brl_mid": 5.4008
+    },
+    "2025-12-15": {
+      "data": "2025-12-15",
+      "timestamp_ptax_oficial": "2025-12-15 13:09:27.23",
+      "cotacao_compra": 5.3923,
+      "cotacao_venda": 5.3929,
+      "usd_brl_mid": 5.3926
+    },
+    "2025-12-16": {
+      "data": "2025-12-16",
+      "timestamp_ptax_oficial": "2025-12-16 13:07:25.964",
+      "cotacao_compra": 5.4499,
+      "cotacao_venda": 5.4505,
+      "usd_brl_mid": 5.4502
+    },
+    "2025-12-17": {
+      "data": "2025-12-17",
+      "timestamp_ptax_oficial": "2025-12-17 13:03:29.544",
+      "cotacao_compra": 5.5087,
+      "cotacao_venda": 5.5093,
+      "usd_brl_mid": 5.509
+    },
+    "2025-12-18": {
+      "data": "2025-12-18",
+      "timestamp_ptax_oficial": "2025-12-18 13:11:26.11",
+      "cotacao_compra": 5.5277,
+      "cotacao_venda": 5.5283,
+      "usd_brl_mid": 5.528
+    },
+    "2025-12-19": {
+      "data": "2025-12-19",
+      "timestamp_ptax_oficial": "2025-12-19 13:03:35.584",
+      "cotacao_compra": 5.5154,
+      "cotacao_venda": 5.516,
+      "usd_brl_mid": 5.5157
+    },
+    "2025-12-20": {
+      "data": "2025-12-19",
+      "timestamp_ptax_oficial": "2025-12-19 13:03:35.584",
+      "cotacao_compra": 5.5154,
+      "cotacao_venda": 5.516,
+      "usd_brl_mid": 5.5157
+    },
+    "2025-12-21": {
+      "data": "2025-12-19",
+      "timestamp_ptax_oficial": "2025-12-19 13:03:35.584",
+      "cotacao_compra": 5.5154,
+      "cotacao_venda": 5.516,
+      "usd_brl_mid": 5.5157
+    },
+    "2025-12-22": {
+      "data": "2025-12-22",
+      "timestamp_ptax_oficial": "2025-12-22 13:03:26.125",
+      "cotacao_compra": 5.5383,
+      "cotacao_venda": 5.5389,
+      "usd_brl_mid": 5.5386
+    },
+    "2025-12-23": {
+      "data": "2025-12-23",
+      "timestamp_ptax_oficial": "2025-12-23 13:04:26.622",
+      "cotacao_compra": 5.5637,
+      "cotacao_venda": 5.5643,
+      "usd_brl_mid": 5.564
+    },
+    "2025-12-24": {
+      "data": "2025-12-24",
+      "timestamp_ptax_oficial": "2025-12-24 11:07:45.216",
+      "cotacao_compra": 5.5342,
+      "cotacao_venda": 5.535,
+      "usd_brl_mid": 5.5346
+    },
+    "2025-12-25": {
+      "data": "2025-12-24",
+      "timestamp_ptax_oficial": "2025-12-24 11:07:45.216",
+      "cotacao_compra": 5.5342,
+      "cotacao_venda": 5.535,
+      "usd_brl_mid": 5.5346
+    },
+    "2025-12-26": {
+      "data": "2025-12-26",
+      "timestamp_ptax_oficial": "2025-12-26 13:07:27.597",
+      "cotacao_compra": 5.5407,
+      "cotacao_venda": 5.5413,
+      "usd_brl_mid": 5.541
+    },
+    "2025-12-27": {
+      "data": "2025-12-26",
+      "timestamp_ptax_oficial": "2025-12-26 13:07:27.597",
+      "cotacao_compra": 5.5407,
+      "cotacao_venda": 5.5413,
+      "usd_brl_mid": 5.541
+    },
+    "2025-12-28": {
+      "data": "2025-12-26",
+      "timestamp_ptax_oficial": "2025-12-26 13:07:27.597",
+      "cotacao_compra": 5.5407,
+      "cotacao_venda": 5.5413,
+      "usd_brl_mid": 5.541
+    },
+    "2025-12-29": {
+      "data": "2025-12-29",
+      "timestamp_ptax_oficial": "2025-12-29 13:10:01.131",
+      "cotacao_compra": 5.5733,
+      "cotacao_venda": 5.5739,
+      "usd_brl_mid": 5.5736
+    },
+    "2025-12-30": {
+      "data": "2025-12-30",
+      "timestamp_ptax_oficial": "2025-12-30 13:12:00.341",
+      "cotacao_compra": 5.5018,
+      "cotacao_venda": 5.5024,
+      "usd_brl_mid": 5.5021
+    },
+    "2025-12-31": {
+      "data": "2025-12-31",
+      "timestamp_ptax_oficial": "2025-12-31 10:06:24.183",
+      "cotacao_compra": 5.5018,
+      "cotacao_venda": 5.5024,
+      "usd_brl_mid": 5.5021
+    }
+  }
+}

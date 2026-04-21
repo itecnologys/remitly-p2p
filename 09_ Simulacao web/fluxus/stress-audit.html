@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>FLUXUS — Audit Terminal (Power BI)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Theme Style -->
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/premium-ui.css">
+    <link rel="stylesheet" href="font/fonts.css">
+    <link rel="stylesheet" href="icon/style.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="page">
+            <!-- Top Navigation Premium -->
+            <div id="top-nav-premium">
+                <div class="d-flex align-items-center w-100 justify-content-between">
+                    <div class="d-flex align-items-center gap-4">
+                        <img src="images/fluxus-cover.png" alt="FLUXUS" style="height: 32px;">
+                        <nav class="ms-4 d-none d-md-flex gap-4">
+                            <a href="index.html" class="f14-bold text-muted">Dashboard</a>
+                            <a href="my-wallet.html" class="f14-bold text-muted">My Portfolio</a>
+                            <a href="stress-audit.html" class="f14-bold text-Primary" style="border-bottom: 2px solid var(--fluxus-primary); padding-bottom: 4px;">Audit Terminal</a>
+                        </nav>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <div id="theme-institutional-toggle" class="data-pill text-muted" style="cursor: pointer;">
+                            <i class="icon-setting-5 me-1"></i> INSTITUTIONAL THEME
+                        </div>
+                        <div class="data-pill bg-Primary text-White">
+                            <span id="current-lp-id">AUDIT MODE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="layout-wrap loader-off">
+                <div id="preload" class="preload-container"><div class="preloading"><span></span></div></div>
+                
+                <div class="section-content-right p-0">
+                    <div class="tf-container py-2"><div id="fluxus-disclaimer-mount"></div></div>
+                    
+                    <div class="main-content">
+                        <div class="main-content-inner">
+                            <div class="main-content-wrap">
+                                <div class="tf-container">
+                                    <h4 class="mb-20">Audit Terminal — Power BI Engine</h4>
+                                    <p class="f12-regular text-muted mb-24">Terminal de monitoramento de liquidez global e rastreabilidade de transações (Audit Trail).</p>
+
+                                    <!-- Audit Summary Bento Grid -->
+                                    <div class="row g-3 mb-32" id="fluxus-stress-views">
+                                        <div class="col-md-4 col-lg-3">
+                                            <div class="wg-box audit-card" data-kpi="rows" style="cursor:pointer">
+                                                <div class="f11-bold text-muted mb-1">TOTAL REMATCHES <i class="icon-help-circle ms-1"></i></div>
+                                                <h4 id="fluxus-stress-kpi-rows">--</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-3">
+                                            <div class="wg-box audit-card" data-kpi="gtv" style="cursor:pointer">
+                                                <div class="f11-bold text-muted mb-1">GLOBAL VOLUME (GTV) <i class="icon-help-circle ms-1"></i></div>
+                                                <h4 id="fluxus-stress-kpi-gtv">--</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-3">
+                                            <div class="wg-box audit-card" data-kpi="net-fluxus" style="cursor:pointer">
+                                                <div class="f11-bold text-muted mb-1">NET MARGIN (PROTOCOL) <i class="icon-help-circle ms-1"></i></div>
+                                                <h4 id="fluxus-stress-kpi-net-fluxus" class="text-success">--</h4>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 col-lg-3">
+                                            <div class="wg-box audit-card" data-kpi="opex" style="cursor:pointer">
+                                                <div class="f11-bold text-muted mb-1">OPEX (GAS + DOCK) <i class="icon-help-circle ms-1"></i></div>
+                                                <h4 id="fluxus-stress-kpi-opex" class="text-danger">--</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Main Audit Tabs -->
+                                    <div class="wg-box">
+                                        <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3">
+                                            <ul class="widget-menu-tab mb-0 d-flex gap-4">
+                                                <li class="item-title f14-bold active" style="cursor:pointer"><span class="inner">Institutional Overview</span></li>
+                                                <li class="item-title f14-bold" style="cursor:pointer"><span class="inner">Monthly Flow</span></li>
+                                                <li class="item-title f14-bold" style="cursor:pointer"><span class="inner">LP Efficiency</span></li>
+                                                <li class="item-title f14-bold" style="cursor:pointer"><span class="inner">Master Ledger</span></li>
+                                            </ul>
+                                        </div>
+
+                                        <div class="widget-content-tab">
+                                            <!-- Tab 1: Global Analytics -->
+                                            <div class="widget-content-inner active">
+                                                <div id="fluxus-stress-chart-monthly" style="min-height: 350px;"></div>
+                                            </div>
+
+                                            <!-- Tab 2: Monthly Flow -->
+                                            <div class="widget-content-inner">
+                                                <div class="table-responsive">
+                                                    <table class="table table-hover">
+                                                        <thead>
+                                                            <tr class="f12-bold text-muted">
+                                                                <th>MÊS SIMULAÇÃO</th>
+                                                                <th class="text-end"># TRANSAÇÕES</th>
+                                                                <th class="text-end">INSTITUTIONAL GTV</th>
+                                                                <th class="text-end">ESTIMATED YIELD</th>
+                                                                <th class="text-end">LP RETURN</th>
+                                                                <th class="text-end">NET MARGIN</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody id="fluxus-stress-month-tbody" class="f13-medium"></tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+
+                                            <!-- Tab 3: LP Efficiency -->
+                                            <div class="widget-content-inner">
+                                                <div class="table-responsive">
+                                                    <table class="table table-hover">
+                                                        <thead>
+                                                            <tr class="f12-bold text-muted">
+                                                                <th>IDENTIFICADOR LP</th>
+                                                                <th class="text-end"># MATCHES</th>
+                                                                <th class="text-end">VTV (CAPTURA)</th>
+                                                                <th class="text-end">SPREAD MÉDIO</th>
+                                                                <th class="text-end">YIELD (BRL)</th>
+                                                                <th class="text-end">FEE FLUXUS</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody id="fluxus-stress-lp-tbody" class="f13-medium"></tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+
+                                            <!-- Tab 4: Master Ledger -->
+                                            <div class="widget-content-inner">
+                                                <div class="d-flex flex-wrap gap-3 align-items-end mb-4 bg-light p-3 rounded">
+                                                    <div><label class="f11-bold text-muted d-block mb-1">LP SELECTOR</label><select id="fluxus-stress-rows-lp" class="form-select form-select-sm" style="min-width:180px"><option value="">Full Network</option></select></div>
+                                                    <div><label class="f11-bold text-muted d-block mb-1">PERIOD</label><select id="fluxus-stress-rows-month" class="form-select form-select-sm" style="min-width:120px"><option value="">Full Year</option><option>Jan</option><option>Feb</option><option>Mar</option><option>Apr</option><option>May</option><option>Jun</option></select></div>
+                                                    <div><button type="button" class="tf-button style-1 f12-bold" id="fluxus-stress-rows-refresh">RE-SYNC AUDIT</button></div>
+                                                    <div class="ms-auto"><span class="data-pill" id="fluxus-stress-rows-meta">Ready</span></div>
+                                                </div>
+                                                <div class="table-responsive">
+                                                    <table class="table table-sm table-hover">
+                                                        <thead>
+                                                            <tr class="f11-bold text-muted">
+                                                                <th>ID</th>
+                                                                <th>DATE</th>
+                                                                <th>LP</th>
+                                                                <th>CYCLE</th>
+                                                                <th class="text-end">PRINCIPAL</th>
+                                                                <th class="text-end">GTV</th>
+                                                                <th class="text-end">SPREAD %</th>
+                                                                <th class="text-end">LP PROFIT</th>
+                                                                <th class="text-end">NET MARGIN</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody id="fluxus-stress-rows-tbody" class="f11-medium"></tbody>
+                                                    </table>
+                                                </div>
+                                                <nav class="mt-4"><ul class="pagination pagination-sm mb-0" id="fluxus-stress-pager"></ul></nav>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals & Scripts -->
+    <!-- Modal Dossiê KYC/AML Hercúleo -->
+    <div class="modal fade" id="kycModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content border-0 shadow-lg">
+                <div class="modal-header bg-dark text-white border-bottom-0 p-4">
+                    <div class="d-flex align-items-center">
+                        <div class="me-3">
+                            <span class="badge bg-emerald-glow text-dark f10-bold">AUDITED</span>
+                        </div>
+                        <h5 class="modal-title f16-bold mb-0">DOSSIÊ DE CONFORMIDADE <span id="kyc-rematch-id" class="text-muted ms-2"></span></h5>
+                    </div>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="row g-0">
+                        <!-- Sender Side -->
+                        <div class="col-md-6 border-end p-4">
+                            <h6 class="f11-bold text-muted text-uppercase mb-3 tracking-widest">Remetente (Origin)</h6>
+                            <div class="mb-4">
+                                <p class="f14-bold mb-1" id="kyc-sender-name">Nome do Remetente</p>
+                                <p class="f11-medium text-muted mb-0"><span id="kyc-sender-country"></span> | <span id="kyc-sender-id"></span></p>
+                            </div>
+                            <div class="mb-3">
+                                <label class="f10-bold text-uppercase text-muted d-block mb-1">Banco de Origem</label>
+                                <p class="f12-medium" id="kyc-sender-bank">Bank Name</p>
+                            </div>
+                            <div class="mb-3">
+                                <label class="f10-bold text-uppercase text-muted d-block mb-1">Endereço Registrado</label>
+                                <p class="f11-regular text-muted" id="kyc-sender-address">Address Detail</p>
+                            </div>
+                            <div class="mb-0">
+                                <label class="f10-bold text-uppercase text-muted d-block mb-1">Origem dos Fundos (Card BIN)</label>
+                                <p class="f11-medium font-monospace" id="kyc-sender-card">400000XXXXXX</p>
+                            </div>
+                        </div>
+                        <!-- Recipient Side -->
+                        <div class="col-md-6 p-4">
+                            <h6 class="f11-bold text-muted text-uppercase mb-3 tracking-widest">Destinatário (Settlement)</h6>
+                            <div class="mb-4">
+                                <p class="f14-bold mb-1" id="kyc-recipient-name">Nome do Destinatário</p>
+                                <p class="f11-medium text-muted mb-0"><span id="kyc-recipient-type"></span> | <span id="kyc-recipient-id"></span></p>
+                            </div>
+                            <div class="mb-3">
+                                <label class="f10-bold text-uppercase text-muted d-block mb-1">Banco no Brasil</label>
+                                <p class="f12-medium" id="kyc-recipient-bank">Bank Name Brazil</p>
+                            </div>
+                            <div class="mb-3">
+                                <label class="f10-bold text-uppercase text-muted d-block mb-1">Setor / Atividade</label>
+                                <p class="f12-medium text-emerald" id="kyc-recipient-sector">Setor Econômico</p>
+                            </div>
+                            <div class="mt-4 p-3 bg-light rounded">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span class="f10-bold text-muted text-uppercase">Motivo AML</span>
+                                    <span class="badge bg-success-soft text-success f9-bold" id="kyc-status">VERIFIED</span>
+                                </div>
+                                <p class="f12-bold mb-0" id="kyc-purpose">Propósito da Remessa</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-top-0 p-4">
+                    <div class="w-100 d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="f10-medium text-muted">PTAX: <span id="kyc-ptax" class="text-dark"></span></span>
+                        </div>
+                        <button type="button" class="btn btn-dark px-4 f12-bold" data-bs-dismiss="modal">Fechar Auditoria</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="auditModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header border-bottom">
+                    <h5 class="modal-title" id="auditTitle">Auditoria de Indicador</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-4">
+                    <div class="mb-4">
+                        <p class="f12-bold text-muted mb-2">TÉCNICA DE CÁLCULO</p>
+                        <div class="bg-light p-3 rounded font-monospace f12-medium text-dark" id="auditFormula">Formula</div>
+                    </div>
+                    <div>
+                        <p class="f12-bold text-muted mb-2">JUSTIFICATIVA ESTRATÉGICA</p>
+                        <div class="f13-regular text-muted" id="auditDesc">Justificativa</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fluxus-i18n-data.js"></script>
+    <script src="js/fluxus-sim-data.js"></script>
+    <script src="js/fluxus-app.js"></script>
+    <script>window.FLUXUS_API_BASE = "";</script>
+    <script src="js/apexcharts/apexcharts.js"></script>
+    <script src="js/stress-audit-page.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

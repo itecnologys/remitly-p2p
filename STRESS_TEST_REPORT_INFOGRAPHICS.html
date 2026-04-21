@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLUXUS | 2026 Strategic Infographic Report</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --navy: #141b2d;
+            --gold: #b8914d;
+            --gold-light: #d4af37;
+            --white: #ffffff;
+            --gray: #a0aec0;
+            --card-bg: rgba(255, 255, 255, 0.03);
+        }
+
+        @page {
+            size: A4 landscape;
+            margin: 0;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background-color: #f7fafc;
+        }
+
+        .page {
+            width: 297mm;
+            height: 210mm;
+            background-color: var(--navy);
+            color: var(--white);
+            position: relative;
+            overflow: hidden;
+            page-break-after: always;
+            display: flex;
+            box-sizing: border-box;
+        }
+
+        /* Triangle Background Patterns */
+        .triangle-bg {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .tri {
+            position: absolute;
+            background-color: var(--gold);
+            clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+            opacity: 0.1;
+        }
+
+        /* Content Sections */
+        .content {
+            position: relative;
+            z-index: 2;
+            padding: 60px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Page 1: Cover */
+        #page1 .content {
+            justify-content: center;
+            align-items: flex-start;
+            padding-left: 120px;
+        }
+
+        .year-label {
+            font-size: 6rem;
+            font-weight: 800;
+            margin: 0;
+            line-height: 1;
+            letter-spacing: -2px;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: var(--gold);
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin-top: 20px;
+            font-weight: 300;
+        }
+
+        .headline {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-top: 10px;
+            max-width: 600px;
+        }
+
+        .deco-line {
+            width: 100px;
+            height: 5px;
+            background-color: var(--gold);
+            margin-top: 30px;
+        }
+
+        /* Page 2: Summary */
+        .page-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            border-left: 5px solid var(--gold);
+            padding-left: 20px;
+            margin-bottom: 40px;
+        }
+
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .metric-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(184, 145, 77, 0.3);
+            padding: 30px;
+            border-radius: 5px;
+        }
+
+        .metric-card h4 {
+            margin: 0;
+            font-size: 1rem;
+            color: var(--gold);
+            text-transform: uppercase;
+        }
+
+        .metric-card .big-val {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin: 10px 0;
+        }
+
+        /* Visual Accents - Triangles spread */
+        .tri-1 { width: 300px; height: 300px; bottom: -50px; right: -50px; opacity: 0.2; }
+        .tri-2 { width: 150px; height: 150px; top: -20px; right: 100px; transform: rotate(180deg); }
+        .tri-3 { width: 80px; height: 80px; bottom: 200px; left: -20px; opacity: 0.15; }
+
+        /* Page 3: Timeline */
+        .timeline-container {
+            flex-grow: 1;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Page 4: Efficiency */
+        .split-view {
+            display: flex;
+            gap: 40px;
+            height: 100%;
+        }
+
+        .left-col { flex: 1; }
+        .right-col { flex: 1; }
+
+        /* Typography */
+        p { line-height: 1.6; color: var(--gray); font-size: 1.1rem; }
+        strong { color: var(--white); }
+
+    </style>
+</head>
+<body>
+
+<!-- PÁGINA 1: CAPA -->
+<div class="page" id="page1">
+    <div class="triangle-bg">
+        <div class="tri tri-1"></div>
+        <div class="tri tri-2" style="background-color: var(--gold-light);"></div>
+        <div class="tri tri-3"></div>
+    </div>
+    <div class="content">
+        <h2 class="year-label">2026</h2>
+        <div class="subtitle">Investment Thesis</div>
+        <h1 class="headline">FLUXUS: THE 1.4B STRESS TEST REPORT</h1>
+        <div class="deco-line"></div>
+        <p style="margin-top: 40px; max-width: 500px;">
+            Uma análise detalhada sobre a orquestração global de liquidez e o efeito de capitalização atômica para investidores anjo e institucionais.
+        </p>
+    </div>
+</div>
+
+<!-- PÁGINA 2: RESUMO EXECUTIVO -->
+<div class="page" id="page2">
+    <div class="triangle-bg">
+        <div class="tri" style="width: 400px; height: 400px; top: -200px; left: -200px; opacity: 0.1;"></div>
+    </div>
+    <div class="content">
+        <div class="page-title">VISÃO EXECUTIVA 360&deg;</div>
+        <div class="split-view">
+            <div class="left-col">
+                <p>O protocolo FLUXUS atingiu marcos históricos de escalabilidade durante o Stress Test de 12 meses. Através do motor de matching Antigravity, orquestramos a liquidez de 100 LPs de forma totalmente descentralizada e eficiente.</p>
+                <div class="metric-grid">
+                    <div class="metric-card">
+                        <h4>GTV Total</h4>
+                        <div class="big-val">R$ 1.4B</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Crescimento</h4>
+                        <div class="big-val">+1,650%</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Eficiência</h4>
+                        <div class="big-val">98.7%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="right-col" style="display: flex; align-items: center; justify-content: center;">
+                 <img src="https://via.placeholder.com/400x300/141b2d/b8914d?text=FLUXUS+LOGO" alt="Layout Visual" style="border: 1px solid var(--gold); padding: 10px;">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PÁGINA 3: TIMELINE DE CRESCIMENTO -->
+<div class="page" id="page3">
+    <div class="content">
+        <div class="page-title">CURVA DE CRESCIMENTO EXPONENCIAL</div>
+        <p>Abaixo, a evolução mensal do GTV e Lucratividade dos LPs, demonstrando o poder dos juros compostos atômicos.</p>
+        <div class="chart-container" style="height: 400px; margin-top: 30px;">
+            <canvas id="growthChartSlide"></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- PÁGINA 4: EFICIÊNCIA OPERACIONAL (DRE) -->
+<div class="page" id="page4">
+    <div class="content">
+        <div class="page-title">MODELO ASSET-LIGHT: DRE & MARGENS</div>
+        <div class="split-view">
+            <div class="left-col">
+                <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+                    <tr style="border-bottom: 1px solid var(--gold); height: 50px;">
+                        <td>Receita de Orquestração</td>
+                        <td style="text-align: right; font-weight: 700; color: var(--primary);">R$ 14.1M</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.1); height: 50px;">
+                        <td>Custos de Rede (Nodes/Gas)</td>
+                        <td style="text-align: right;">(R$ 3.2k)</td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid rgba(255,255,255,0.1); height: 50px;">
+                        <td>Custos de Gateway (Dock/VASP)</td>
+                        <td style="text-align: right;">(R$ 172k)</td>
+                    </tr>
+                    <tr style="height: 50px; font-size: 1.5rem;">
+                        <td><strong>EBITDA Consolidado</strong></td>
+                        <td style="text-align: right; color: var(--gold);"><strong>R$ 13.9M</strong></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="right-col">
+                <p>A Fluxus captura valor sem a necessidade de infraestrutura pesada. Cada centavo de OPEX (Custo Operacional) gera aproximadamente <strong>R$ 80,00</strong> em Receita Líquida.</p>
+                <div style="background: var(--card-bg); padding: 20px; border-radius: 10px; border: 1px dashed var(--gold); margin-top: 20px;">
+                    <h5 style="margin: 0; color: var(--gold);">Stability Pool (Buffer)</h5>
+                    <div style="font-size: 2rem; font-weight: 800;">R$ 28,196,263</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PÁGINA 5: PROTOCOLO DE MATCHING -->
+<div class="page" id="page5">
+    <div class="content">
+        <div class="page-title">ENGENHARIA DO MATCHING ENGINE</div>
+        <div style="display: flex; justify-content: space-around; align-items: center; flex: 1; padding: 40px;">
+            <div style="text-align:center; flex: 1;">
+                <div style="width: 120px; height: 120px; border: 3px solid var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 2rem; font-weight: 700;">1</div>
+                <h4>REQUEST</h4>
+                <p style="font-size: 0.9rem;">Sender inicia ordem</p>
+            </div>
+            <div style="width: 50px; height: 2px; background: var(--gold);"></div>
+            <div style="text-align:center; flex: 1;">
+                <div style="width: 120px; height: 120px; border: 3px solid var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 2rem; font-weight: 700;">2</div>
+                <h4>AUCTION</h4>
+                <p style="font-size: 0.9rem;">Leilão entre LPs</p>
+            </div>
+            <div style="width: 50px; height: 2px; background: var(--gold);"></div>
+            <div style="text-align:center; flex: 1;">
+                <div style="width: 120px; height: 120px; border: 3px solid var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 2rem; font-weight: 700;">3</div>
+                <h4>LOCK</h4>
+                <p style="font-size: 0.9rem;">Colateral On-Chain</p>
+            </div>
+            <div style="width: 50px; height: 2px; background: var(--gold);"></div>
+            <div style="text-align:center; flex: 1;">
+                <div style="width: 120px; height: 120px; border: 3px solid var(--gold); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 2rem; font-weight: 700;">4</div>
+                <h4>PAYOUT</h4>
+                <p style="font-size: 0.9rem;">Entrega Fiat Local</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Adicionando mais 5 páginas para completar as 10 -->
+
+<!-- PÁGINA 6: STABILITY POOL -->
+<div class="page" id="page6">
+    <div class="content">
+        <div class="page-title">O COFRE: STABILITY POOL RESERVE</div>
+        <div class="split-view">
+             <div class="left-col">
+                <p>Nossa reserva estratégica atua como a garantia de última instância da rede. Alimentada por uma taxa de 2% sobre as emissões, ela garante liquidez em situações de estresse de câmbio.</p>
+                <div style="margin-top: 40px;">
+                    <div style="font-size: 4rem; font-weight: 800; color: var(--gold);">R$ 28.1M</div>
+                    <div style="text-transform: uppercase; letter-spacing: 2px;">Total Liquid Reserve</div>
+                </div>
+             </div>
+             <div class="right-col" style="background: rgba(184, 145, 77, 0.05); border-radius: 20px; padding: 30px;">
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin-bottom: 20px;">🛡️ <strong>Mitigação de Risco:</strong> Proteção contra volatilidade.</li>
+                    <li style="margin-bottom: 20px;">⚡ <strong>Flash Liquidity:</strong> Suporte para ordens institucionais.</li>
+                    <li style="margin-bottom: 20px;">🏦 <strong>Staking Yield:</strong> Geração de renda passiva para o tesouro.</li>
+                </ul>
+             </div>
+        </div>
+    </div>
+</div>
+
+<!-- PÁGINA 7: MAPA DE LIQUIDEZ GLOBAL -->
+<div class="page" id="page7">
+    <div class="content">
+        <div class="page-title">EXPANSÃO GLOBAL: NODES ATIVOS</div>
+        <div style="flex: 1; display:flex; align-items:center; justify-content:center; border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; margin-top: 20px; position:relative;">
+             <div style="text-align:center;">
+                <h2 style="color: var(--gold);">BRASIL: 100 NODES (LPs)</h2>
+                <p>Status: Ativo | Volume Médio/Dia: R$ 5.8M</p>
+                <div style="display:flex; gap: 20px; justify-content:center; margin-top: 20px;">
+                    <span style="background: var(--gold); color: var(--navy); padding: 5px 15px; border-radius: 20px; font-weight: 700;">PROMETHEUS NODE</span>
+                    <span style="border: 1px solid var(--gold); padding: 5px 15px; border-radius: 20px;">NIGERIA (Beta)</span>
+                    <span style="border: 1px solid var(--gold); padding: 5px 15px; border-radius: 20px;">PHILIPPINES (Beta)</span>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+
+<!-- PÁGINA 8: PERFIL DE SUCESSO LPs -->
+<div class="page" id="page8">
+    <div class="content">
+        <div class="page-title">PROOF OF CONCEP: PERFIL DOS LPs</div>
+        <p>Abaixo, o case real dos 3 maiores liquidantes do período, demonstrando o escalonamento orgânico de capital.</p>
+        <div class="metric-grid">
+            <div class="metric-card">
+                <h4>LP_003 (Gold Tier)</h4>
+                <div class="big-val">R$ 431K</div>
+                <small>Capital Final (Início: 24k)</small>
+            </div>
+            <div class="metric-card">
+                <h4>LP_006 (Platinum)</h4>
+                <div class="big-val">R$ 431K</div>
+                <small>840 Ciclos Operados</small>
+            </div>
+            <div class="metric-card">
+                <h4>LP_008 (Silver)</h4>
+                <div class="big-val">R$ 320K</div>
+                <small>Retorno Acumulado: +1,661%</small>
+            </div>
+        </div>
+        <p style="margin-top: 40px; text-align: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+             <strong>Observação Tributária:</strong> Todos os LPs mantiveram saques mensais abaixo de R$ 35.000, permanecendo <strong>100% ISENTOS DE IR</strong>.
+        </p>
+    </div>
+</div>
+
+<!-- PÁGINA 9: COMPARATIVO DUAL-STACK -->
+<div class="page" id="page9">
+    <div class="content">
+        <div class="page-title">INFRAESTRUTURA DUAL-STACK</div>
+        <div class="split-view">
+            <div class="left-col" style="background: rgba(0, 242, 255, 0.05); padding: 30px; border-radius: 20px;">
+                <h3 style="color: #00f2ff;">SOLANA (Performance)</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li>- Block Time: 0.4s</li>
+                    <li>- Gas Fee: < $0.001</li>
+                    <li>- Foco: Micro-remessas B2C</li>
+                </ul>
+            </div>
+            <div class="right-col" style="background: rgba(184, 145, 77, 0.05); padding: 30px; border-radius: 20px;">
+                <h3 style="color: var(--gold);">POLYGON (Institutional)</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li>- Block Time: 2.0s</li>
+                    <li>- Gas Fee: ~$0.01</li>
+                    <li>- Foco: Liquidez B2B e Drex</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- PÁGINA 10: ROADMAP E VISÃO 2027 -->
+<div class="page" id="page10">
+    <div class="triangle-bg">
+        <div class="tri tri-1" style="background-color: var(--white); opacity: 0.05; width: 600px; height: 600px;"></div>
+    </div>
+    <div class="content" style="text-align:center; justify-content: center;">
+        <div class="subtitle">Next Steps</div>
+        <h1 style="font-size: 4rem; margin-bottom: 20px;">PHASE 2: GLOBAL EXPANSION</h1>
+        <p style="max-width: 700px; margin: 0 auto; font-size: 1.3rem;">O sucesso do stress test valida o modelo para a Série-A. Em 2027, atingiremos 10 corredores ativos e integração total com o Real Digital (Drex).</p>
+        <div style="margin-top: 60px;">
+            <div style="display:inline-block; padding: 20px 40px; border: 2px solid var(--gold); font-size: 1.5rem; font-weight: 700; color: var(--gold); text-transform: uppercase; letter-spacing: 5px;">FLUXUS PROTOCOL</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Gráfico de Crescimento (Slide 3)
+    const ctx = document.getElementById('growthChartSlide').getContext('2d');
+    const labels = ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'];
+    const gtvData = [22.9, 52.0, 89.0, 135.9, 195.5, 271.2, 367.4, 489.5, 644.6, 841.6, 1091.9, 1409.8]; // Acumulado Milhões
+
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'GTV Acumulado (R$ Milhões)',
+                data: gtvData,
+                borderColor: '#b8914d',
+                backgroundColor: 'rgba(184, 145, 77, 0.2)',
+                fill: true,
+                tension: 0.4,
+                pointRadius: 5,
+                pointBackgroundColor: '#fff'
+            }]
+        },
+        options: {
+            maintainAspectRatio: false,
+            plugins: { legend: { display: false } },
+            scales: {
+                y: { grid: { color: 'rgba(255,255,255,0.05)' }, ticks: { color: '#a0aec0' } },
+                x: { grid: { display: false }, ticks: { color: '#a0aec0' } }
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

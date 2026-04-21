@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLUXUS | Stress Test Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #00f2ff;
+            --secondary: #ffd700;
+            --bg: #050a0f;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --text: #e0e0e0;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Outfit', sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            border-bottom: 1px solid var(--card-bg);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 2px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+
+        .card h3 {
+            margin: 0;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            color: #888;
+        }
+
+        .card .value {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin: 10px 0;
+            color: var(--primary);
+        }
+
+        .chart-container {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .details-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .info-box {
+            background: rgba(0, 242, 255, 0.03);
+            border-left: 4px solid var(--primary);
+            padding: 20px;
+            border-radius: 0 10px 10px 0;
+        }
+
+        .info-box h4 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            color: #555;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>FLUXUS NETWORK ENGINE</h1>
+        <p>Stress Test Simulation: 100 LPs | High Frequency Rematch</p>
+    </header>
+
+    <div class="stats-grid">
+        <div class="card">
+            <h3>GTV Acumulado (12M)</h3>
+            <div class="value">R$ 1.41B</div>
+            <small>Total Transacionado</small>
+        </div>
+        <div class="card">
+            <h3>Stability Pool</h3>
+            <div class="value" style="color: var(--secondary);">R$ 28.2M</div>
+            <small>Reserva de Segurança (2%)</small>
+        </div>
+        <div class="card">
+            <h3>Lucro dos LPs</h3>
+            <div class="value">R$ 21.1M</div>
+            <small>100% Reinvestido</small>
+        </div>
+        <div class="card">
+            <h3>EBITDA Fluxus</h3>
+            <div class="value">R$ 13.9M</div>
+            <small>Receita de Orquestração</small>
+        </div>
+    </div>
+
+    <div class="chart-container">
+        <canvas id="growthChart"></canvas>
+    </div>
+
+    <div class="details-grid">
+        <div class="info-box">
+            <h4>Cenário de Escala</h4>
+            <p>Simulação baseada em 100 parceiros com aportes entre R$ 1k e R$ 25k. O motor orquestrou entre 1 e 6 ciclos diários por LP, operando 5 dias por semana.</p>
+            <ul>
+                <li><strong>Network:</strong> Solana & Polygon Bridge</li>
+                <li><strong>Banking:</strong> Dock API (BaaS)</li>
+                <li><strong>Tax:</strong> < R$ 35k/mo (Tax Free)</li>
+            </ul>
+        </div>
+        <div class="info-box" style="border-color: var(--secondary);">
+            <h4>Efeito Compounding</h4>
+            <p>O crescimento exponencial demonstra a força do reinvestimento atômico dos lucros. Em 12 meses, parceiros Silver atingiram o nível Platinum de liquidez sem novos aportes externos.</p>
+            <p><strong>OPEX Eficiência:</strong> 98.7% de margem operacional para a plataforma.</p>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 FLUXUS PROTOCOL | Antigravity AI Orchestration
+    </footer>
+</div>
+
+<script>
+    const ctx = document.getElementById('growthChart').getContext('2d');
+    
+    // Dados simulados da projeção mensal
+    const labels = ['Mês 1', 'Mês 2', 'Mês 3', 'Mês 4', 'Mês 5', 'Mês 6', 'Mês 7', 'Mês 8', 'Mês 9', 'Mês 10', 'Mês 11', 'Mês 12'];
+    const gtvData = [22.9, 29.1, 37.0, 46.9, 59.6, 75.7, 96.2, 122.1, 155.1, 197.0, 250.3, 317.9]; // Em Milhões
+    const profitData = [0.34, 0.44, 0.55, 0.70, 0.89, 1.13, 1.44, 1.83, 2.32, 2.95, 3.75, 4.76]; // Em Milhões
+
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'GTV Mensal (Milhões R$)',
+                data: gtvData,
+                borderColor: '#00f2ff',
+                backgroundColor: 'rgba(0, 242, 255, 0.1)',
+                fill: true,
+                tension: 0.4
+            }, {
+                label: 'Lucro LP Mensal (Milhões R$)',
+                data: profitData,
+                borderColor: '#ffd700',
+                backgroundColor: 'transparent',
+                borderDash: [5, 5],
+                tension: 0.1
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    labels: { color: '#888', font: { family: 'Outfit' } }
+                }
+            },
+            scales: {
+                y: {
+                    grid: { color: 'rgba(255,255,255,0.05)' },
+                    ticks: { color: '#888' }
+                },
+                x: {
+                    grid: { display: false },
+                    ticks: { color: '#888' }
+                }
+            }
+        }
+    });
+</script>
+
+</body>
+</html>

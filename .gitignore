@@ -1,0 +1,40 @@
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project Temporary/Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Artifacts & Gemini Assistant logs
+.gemini/
+.gemini_assistant/
+**/scratch/
+**/artifacts/
+**/.system_generated/
+
+# Project Specific
+docs/*.docx
+nexus-platform.code-workspace
+
+# Large files (>100MB - armazenados no Google Drive)
+06_DATA/DATA_STRESS_TEST_AUDIT_LOG_POWERBI.csv
+
+# Arquivos com credenciais/secrets
+00_BRAIN/INFRASTRUCTURE_CREDENTIALS.md
+00_BRAIN/CHAT_LOGS/CHAT_BACKUP_CLOUD_MIGRATION_BRUTO.md

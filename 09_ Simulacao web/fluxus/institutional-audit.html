@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-BR" lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <title>FLUXUS — Institutional Profitability Analysis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/premium-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/institutional-farseer.css">
+    <link rel="stylesheet" href="font/fonts.css">
+    <link rel="stylesheet" href="icon/style.css">
+    <link rel="shortcut icon" href="images/favicon.png">
+</head>
+
+<body data-theme="dark-institutional">
+    <div id="wrapper">
+        <div id="page">
+            <!-- Top Navigation Premium -->
+            <div id="top-nav-premium">
+                <div class="d-flex align-items-center w-100 justify-content-between">
+                    <div class="d-flex align-items-center gap-4">
+                        <img src="images/fluxus-cover.png" alt="FLUXUS" style="height: 32px;">
+                        <nav class="ms-4 d-none d-md-flex gap-4">
+                            <a href="index.html" class="f14-bold text-muted">Dashboard</a>
+                            <a href="my-wallet.html" class="f14-bold text-muted">Portfolio</a>
+                            <a href="stress-audit.html" class="f14-bold text-muted">Audit Terminal</a>
+                            <a href="institutional-audit.html" class="f14-bold" style="color: var(--fluxus-primary); border-bottom: 2px solid var(--fluxus-primary); padding-bottom: 4px;">Profitability</a>
+                        </nav>
+                    </div>
+                    <div class="d-flex align-items-center gap-3">
+                        <div class="data-pill bg-Primary text-White">
+                            <span>INSTITUTIONAL ANALYSIS MODE</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex">
+                <!-- Multidimensional Sidebar -->
+                <aside class="farseer-sidebar">
+                    <h6 class="f11-bold text-muted mb-4 tracking-widest text-uppercase">Navigation & Filters</h6>
+                    
+                    <div class="filter-group">
+                        <label class="filter-label">Timeframe</label>
+                        <select class="filter-select" id="filter-month">
+                            <option value="">Full Year 2025</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="filter-label">Origin Region (Sender)</label>
+                        <select class="filter-select" id="filter-region">
+                            <option value="">Global Network</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="filter-label">Settlement Sector</label>
+                        <select class="filter-select" id="filter-sector">
+                            <option value="">All Sectors</option>
+                        </select>
+                    </div>
+
+                    <div class="filter-group">
+                        <label class="filter-label">LP Identifier</label>
+                        <select class="filter-select" id="filter-lp">
+                            <option value="">Consolidated LPs</option>
+                        </select>
+                    </div>
+
+                    <hr class="my-4 border-secondary opacity-25">
+
+                    <button class="btn btn-primary w-100 f12-bold py-2 mb-3" id="apply-filters">Apply Analysis</button>
+                    <button class="btn btn-outline-secondary w-100 f12-bold py-2" id="reset-filters">Reset View</button>
+                </aside>
+
+                <!-- Main Analysis Area -->
+                <main class="farseer-content">
+                    <div class="tf-container">
+                        <div class="d-flex justify-content-between align-items-end mb-4">
+                            <div>
+                                <h3 class="mb-1">Profitability & Loss (DRE)</h3>
+                                <p class="f12-medium text-muted">Demonstrativo de Resultados Operacionais • Sincronia Real-time com a Malha Institucional.</p>
+                            </div>
+                            <div class="text-end">
+                                <span class="data-pill" id="sync-status"><i class="farol farol-green me-1"></i> SYNCED</span>
+                            </div>
+                        </div>
+
+                        <!-- DRE Table Container -->
+                        <div class="wg-box p-0 overflow-hidden mb-32">
+                            <table class="dre-table">
+                                <thead class="dre-row header">
+                                    <tr>
+                                        <th class="dre-cell f11-bold text-muted text-uppercase tracking-widest" style="width: 60%;">Account / Metric</th>
+                                        <th class="dre-cell f11-bold text-muted text-uppercase tracking-widest text-end">Value (BRL)</th>
+                                        <th class="dre-cell f11-bold text-muted text-uppercase tracking-widest text-end">% GTV</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="dre-body">
+                                    <!-- Dynamic rows from JS -->
+                                    <tr><td colspan="3" class="dre-cell text-center p-5 text-muted">Aguardando dados...</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Analysis Row 2: Visual Insights -->
+                        <div class="analysis-grid">
+                            <div class="chart-card">
+                                <h6 class="f12-bold mb-4">Margin Waterfall Analysis (BRL)</h6>
+                                <div id="chart-waterfall" style="min-height: 300px;"></div>
+                            </div>
+                            <div class="chart-card">
+                                <h6 class="f12-bold mb-4">Key Efficiency Indicators</h6>
+                                <div class="d-flex flex-column gap-4">
+                                    <div>
+                                        <div class="f11-bold text-muted mb-1">TOTAL GTV</div>
+                                        <h4 id="kpi-gtv">--</h4>
+                                    </div>
+                                    <div>
+                                        <div class="f11-bold text-muted mb-1">NET TAKE RATE (BPS)</div>
+                                        <h4 id="kpi-take-rate">--</h4>
+                                    </div>
+                                    <div>
+                                        <div class="f11-bold text-muted mb-1">PROFITABILITY STATUS</div>
+                                        <div class="data-pill text-success d-inline-block" id="kpi-status">HEALTHY</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/apexcharts/apexcharts.js"></script>
+    <script src="js/institutional-audit-page.js"></script>
+</body>
+</html>

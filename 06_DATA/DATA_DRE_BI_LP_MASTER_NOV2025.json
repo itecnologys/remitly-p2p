@@ -1,0 +1,902 @@
+[
+  {
+    "lp_id": "LP_001",
+    "nome_completo": "José Rodrigues Martins",
+    "genero": "M",
+    "cidade": "Maceió",
+    "estado": "AL",
+    "capital_inicial": 25100.0,
+    "current_capital": 25100.0
+  },
+  {
+    "lp_id": "LP_002",
+    "nome_completo": "Marcelo Souza Cavalcanti",
+    "genero": "M",
+    "cidade": "João Pessoa",
+    "estado": "PB",
+    "capital_inicial": 43200.0,
+    "current_capital": 43200.0
+  },
+  {
+    "lp_id": "LP_003",
+    "nome_completo": "Bianca Melo Teixeira",
+    "genero": "F",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "capital_inicial": 25400.0,
+    "current_capital": 25400.0
+  },
+  {
+    "lp_id": "LP_004",
+    "nome_completo": "João Melo Monteiro",
+    "genero": "M",
+    "cidade": "Campinas",
+    "estado": "SP",
+    "capital_inicial": 43600.0,
+    "current_capital": 43600.0
+  },
+  {
+    "lp_id": "LP_005",
+    "nome_completo": "Carlos Lima Pereira",
+    "genero": "M",
+    "cidade": "Salvador",
+    "estado": "BA",
+    "capital_inicial": 34000.0,
+    "current_capital": 34000.0
+  },
+  {
+    "lp_id": "LP_006",
+    "nome_completo": "Marcelo Melo Alves",
+    "genero": "M",
+    "cidade": "Campinas",
+    "estado": "SP",
+    "capital_inicial": 13000.0,
+    "current_capital": 13000.0
+  },
+  {
+    "lp_id": "LP_007",
+    "nome_completo": "Patrícia Freitas Melo",
+    "genero": "F",
+    "cidade": "Belo Horizonte",
+    "estado": "MG",
+    "capital_inicial": 28100.0,
+    "current_capital": 28100.0
+  },
+  {
+    "lp_id": "LP_008",
+    "nome_completo": "Roberta Souza Nascimento",
+    "genero": "F",
+    "cidade": "Belém",
+    "estado": "PA",
+    "capital_inicial": 39900.0,
+    "current_capital": 39900.0
+  },
+  {
+    "lp_id": "LP_009",
+    "nome_completo": "Júlia Silva Moreira",
+    "genero": "F",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "capital_inicial": 13100.0,
+    "current_capital": 13100.0
+  },
+  {
+    "lp_id": "LP_010",
+    "nome_completo": "Rafael Freitas Moreira",
+    "genero": "M",
+    "cidade": "Recife",
+    "estado": "PE",
+    "capital_inicial": 17200.0,
+    "current_capital": 17200.0
+  },
+  {
+    "lp_id": "LP_011",
+    "nome_completo": "Elisa Santos Pinto",
+    "genero": "F",
+    "cidade": "Belo Horizonte",
+    "estado": "MG",
+    "capital_inicial": 46300.0,
+    "current_capital": 46300.0
+  },
+  {
+    "lp_id": "LP_012",
+    "nome_completo": "Sandra Costa Rodrigues",
+    "genero": "F",
+    "cidade": "Vitória",
+    "estado": "ES",
+    "capital_inicial": 5400.0,
+    "current_capital": 5400.0
+  },
+  {
+    "lp_id": "LP_013",
+    "nome_completo": "Mariana Santos Nascimento",
+    "genero": "F",
+    "cidade": "Florianópolis",
+    "estado": "SC",
+    "capital_inicial": 46600.0,
+    "current_capital": 46600.0
+  },
+  {
+    "lp_id": "LP_014",
+    "nome_completo": "Renata Carvalho Souza",
+    "genero": "F",
+    "cidade": "Aracaju",
+    "estado": "SE",
+    "capital_inicial": 43100.0,
+    "current_capital": 43100.0
+  },
+  {
+    "lp_id": "LP_015",
+    "nome_completo": "André Correia Rocha",
+    "genero": "M",
+    "cidade": "Belém",
+    "estado": "PA",
+    "capital_inicial": 6900.0,
+    "current_capital": 6900.0
+  },
+  {
+    "lp_id": "LP_016",
+    "nome_completo": "Daniel Carvalho Santos",
+    "genero": "M",
+    "cidade": "Maceió",
+    "estado": "AL",
+    "capital_inicial": 48900.0,
+    "current_capital": 48900.0
+  },
+  {
+    "lp_id": "LP_017",
+    "nome_completo": "Paulo Silva Teixeira",
+    "genero": "M",
+    "cidade": "Belo Horizonte",
+    "estado": "MG",
+    "capital_inicial": 38200.0,
+    "current_capital": 38200.0
+  },
+  {
+    "lp_id": "LP_018",
+    "nome_completo": "Carla Martins Santos",
+    "genero": "F",
+    "cidade": "Manaus",
+    "estado": "AM",
+    "capital_inicial": 10600.0,
+    "current_capital": 10600.0
+  },
+  {
+    "lp_id": "LP_019",
+    "nome_completo": "Thiago Melo Araújo",
+    "genero": "M",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "capital_inicial": 16800.0,
+    "current_capital": 16800.0
+  },
+  {
+    "lp_id": "LP_020",
+    "nome_completo": "Paula Duarte Pereira",
+    "genero": "F",
+    "cidade": "Campinas",
+    "estado": "SP",
+    "capital_inicial": 34200.0,
+    "current_capital": 34200.0
+  },
+  {
+    "lp_id": "LP_021",
+    "nome_completo": "Bruno Barbosa Monteiro",
+    "genero": "M",
+    "cidade": "Salvador",
+    "estado": "BA",
+    "capital_inicial": 35100.0,
+    "current_capital": 35100.0
+  },
+  {
+    "lp_id": "LP_022",
+    "nome_completo": "Marcelo Alves Monteiro",
+    "genero": "M",
+    "cidade": "Vitória",
+    "estado": "ES",
+    "capital_inicial": 36700.0,
+    "current_capital": 36700.0
+  },
+  {
+    "lp_id": "LP_023",
+    "nome_completo": "Eduardo Duarte Lima",
+    "genero": "M",
+    "cidade": "Salvador",
+    "estado": "BA",
+    "capital_inicial": 48200.0,
+    "current_capital": 48200.0
+  },
+  {
+    "lp_id": "LP_024",
+    "nome_completo": "Helena Pinto Cardoso",
+    "genero": "F",
+    "cidade": "Fortaleza",
+    "estado": "CE",
+    "capital_inicial": 8300.0,
+    "current_capital": 8300.0
+  },
+  {
+    "lp_id": "LP_025",
+    "nome_completo": "Rafael Rocha Lima",
+    "genero": "M",
+    "cidade": "Brasília",
+    "estado": "DF",
+    "capital_inicial": 35900.0,
+    "current_capital": 35900.0
+  },
+  {
+    "lp_id": "LP_026",
+    "nome_completo": "Mariana Freitas Souza",
+    "genero": "F",
+    "cidade": "Vitória",
+    "estado": "ES",
+    "capital_inicial": 18600.0,
+    "current_capital": 18600.0
+  },
+  {
+    "lp_id": "LP_027",
+    "nome_completo": "José Dias Alves",
+    "genero": "M",
+    "cidade": "Goiânia",
+    "estado": "GO",
+    "capital_inicial": 35900.0,
+    "current_capital": 35900.0
+  },
+  {
+    "lp_id": "LP_028",
+    "nome_completo": "Bianca Melo Araújo",
+    "genero": "F",
+    "cidade": "João Pessoa",
+    "estado": "PB",
+    "capital_inicial": 48500.0,
+    "current_capital": 48500.0
+  },
+  {
+    "lp_id": "LP_029",
+    "nome_completo": "Rafael Correia Pereira",
+    "genero": "M",
+    "cidade": "Manaus",
+    "estado": "AM",
+    "capital_inicial": 45700.0,
+    "current_capital": 45700.0
+  },
+  {
+    "lp_id": "LP_030",
+    "nome_completo": "Eduardo Moreira Freitas",
+    "genero": "M",
+    "cidade": "Vitória",
+    "estado": "ES",
+    "capital_inicial": 28500.0,
+    "current_capital": 28500.0
+  },
+  {
+    "lp_id": "LP_031",
+    "nome_completo": "Rafael Correia Teixeira",
+    "genero": "M",
+    "cidade": "Maceió",
+    "estado": "AL",
+    "capital_inicial": 41100.0,
+    "current_capital": 41100.0
+  },
+  {
+    "lp_id": "LP_032",
+    "nome_completo": "Henrique Rodrigues Freitas",
+    "genero": "M",
+    "cidade": "Florianópolis",
+    "estado": "SC",
+    "capital_inicial": 35700.0,
+    "current_capital": 35700.0
+  },
+  {
+    "lp_id": "LP_033",
+    "nome_completo": "Pedro Dias Souza",
+    "genero": "M",
+    "cidade": "Maceió",
+    "estado": "AL",
+    "capital_inicial": 27700.0,
+    "current_capital": 27700.0
+  },
+  {
+    "lp_id": "LP_034",
+    "nome_completo": "Gabriel Oliveira Carvalho",
+    "genero": "M",
+    "cidade": "Porto Alegre",
+    "estado": "RS",
+    "capital_inicial": 34700.0,
+    "current_capital": 34700.0
+  },
+  {
+    "lp_id": "LP_035",
+    "nome_completo": "Vanessa Dias Souza",
+    "genero": "F",
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ",
+    "capital_inicial": 44900.0,
+    "current_capital": 44900.0
+  },
+  {
+    "lp_id": "LP_036",
+    "nome_completo": "Thiago Duarte Araújo",
+    "genero": "M",
+    "cidade": "João Pessoa",
+    "estado": "PB",
+    "capital_inicial": 7500.0,
+    "current_capital": 7500.0
+  },
+  {
+    "lp_id": "LP_037",
+    "nome_completo": "André Oliveira Carvalho",
+    "genero": "M",
+    "cidade": "Manaus",
+    "estado": "AM",
+    "capital_inicial": 8000.0,
+    "current_capital": 8000.0
+  },
+  {
+    "lp_id": "LP_038",
+    "nome_completo": "Bruno Gomes Ferreira",
+    "genero": "M",
+    "cidade": "Curitiba",
+    "estado": "PR",
+    "capital_inicial": 34900.0,
+    "current_capital": 34900.0
+  },
+  {
+    "lp_id": "LP_039",
+    "nome_completo": "Fernanda Cavalcanti Ramos",
+    "genero": "F",
+    "cidade": "Porto Alegre",
+    "estado": "RS",
+    "capital_inicial": 28600.0,
+    "current_capital": 28600.0
+  },
+  {
+    "lp_id": "LP_040",
+    "nome_completo": "Natália Santos Oliveira",
+    "genero": "F",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "capital_inicial": 5000.0,
+    "current_capital": 5000.0
+  },
+  {
+    "lp_id": "LP_041",
+    "nome_completo": "Otávio Lima Oliveira",
+    "genero": "M",
+    "cidade": "Belém",
+    "estado": "PA",
+    "capital_inicial": 11300.0,
+    "current_capital": 11300.0
+  },
+  {
+    "lp_id": "LP_042",
+    "nome_completo": "Maria Barbosa Cavalcanti",
+    "genero": "F",
+    "cidade": "João Pessoa",
+    "estado": "PB",
+    "capital_inicial": 18000.0,
+    "current_capital": 18000.0
+  },
+  {
+    "lp_id": "LP_043",
+    "nome_completo": "Bruno Costa Martins",
+    "genero": "M",
+    "cidade": "Porto Alegre",
+    "estado": "RS",
+    "capital_inicial": 48800.0,
+    "current_capital": 48800.0
+  },
+  {
+    "lp_id": "LP_044",
+    "nome_completo": "Vanessa Barbosa Santos",
+    "genero": "F",
+    "cidade": "Florianópolis",
+    "estado": "SC",
+    "capital_inicial": 38500.0,
+    "current_capital": 38500.0
+  },
+  {
+    "lp_id": "LP_045",
+    "nome_completo": "Vinícius Silva Carvalho",
+    "genero": "M",
+    "cidade": "Curitiba",
+    "estado": "PR",
+    "capital_inicial": 43000.0,
+    "current_capital": 43000.0
+  },
+  {
+    "lp_id": "LP_046",
+    "nome_completo": "Carlos Teixeira Dias",
+    "genero": "M",
+    "cidade": "Belém",
+    "estado": "PA",
+    "capital_inicial": 49700.0,
+    "current_capital": 49700.0
+  },
+  {
+    "lp_id": "LP_047",
+    "nome_completo": "Juliana Cavalcanti Melo",
+    "genero": "F",
+    "cidade": "Belém",
+    "estado": "PA",
+    "capital_inicial": 6800.0,
+    "current_capital": 6800.0
+  },
+  {
+    "lp_id": "LP_048",
+    "nome_completo": "Patrícia Barbosa Gomes",
+    "genero": "F",
+    "cidade": "Aracaju",
+    "estado": "SE",
+    "capital_inicial": 10100.0,
+    "current_capital": 10100.0
+  },
+  {
+    "lp_id": "LP_049",
+    "nome_completo": "Gabriela Ferreira Costa",
+    "genero": "F",
+    "cidade": "Belo Horizonte",
+    "estado": "MG",
+    "capital_inicial": 40500.0,
+    "current_capital": 40500.0
+  },
+  {
+    "lp_id": "LP_050",
+    "nome_completo": "Henrique Cavalcanti Correia",
+    "genero": "M",
+    "cidade": "Goiânia",
+    "estado": "GO",
+    "capital_inicial": 37000.0,
+    "current_capital": 37000.0
+  },
+  {
+    "lp_id": "LP_051",
+    "nome_completo": "Gabriel Carvalho Oliveira",
+    "genero": "M",
+    "cidade": "Brasília",
+    "estado": "DF",
+    "capital_inicial": 6900.0,
+    "current_capital": 6900.0
+  },
+  {
+    "lp_id": "LP_052",
+    "nome_completo": "Helena Gomes Souza",
+    "genero": "F",
+    "cidade": "Vitória",
+    "estado": "ES",
+    "capital_inicial": 49400.0,
+    "current_capital": 49400.0
+  },
+  {
+    "lp_id": "LP_053",
+    "nome_completo": "Rafael Lima Gomes",
+    "genero": "M",
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ",
+    "capital_inicial": 23400.0,
+    "current_capital": 23400.0
+  },
+  {
+    "lp_id": "LP_054",
+    "nome_completo": "Henrique Ramos Oliveira",
+    "genero": "M",
+    "cidade": "Maceió",
+    "estado": "AL",
+    "capital_inicial": 25300.0,
+    "current_capital": 25300.0
+  },
+  {
+    "lp_id": "LP_055",
+    "nome_completo": "João Duarte Rodrigues",
+    "genero": "M",
+    "cidade": "Belém",
+    "estado": "PA",
+    "capital_inicial": 34200.0,
+    "current_capital": 34200.0
+  },
+  {
+    "lp_id": "LP_056",
+    "nome_completo": "Bianca Rodrigues Pereira",
+    "genero": "F",
+    "cidade": "Brasília",
+    "estado": "DF",
+    "capital_inicial": 47500.0,
+    "current_capital": 47500.0
+  },
+  {
+    "lp_id": "LP_057",
+    "nome_completo": "Leonardo Costa Rodrigues",
+    "genero": "M",
+    "cidade": "Aracaju",
+    "estado": "SE",
+    "capital_inicial": 39500.0,
+    "current_capital": 39500.0
+  },
+  {
+    "lp_id": "LP_058",
+    "nome_completo": "Sandra Rocha Araújo",
+    "genero": "F",
+    "cidade": "Belém",
+    "estado": "PA",
+    "capital_inicial": 21900.0,
+    "current_capital": 21900.0
+  },
+  {
+    "lp_id": "LP_059",
+    "nome_completo": "Isabela Dias Pereira",
+    "genero": "F",
+    "cidade": "Goiânia",
+    "estado": "GO",
+    "capital_inicial": 21100.0,
+    "current_capital": 21100.0
+  },
+  {
+    "lp_id": "LP_060",
+    "nome_completo": "Daniela Lima Duarte",
+    "genero": "F",
+    "cidade": "Fortaleza",
+    "estado": "CE",
+    "capital_inicial": 40800.0,
+    "current_capital": 40800.0
+  },
+  {
+    "lp_id": "LP_061",
+    "nome_completo": "Beatriz Martins Gomes",
+    "genero": "F",
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ",
+    "capital_inicial": 23600.0,
+    "current_capital": 23600.0
+  },
+  {
+    "lp_id": "LP_062",
+    "nome_completo": "Fabiana Monteiro Ramos",
+    "genero": "F",
+    "cidade": "Maceió",
+    "estado": "AL",
+    "capital_inicial": 24500.0,
+    "current_capital": 24500.0
+  },
+  {
+    "lp_id": "LP_063",
+    "nome_completo": "Elisa Rodrigues Freitas",
+    "genero": "F",
+    "cidade": "Maceió",
+    "estado": "AL",
+    "capital_inicial": 16300.0,
+    "current_capital": 16300.0
+  },
+  {
+    "lp_id": "LP_064",
+    "nome_completo": "Fernanda Moreira Gomes",
+    "genero": "F",
+    "cidade": "Aracaju",
+    "estado": "SE",
+    "capital_inicial": 48700.0,
+    "current_capital": 48700.0
+  },
+  {
+    "lp_id": "LP_065",
+    "nome_completo": "Helena Duarte Silva",
+    "genero": "F",
+    "cidade": "Salvador",
+    "estado": "BA",
+    "capital_inicial": 46500.0,
+    "current_capital": 46500.0
+  },
+  {
+    "lp_id": "LP_066",
+    "nome_completo": "Xavier Costa Nascimento",
+    "genero": "M",
+    "cidade": "Fortaleza",
+    "estado": "CE",
+    "capital_inicial": 9000.0,
+    "current_capital": 9000.0
+  },
+  {
+    "lp_id": "LP_067",
+    "nome_completo": "José Moreira Pinto",
+    "genero": "M",
+    "cidade": "Fortaleza",
+    "estado": "CE",
+    "capital_inicial": 23900.0,
+    "current_capital": 23900.0
+  },
+  {
+    "lp_id": "LP_068",
+    "nome_completo": "André Araújo Carvalho",
+    "genero": "M",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "capital_inicial": 10700.0,
+    "current_capital": 10700.0
+  },
+  {
+    "lp_id": "LP_069",
+    "nome_completo": "Rodrigo Santos Ferreira",
+    "genero": "M",
+    "cidade": "Recife",
+    "estado": "PE",
+    "capital_inicial": 36000.0,
+    "current_capital": 36000.0
+  },
+  {
+    "lp_id": "LP_070",
+    "nome_completo": "Camila Moreira Rodrigues",
+    "genero": "F",
+    "cidade": "Brasília",
+    "estado": "DF",
+    "capital_inicial": 31700.0,
+    "current_capital": 31700.0
+  },
+  {
+    "lp_id": "LP_071",
+    "nome_completo": "Fernanda Freitas Souza",
+    "genero": "F",
+    "cidade": "Campinas",
+    "estado": "SP",
+    "capital_inicial": 17800.0,
+    "current_capital": 17800.0
+  },
+  {
+    "lp_id": "LP_072",
+    "nome_completo": "Samuel Ramos Rodrigues",
+    "genero": "M",
+    "cidade": "Recife",
+    "estado": "PE",
+    "capital_inicial": 24400.0,
+    "current_capital": 24400.0
+  },
+  {
+    "lp_id": "LP_073",
+    "nome_completo": "Natália Lima Ferreira",
+    "genero": "F",
+    "cidade": "Natal",
+    "estado": "RN",
+    "capital_inicial": 39300.0,
+    "current_capital": 39300.0
+  },
+  {
+    "lp_id": "LP_074",
+    "nome_completo": "Beatriz Oliveira Santos",
+    "genero": "F",
+    "cidade": "Florianópolis",
+    "estado": "SC",
+    "capital_inicial": 39600.0,
+    "current_capital": 39600.0
+  },
+  {
+    "lp_id": "LP_075",
+    "nome_completo": "Helena Carvalho Nascimento",
+    "genero": "F",
+    "cidade": "Goiânia",
+    "estado": "GO",
+    "capital_inicial": 50000.0,
+    "current_capital": 50000.0
+  },
+  {
+    "lp_id": "LP_076",
+    "nome_completo": "Bianca Ramos Souza",
+    "genero": "F",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "capital_inicial": 27200.0,
+    "current_capital": 27200.0
+  },
+  {
+    "lp_id": "LP_077",
+    "nome_completo": "Camila Gomes Cardoso",
+    "genero": "F",
+    "cidade": "Maceió",
+    "estado": "AL",
+    "capital_inicial": 48300.0,
+    "current_capital": 48300.0
+  },
+  {
+    "lp_id": "LP_078",
+    "nome_completo": "Ana Oliveira Rodrigues",
+    "genero": "F",
+    "cidade": "Belo Horizonte",
+    "estado": "MG",
+    "capital_inicial": 25000.0,
+    "current_capital": 25000.0
+  },
+  {
+    "lp_id": "LP_079",
+    "nome_completo": "Henrique Martins Dias",
+    "genero": "M",
+    "cidade": "Recife",
+    "estado": "PE",
+    "capital_inicial": 6400.0,
+    "current_capital": 6400.0
+  },
+  {
+    "lp_id": "LP_080",
+    "nome_completo": "Amanda Teixeira Silva",
+    "genero": "F",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "capital_inicial": 29800.0,
+    "current_capital": 29800.0
+  },
+  {
+    "lp_id": "LP_081",
+    "nome_completo": "Letícia Silva Melo",
+    "genero": "F",
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ",
+    "capital_inicial": 17600.0,
+    "current_capital": 17600.0
+  },
+  {
+    "lp_id": "LP_082",
+    "nome_completo": "Igor Teixeira Lima",
+    "genero": "M",
+    "cidade": "Cuiabá",
+    "estado": "MT",
+    "capital_inicial": 16700.0,
+    "current_capital": 16700.0
+  },
+  {
+    "lp_id": "LP_083",
+    "nome_completo": "Carla Martins Silva",
+    "genero": "F",
+    "cidade": "Maceió",
+    "estado": "AL",
+    "capital_inicial": 27700.0,
+    "current_capital": 27700.0
+  },
+  {
+    "lp_id": "LP_084",
+    "nome_completo": "Gabriela Rodrigues Silva",
+    "genero": "F",
+    "cidade": "Natal",
+    "estado": "RN",
+    "capital_inicial": 28900.0,
+    "current_capital": 28900.0
+  },
+  {
+    "lp_id": "LP_085",
+    "nome_completo": "Wagner Silva Pinto",
+    "genero": "M",
+    "cidade": "Cuiabá",
+    "estado": "MT",
+    "capital_inicial": 47100.0,
+    "current_capital": 47100.0
+  },
+  {
+    "lp_id": "LP_086",
+    "nome_completo": "Patrícia Alves Pinto",
+    "genero": "F",
+    "cidade": "Porto Alegre",
+    "estado": "RS",
+    "capital_inicial": 16500.0,
+    "current_capital": 16500.0
+  },
+  {
+    "lp_id": "LP_087",
+    "nome_completo": "Roberta Monteiro Ramos",
+    "genero": "F",
+    "cidade": "Belém",
+    "estado": "PA",
+    "capital_inicial": 43600.0,
+    "current_capital": 43600.0
+  },
+  {
+    "lp_id": "LP_088",
+    "nome_completo": "Rodrigo Dias Ferreira",
+    "genero": "M",
+    "cidade": "Aracaju",
+    "estado": "SE",
+    "capital_inicial": 43500.0,
+    "current_capital": 43500.0
+  },
+  {
+    "lp_id": "LP_089",
+    "nome_completo": "Rodrigo Nascimento Costa",
+    "genero": "M",
+    "cidade": "Goiânia",
+    "estado": "GO",
+    "capital_inicial": 18100.0,
+    "current_capital": 18100.0
+  },
+  {
+    "lp_id": "LP_090",
+    "nome_completo": "Renata Ramos Lima",
+    "genero": "F",
+    "cidade": "Salvador",
+    "estado": "BA",
+    "capital_inicial": 36900.0,
+    "current_capital": 36900.0
+  },
+  {
+    "lp_id": "LP_091",
+    "nome_completo": "Rodrigo Gomes Cavalcanti",
+    "genero": "M",
+    "cidade": "Salvador",
+    "estado": "BA",
+    "capital_inicial": 22600.0,
+    "current_capital": 22600.0
+  },
+  {
+    "lp_id": "LP_092",
+    "nome_completo": "Fabiana Ferreira Moreira",
+    "genero": "F",
+    "cidade": "Manaus",
+    "estado": "AM",
+    "capital_inicial": 39800.0,
+    "current_capital": 39800.0
+  },
+  {
+    "lp_id": "LP_093",
+    "nome_completo": "Vinícius Rodrigues Melo",
+    "genero": "M",
+    "cidade": "Cuiabá",
+    "estado": "MT",
+    "capital_inicial": 6200.0,
+    "current_capital": 6200.0
+  },
+  {
+    "lp_id": "LP_094",
+    "nome_completo": "Roberta Lima Alves",
+    "genero": "F",
+    "cidade": "Curitiba",
+    "estado": "PR",
+    "capital_inicial": 26100.0,
+    "current_capital": 26100.0
+  },
+  {
+    "lp_id": "LP_095",
+    "nome_completo": "Juliana Cavalcanti Correia",
+    "genero": "F",
+    "cidade": "Belo Horizonte",
+    "estado": "MG",
+    "capital_inicial": 42900.0,
+    "current_capital": 42900.0
+  },
+  {
+    "lp_id": "LP_096",
+    "nome_completo": "Bianca Silva Duarte",
+    "genero": "F",
+    "cidade": "João Pessoa",
+    "estado": "PB",
+    "capital_inicial": 22000.0,
+    "current_capital": 22000.0
+  },
+  {
+    "lp_id": "LP_097",
+    "nome_completo": "Gabriel Gomes Lima",
+    "genero": "M",
+    "cidade": "Maceió",
+    "estado": "AL",
+    "capital_inicial": 46100.0,
+    "current_capital": 46100.0
+  },
+  {
+    "lp_id": "LP_098",
+    "nome_completo": "Bruno Martins Correia",
+    "genero": "M",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "capital_inicial": 28500.0,
+    "current_capital": 28500.0
+  },
+  {
+    "lp_id": "LP_099",
+    "nome_completo": "Marcelo Lima Alves",
+    "genero": "M",
+    "cidade": "Cuiabá",
+    "estado": "MT",
+    "capital_inicial": 18100.0,
+    "current_capital": 18100.0
+  },
+  {
+    "lp_id": "LP_100",
+    "nome_completo": "André Pereira Gomes",
+    "genero": "M",
+    "cidade": "Maceió",
+    "estado": "AL",
+    "capital_inicial": 40600.0,
+    "current_capital": 40600.0
+  }
+]

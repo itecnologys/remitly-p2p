@@ -1,0 +1,166 @@
+{
+    "summary": {
+        "total_gtv": 1409813152.46,
+        "total_fluxus_revenue": 14112229.66,
+        "total_fluxus_opex": 175966.7,
+        "total_pool_reserve": 28196263.05,
+        "total_lp_profit": 21119001.02,
+        "total_tax_lp": 0
+    },
+    "monthly_projection": [
+        {
+            "month": 1,
+            "gtv": 22907164.07,
+            "lp_profit": 343149.32,
+            "fluxus_net": 214844.21
+        },
+        {
+            "month": 2,
+            "gtv": 29094651.9,
+            "lp_profit": 435837.89,
+            "fluxus_net": 491467.33
+        },
+        {
+            "month": 3,
+            "gtv": 36957870.24,
+            "lp_profit": 553628.9,
+            "fluxus_net": 846506.06
+        },
+        {
+            "month": 4,
+            "gtv": 46939229.57,
+            "lp_profit": 703149.66,
+            "fluxus_net": 1301568.9
+        },
+        {
+            "month": 5,
+            "gtv": 59617712.06,
+            "lp_profit": 893073.33,
+            "fluxus_net": 1883592.54
+        },
+        {
+            "month": 6,
+            "gtv": 75718651.73,
+            "lp_profit": 1134265.4,
+            "fluxus_net": 2626885.0
+        },
+        {
+            "month": 7,
+            "gtv": 96167326.68,
+            "lp_profit": 1440586.55,
+            "fluxus_net": 3574874.84
+        },
+        {
+            "month": 8,
+            "gtv": 122138887.36,
+            "lp_profit": 1829640.53,
+            "fluxus_net": 4782848.2
+        },
+        {
+            "month": 9,
+            "gtv": 155129306.25,
+            "lp_profit": 2323837.01,
+            "fluxus_net": 6321016.71
+        },
+        {
+            "month": 10,
+            "gtv": 197036996.86,
+            "lp_profit": 2951614.21,
+            "fluxus_net": 8278673.0
+        },
+        {
+            "month": 11,
+            "gtv": 250251547.09,
+            "lp_profit": 3748768.18,
+            "fluxus_net": 10769129.93
+        },
+        {
+            "month": 12,
+            "gtv": 317853808.65,
+            "lp_profit": 4761450.05,
+            "fluxus_net": 13936262.96
+        }
+    ],
+    "lp_details": [
+        {
+            "id": "LP_001",
+            "initial_capital": 3963.31,
+            "current_capital": 69580.14782618934,
+            "total_cycles": 847,
+            "total_profit": 65631.83782618931,
+            "tax_due": 0
+        },
+        {
+            "id": "LP_002",
+            "initial_capital": 2392.71,
+            "current_capital": 41902.64812266887,
+            "total_cycles": 847,
+            "total_profit": 39524.93812266886,
+            "tax_due": 0
+        },
+        {
+            "id": "LP_003",
+            "initial_capital": 24512.67,
+            "current_capital": 431541.3028157156,
+            "total_cycles": 804,
+            "total_profit": 407043.6328157157,
+            "tax_due": 0
+        },
+        {
+            "id": "LP_004",
+            "initial_capital": 1105.46,
+            "current_capital": 19218.03459245337,
+            "total_cycles": 858,
+            "total_profit": 18127.57459245337,
+            "tax_due": 0
+        },
+        {
+            "id": "LP_005",
+            "initial_capital": 3577.05,
+            "current_capital": 62793.639222174534,
+            "total_cycles": 877,
+            "total_profit": 59231.589222174574,
+            "tax_due": 0
+        },
+        {
+            "id": "LP_006",
+            "initial_capital": 24507.58,
+            "current_capital": 431735.40872563643,
+            "total_cycles": 840,
+            "total_profit": 407242.82872563635,
+            "tax_due": 0
+        },
+        {
+            "id": "LP_007",
+            "initial_capital": 17824.65,
+            "current_capital": 313854.54260934255,
+            "total_cycles": 827,
+            "total_profit": 296044.8926093425,
+            "tax_due": 0
+        },
+        {
+            "id": "LP_008",
+            "initial_capital": 18175.43,
+            "current_capital": 320141.80388791754,
+            "total_cycles": 881,
+            "total_profit": 301981.37388791743,
+            "tax_due": 0
+        },
+        {
+            "id": "LP_009",
+            "initial_capital": 7684.3,
+            "current_capital": 135129.48306109878,
+            "total_cycles": 814,
+            "total_profit": 127460.18306109874,
+            "tax_due": 0
+        },
+        {
+            "id": "LP_010",
+            "initial_capital": 11306.27,
+            "current_capital": 199034.659605934,
+            "total_cycles": 849,
+            "total_profit": 187743.3896059341,
+            "tax_due": 0
+        }
+    ]
+}
